@@ -1,0 +1,635 @@
+2015-01-03 23:52:14		irc: connecting to server chat.freenode.net/6667...
+2015-01-03 23:52:15		irc: connected to chat.freenode.net/6667 (195.148.124.79)
+2015-01-03 23:52:15	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Looking up your hostname...
+2015-01-03 23:52:15	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Checking Ident
+2015-01-03 23:52:15	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Found your hostname
+2015-01-03 23:52:23	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** No Ident response
+2015-01-03 23:52:23	--	Welcome to the freenode Internet Relay Chat Network mainframer
+2015-01-03 23:52:23	--	Your host is rajaniemi.freenode.net[195.148.124.79/6667], running version ircd-seven-1.1.3
+2015-01-03 23:52:23	--	This server was created Tue Oct 21 2014 at 11:19:23 UTC
+2015-01-03 23:52:23	--	rajaniemi.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-03 23:52:23	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-03 23:52:23	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-03 23:52:23	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-01-03 23:52:23	--	There are 162 users and 80923 invisible on 26 servers
+2015-01-03 23:52:23	--	25 :IRC Operators online
+2015-01-03 23:52:23	--	15 :unknown connection(s)
+2015-01-03 23:52:23	--	48984 :channels formed
+2015-01-03 23:52:23	--	I have 8824 clients and 1 servers
+2015-01-03 23:52:23	--	8824 9766 :Current local users 8824, max 9766
+2015-01-03 23:52:23	--	81085 101901 :Current global users 81085, max 101901
+2015-01-03 23:52:23	--	Highest connection count: 9767 (9766 clients) (925665 connections received)
+2015-01-03 23:52:23	--	- rajaniemi.freenode.net Message of the Day -
+2015-01-03 23:52:23	--	- Welcome to rajaniemi.freenode.net in Helsinki, Finland.  Our thanks to
+2015-01-03 23:52:23	--	- Aalto University for sponsoring this server!
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- RAJANIEMI, Hannu  (1978-). Born in Ylivieska, Finland, Rajaniemi is the
+2015-01-03 23:52:23	--	- author of two novels and several short stories, and his debut novel 'The
+2015-01-03 23:52:23	--	- Quantum Thief' was nominated for the 2011 Locus Award for Best First
+2015-01-03 23:52:23	--	- Novel.  Rajaniemi lives in Edinburgh, Scotland where he is founding
+2015-01-03 23:52:23	--	- director of ThinkTank Maths, a commercial research organisation.
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- Welcome to freenode - supporting the free and open source
+2015-01-03 23:52:23	--	- software communities since 1998.
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- **************************************************************
+2015-01-03 23:52:23	--	-                       SECURITY ALERT
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- Over the weekend of 13th-14th September freenode staff noticed
+2015-01-03 23:52:23	--	- some compromised binaries present on a number of servers.
+2015-01-03 23:52:23	--	- The servers in question have been removed from the network and
+2015-01-03 23:52:23	--	- shut down.  However, it's possible that network traffic  -
+2015-01-03 23:52:23	--	- including SSL traffic - has been sniffed and passwords
+2015-01-03 23:52:23	--	- exposed.
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- We therefore recommend that all users change their nickserv
+2015-01-03 23:52:23	--	- password(s) to a new value which is not shared with any
+2015-01-03 23:52:23	--	- other service.
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- You can do this with /msg nickserv set password newpasshere
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- Please note that investigation is ongoing to discover the root
+2015-01-03 23:52:23	--	- cause of the attack, and until this investigation is complete
+2015-01-03 23:52:23	--	- we cannot be 100% certain that all traces of the compromises
+2015-01-03 23:52:23	--	- have been removed. We may have to ask you to change your
+2015-01-03 23:52:23	--	- passwords again after analysis has completed.
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- Further details will appear on https://blog.freenode.net/
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- **************************************************************
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- By connecting to freenode you indicate that you have read and
+2015-01-03 23:52:23	--	- accept our policies as set out on http://www.freenode.net
+2015-01-03 23:52:23	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-01-03 23:52:23	--	- any network-related questions or queries, where a number of
+2015-01-03 23:52:23	--	- volunteer staff and helpful users will be happy to assist you.
+2015-01-03 23:52:23	--	-
+2015-01-03 23:52:23	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-03 23:52:24	--	- together with like-minded FOSS enthusiasts for talks and
+2015-01-03 23:52:24	--	- real-life collaboration.
+2015-01-03 23:52:24	--	-
+2015-01-03 23:52:24	--	- We would like to thank Private Internet Access
+2015-01-03 23:52:24	--	- (https://www.privateinternetaccess.com/) and the other
+2015-01-03 23:52:24	--	- organisations that help keep freenode and our other projects
+2015-01-03 23:52:24	--	- running for their sustained support.
+2015-01-03 23:52:24	--	-
+2015-01-03 23:52:24	--	- In particular we would like to thank the sponsor
+2015-01-03 23:52:24	--	- of this server, details of which can be found above.
+2015-01-03 23:52:24	--	-
+2015-01-03 23:52:24	--	End of /MOTD command.
+2015-01-03 23:52:24	--	User mode [+i] by mainframer
+2015-01-03 23:52:24	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-01-03 23:54:59	--	MSG(NickServ): identify *********
+2015-01-03 23:54:59	--	NickServ (NickServ@services.): You are now identified for mainframer.
+2015-01-04 10:38:14	=!=	irc: reading data on socket: error 110 Connection timed out
+2015-01-04 10:38:14		irc: disconnecting from server...
+2015-01-04 10:38:14		irc: disconnected from server
+2015-01-04 10:38:14		irc: reconnecting to server in 10 seconds
+2015-01-04 10:38:24		irc: reconnecting to server...
+2015-01-04 10:38:24		irc: connecting to server chat.freenode.net/6667...
+2015-01-04 10:38:24		irc: connected to chat.freenode.net/6667 (82.96.64.4)
+2015-01-04 10:38:24	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Looking up your hostname...
+2015-01-04 10:38:24	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Checking Ident
+2015-01-04 10:38:24	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Found your hostname
+2015-01-04 10:38:31	--	kornbluth.freenode.net (kornbluth.freenode.net): *** No Ident response
+2015-01-04 10:38:31	--	Welcome to the freenode Internet Relay Chat Network mainframer
+2015-01-04 10:38:31	--	Your host is kornbluth.freenode.net[82.96.64.4/6667], running version ircd-seven-1.1.3
+2015-01-04 10:38:31	--	This server was created Mon Dec 31 2012 at 22:38:44 CET
+2015-01-04 10:38:31	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-04 10:38:31	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-04 10:38:31	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-04 10:38:31	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-01-04 10:38:31	--	There are 170 users and 84767 invisible on 26 servers
+2015-01-04 10:38:31	--	25 :IRC Operators online
+2015-01-04 10:38:31	--	10 :unknown connection(s)
+2015-01-04 10:38:31	--	49461 :channels formed
+2015-01-04 10:38:31	--	I have 9421 clients and 2 servers
+2015-01-04 10:38:31	--	9421 15000 :Current local users 9421, max 15000
+2015-01-04 10:38:31	--	84937 104047 :Current global users 84937, max 104047
+2015-01-04 10:38:31	--	Highest connection count: 15001 (15000 clients) (2925333 connections received)
+2015-01-04 10:38:31	--	- kornbluth.freenode.net Message of the Day -
+2015-01-04 10:38:31	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2015-01-04 10:38:31	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2015-01-04 10:38:31	--	- sponsoring this server!
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2015-01-04 10:38:31	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2015-01-04 10:38:31	--	- first story professionally at age 15.  By the 1940's his
+2015-01-04 10:38:31	--	- stories appeared widely under several pennames, including
+2015-01-04 10:38:31	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2015-01-04 10:38:31	--	- studies in Chicago to serve in the Army in Europe during
+2015-01-04 10:38:31	--	- WWII, then returned to school and work in Chicago until he
+2015-01-04 10:38:31	--	- began writing full-time in 1951.  The author of The Marching
+2015-01-04 10:38:31	--	- Morons and the novels The Space Merchants (with Frederik
+2015-01-04 10:38:31	--	- Pohl) and The Syndic, he's best known for his biting social
+2015-01-04 10:38:31	--	- satire and his collaborations with Pohl and with Judith
+2015-01-04 10:38:31	--	- Merril.
+2015-01-04 10:38:31	--	- Welcome to freenode - supporting the free and open source
+2015-01-04 10:38:31	--	- software communities since 1998.
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- **************************************************************
+2015-01-04 10:38:31	--	-                       SECURITY ALERT
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- Over the weekend of 13th-14th September freenode staff noticed
+2015-01-04 10:38:31	--	- some compromised binaries present on a number of servers.
+2015-01-04 10:38:31	--	- The servers in question have been removed from the network and
+2015-01-04 10:38:31	--	- shut down.  However, it's possible that network traffic  -
+2015-01-04 10:38:31	--	- including SSL traffic - has been sniffed and passwords
+2015-01-04 10:38:31	--	- exposed.
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- We therefore recommend that all users change their nickserv
+2015-01-04 10:38:31	--	- password(s) to a new value which is not shared with any
+2015-01-04 10:38:31	--	- other service.
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- You can do this with /msg nickserv set password newpasshere
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- Please note that investigation is ongoing to discover the root
+2015-01-04 10:38:31	--	- cause of the attack, and until this investigation is complete
+2015-01-04 10:38:31	--	- we cannot be 100% certain that all traces of the compromises
+2015-01-04 10:38:31	--	- have been removed. We may have to ask you to change your
+2015-01-04 10:38:31	--	- passwords again after analysis has completed.
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- Further details will appear on https://blog.freenode.net/
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- **************************************************************
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- By connecting to freenode you indicate that you have read and
+2015-01-04 10:38:31	--	- accept our policies as set out on http://www.freenode.net
+2015-01-04 10:38:31	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-01-04 10:38:31	--	- any network-related questions or queries, where a number of
+2015-01-04 10:38:31	--	- volunteer staff and helpful users will be happy to assist you.
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-04 10:38:31	--	- together with like-minded FOSS enthusiasts for talks and
+2015-01-04 10:38:31	--	- real-life collaboration.
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- We would like to thank Private Internet Access
+2015-01-04 10:38:31	--	- (https://www.privateinternetaccess.com/) and the other
+2015-01-04 10:38:31	--	- organisations that help keep freenode and our other projects
+2015-01-04 10:38:31	--	- running for their sustained support.
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	- In particular we would like to thank the sponsor
+2015-01-04 10:38:31	--	- of this server, details of which can be found above.
+2015-01-04 10:38:31	--	-
+2015-01-04 10:38:31	--	End of /MOTD command.
+2015-01-04 10:38:31	--	User mode [+i] by mainframer
+2015-01-04 10:38:31	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-01-04 10:38:31	--	NickServ (NickServ@services.): You are now identified for mainframer.
+2015-01-04 16:56:39	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2015-01-04 16:56:39		irc: disconnecting from server...
+2015-01-04 16:56:39		irc: disconnected from server
+2015-01-04 16:56:39		irc: reconnecting to server in 10 seconds
+2015-01-04 16:56:49		irc: reconnecting to server...
+2015-01-04 16:56:49		irc: connecting to server chat.freenode.net/6667...
+2015-01-04 16:56:49		irc: connected to chat.freenode.net/6667 (174.143.119.91)
+2015-01-04 16:56:49	--	asimov.freenode.net (asimov.freenode.net): *** Looking up your hostname...
+2015-01-04 16:56:50	--	asimov.freenode.net (asimov.freenode.net): *** Checking Ident
+2015-01-04 16:56:50	--	asimov.freenode.net (asimov.freenode.net): *** Found your hostname
+2015-01-04 16:56:59	--	asimov.freenode.net (asimov.freenode.net): *** No Ident response
+2015-01-04 16:56:59	--	Welcome to the freenode Internet Relay Chat Network mainframer
+2015-01-04 16:56:59	--	Your host is asimov.freenode.net[174.143.119.91/6667], running version ircd-seven-1.1.3
+2015-01-04 16:56:59	--	This server was created Tue Jul 22 2014 at 13:52:16 UTC
+2015-01-04 16:56:59	--	asimov.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-04 16:56:59	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-04 16:56:59	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-04 16:56:59	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-01-04 16:56:59	--	There are 173 users and 86313 invisible on 26 servers
+2015-01-04 16:56:59	--	25 :IRC Operators online
+2015-01-04 16:56:59	--	7 :unknown connection(s)
+2015-01-04 16:56:59	--	49733 :channels formed
+2015-01-04 16:56:59	--	I have 7834 clients and 1 servers
+2015-01-04 16:56:59	--	7834 8870 :Current local users 7834, max 8870
+2015-01-04 16:56:59	--	86486 102229 :Current global users 86486, max 102229
+2015-01-04 16:56:59	--	Highest connection count: 8871 (8870 clients) (2137353 connections received)
+2015-01-04 16:56:59	--	- asimov.freenode.net Message of the Day -
+2015-01-04 16:56:59	--	- Welcome to asimov.freenode.net in TX, USA!  Thanks to
+2015-01-04 16:56:59	--	- Rackspace (www.rackspace.com) for sponsoring
+2015-01-04 16:56:59	--	- this server!
+2015-01-04 16:56:59	--	-
+2015-01-04 16:56:59	--	- ASIMOV, ISAAC [1920-1992].  One of the brightest stars of the
+2015-01-04 16:56:59	--	- science fiction universe.  Author of I Robot, the
+2015-01-04 16:56:59	--	- Foundation series (which "grew like Topsy"), Pebble in the
+2015-01-04 16:56:59	--	- Sky and hundreds of works of science fact and science
+2015-01-04 16:56:59	--	- fiction.
+2015-01-04 16:56:59	--	-
+2015-01-04 16:56:59	--	- Welcome to freenode - supporting the free and open source
+2015-01-04 16:56:59	--	- software communities since 1998.
+2015-01-04 16:56:59	--	-
+2015-01-04 16:56:59	--	- By connecting to freenode you indicate that you have read and
+2015-01-04 16:56:59	--	- accept our policies as set out on http://www.freenode.net
+2015-01-04 16:56:59	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-01-04 16:56:59	--	- any network-related questions or queries, where a number of
+2015-01-04 16:56:59	--	- volunteer staff and helpful users will be happy to assist you.
+2015-01-04 16:56:59	--	-
+2015-01-04 16:56:59	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-04 16:56:59	--	- together with like-minded FOSS enthusiasts for talks and
+2015-01-04 16:56:59	--	- real-life collaboration.
+2015-01-04 16:56:59	--	-
+2015-01-04 16:56:59	--	- We would like to thank Private Internet Access
+2015-01-04 16:56:59	--	- (https://www.privateinternetaccess.com/) and the other
+2015-01-04 16:56:59	--	- organisations that help keep freenode and our other projects
+2015-01-04 16:56:59	--	- running for their sustained support.
+2015-01-04 16:56:59	--	-
+2015-01-04 16:56:59	--	- In particular we would like to thank the sponsor
+2015-01-04 16:56:59	--	- of this server, details of which can be found above.
+2015-01-04 16:56:59	--	-
+2015-01-04 16:56:59	--	- ***************************************************************
+2015-01-04 16:56:59	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2015-01-04 16:56:59	--	- ***************************************************************
+2015-01-04 16:56:59	--	End of /MOTD command.
+2015-01-04 16:56:59	--	User mode [+i] by mainframer
+2015-01-04 16:57:00	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-01-04 16:57:00	--	NickServ (NickServ@services.): You are now identified for mainframer.
+2015-01-04 16:58:00		irc: disconnected from server
+2015-01-06 01:45:05		irc: connecting to server chat.freenode.net/6667...
+2015-01-06 01:45:06		irc: connected to chat.freenode.net/6667 (38.229.70.22)
+2015-01-06 01:45:06	--	card.freenode.net (card.freenode.net): *** Looking up your hostname...
+2015-01-06 01:45:06	--	card.freenode.net (card.freenode.net): *** Checking Ident
+2015-01-06 01:45:06	--	card.freenode.net (card.freenode.net): *** Found your hostname
+2015-01-06 01:45:12	--	card.freenode.net (card.freenode.net): *** No Ident response
+2015-01-06 01:45:12	--	Welcome to the freenode Internet Relay Chat Network mainframer
+2015-01-06 01:45:12	--	Your host is card.freenode.net[38.229.70.22/6667], running version ircd-seven-1.1.3
+2015-01-06 01:45:12	--	This server was created Thu Sep 18 2014 at 18:48:25 UTC
+2015-01-06 01:45:12	--	card.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-06 01:45:12	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-06 01:45:12	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-06 01:45:12	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-01-06 01:45:12	--	There are 166 users and 83156 invisible on 26 servers
+2015-01-06 01:45:12	--	22 :IRC Operators online
+2015-01-06 01:45:12	--	10 :unknown connection(s)
+2015-01-06 01:45:12	--	50045 :channels formed
+2015-01-06 01:45:12	--	I have 5641 clients and 4 servers
+2015-01-06 01:45:12	--	5641 7843 :Current local users 5641, max 7843
+2015-01-06 01:45:12	--	83322 101901 :Current global users 83322, max 101901
+2015-01-06 01:45:12	--	Highest connection count: 7847 (7843 clients) (1754872 connections received)
+2015-01-06 01:45:12	--	- card.freenode.net Message of the Day -
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2015-01-06 01:45:12	--	- Team Cymru (http://www.team-cymru.org).
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- CARD, ORSON SCOTT [1951-].  Born in Richland, Washington, Card grew up in
+2015-01-06 01:45:12	--	- California, Arizona, and Utah.  He lived in Brazil for two years as an
+2015-01-06 01:45:12	--	- unpaid missionary for the Mormon Church.  Author of the Ender and Alvin
+2015-01-06 01:45:12	--	- Maker books, Card's science fiction and fantasy work is strongly influenced
+2015-01-06 01:45:12	--	- by his Mormon cultural background.  The first author to win the Hugo and
+2015-01-06 01:45:12	--	- Nebula novel awards two years in a row, Card currently lives in Greensboro,
+2015-01-06 01:45:12	--	- North Carolina, US.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- Welcome to freenode - supporting the free and open source
+2015-01-06 01:45:12	--	- software communities since 1998.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- **************************************************************
+2015-01-06 01:45:12	--	-                       SECURITY ALERT
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- Over the weekend of 13th-14th September freenode staff noticed
+2015-01-06 01:45:12	--	- some compromised binaries present on a number of servers.
+2015-01-06 01:45:12	--	- The servers in question have been removed from the network and
+2015-01-06 01:45:12	--	- shut down.  However, it's possible that network traffic  -
+2015-01-06 01:45:12	--	- including SSL traffic - has been sniffed and passwords
+2015-01-06 01:45:12	--	- exposed.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- We therefore recommend that all users change their nickserv
+2015-01-06 01:45:12	--	- password(s) to a new value which is not shared with any
+2015-01-06 01:45:12	--	- other service.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- You can do this with /msg nickserv set password newpasshere
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- Please note that investigation is ongoing to discover the root
+2015-01-06 01:45:12	--	- cause of the attack, and until this investigation is complete
+2015-01-06 01:45:12	--	- we cannot be 100% certain that all traces of the compromises
+2015-01-06 01:45:12	--	- have been removed. We may have to ask you to change your
+2015-01-06 01:45:12	--	- passwords again after analysis has completed.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- Further details will appear on https://blog.freenode.net/
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- **************************************************************
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- By connecting to freenode you indicate that you have read and
+2015-01-06 01:45:12	--	- accept our policies as set out on http://www.freenode.net
+2015-01-06 01:45:12	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-01-06 01:45:12	--	- any network-related questions or queries, where a number of
+2015-01-06 01:45:12	--	- volunteer staff and helpful users will be happy to assist you.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-06 01:45:12	--	- together with like-minded FOSS enthusiasts for talks and
+2015-01-06 01:45:12	--	- real-life collaboration.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- We would like to thank Private Internet Access
+2015-01-06 01:45:12	--	- (https://www.privateinternetaccess.com/) and the other
+2015-01-06 01:45:12	--	- organisations that help keep freenode and our other projects
+2015-01-06 01:45:12	--	- running for their sustained support.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	- In particular we would like to thank the sponsor
+2015-01-06 01:45:12	--	- of this server, details of which can be found above.
+2015-01-06 01:45:12	--	-
+2015-01-06 01:45:12	--	End of /MOTD command.
+2015-01-06 01:45:12	--	User mode [+i] by mainframer
+2015-01-06 01:45:12	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-01-06 01:45:12	--	NickServ (NickServ@services.): You are now identified for mainframer.
+2015-01-06 02:06:11		irc: disconnected from server
+2015-01-06 02:08:34		irc: disconnected from server
+2015-12-13 13:51:43		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:51:43		irc: connected to chat.freenode.net/6667 (94.125.182.252)
+2015-12-13 13:51:43	--	adams.freenode.net (adams.freenode.net): *** Looking up your hostname...
+2015-12-13 13:51:43	--	adams.freenode.net (adams.freenode.net): *** Checking Ident
+2015-12-13 13:51:43	--	adams.freenode.net (adams.freenode.net): *** No Ident response
+2015-12-13 13:51:43	--	adams.freenode.net (adams.freenode.net): *** Couldn't look up your hostname
+2015-12-13 13:51:43	--	adams.freenode.net (adams.freenode.net): *** Notice -- You need to identify via SASL to use this server
+2015-12-13 13:51:43	=!=	Closing Link: gateway/vpn/privateinternetaccess/account (SASL access only)
+2015-12-13 13:51:43		irc: disconnected from server
+2015-12-13 13:51:43		irc: reconnecting to server in 10 seconds
+2015-12-13 13:51:53		irc: reconnecting to server...
+2015-12-13 13:51:53		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:51:53		irc: connected to chat.freenode.net/6667 (31.13.222.109)
+2015-12-13 13:51:53	--	hitchcock.freenode.net (hitchcock.freenode.net): *** Looking up your hostname...
+2015-12-13 13:51:53	--	hitchcock.freenode.net (hitchcock.freenode.net): *** Checking Ident
+2015-12-13 13:51:53	--	hitchcock.freenode.net (hitchcock.freenode.net): *** No Ident response
+2015-12-13 13:51:53	--	hitchcock.freenode.net (hitchcock.freenode.net): *** Couldn't look up your hostname
+2015-12-13 13:51:53	--	hitchcock.freenode.net (hitchcock.freenode.net): *** Notice -- You need to identify via SASL to use this server
+2015-12-13 13:51:53	=!=	Closing Link: gateway/vpn/privateinternetaccess/account (SASL access only)
+2015-12-13 13:51:53		irc: disconnected from server
+2015-12-13 13:51:53		irc: reconnecting to server in 20 seconds
+2015-12-13 13:52:13		irc: reconnecting to server...
+2015-12-13 13:52:13		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:52:13		irc: connected to chat.freenode.net/6667 (130.239.18.119)
+2015-12-13 13:52:13	--	leguin.freenode.net (leguin.freenode.net): *** Looking up your hostname...
+2015-12-13 13:52:13	--	leguin.freenode.net (leguin.freenode.net): *** Checking Ident
+2015-12-13 13:52:13	--	leguin.freenode.net (leguin.freenode.net): *** No Ident response
+2015-12-13 13:52:14	--	leguin.freenode.net (leguin.freenode.net): *** Couldn't look up your hostname
+2015-12-13 13:52:14	--	leguin.freenode.net (leguin.freenode.net): *** Notice -- You need to identify via SASL to use this server
+2015-12-13 13:52:14	=!=	Closing Link: gateway/vpn/privateinternetaccess/account (SASL access only)
+2015-12-13 13:52:14		irc: disconnected from server
+2015-12-13 13:52:14		irc: reconnecting to server in 40 seconds
+2015-12-13 13:52:53		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:52:53		irc: connected to chat.freenode.net/6667 (174.143.119.91)
+2015-12-13 13:52:53	--	asimov.freenode.net (asimov.freenode.net): *** Looking up your hostname...
+2015-12-13 13:52:53	--	asimov.freenode.net (asimov.freenode.net): *** Checking Ident
+2015-12-13 13:52:53	--	asimov.freenode.net (asimov.freenode.net): *** No Ident response
+2015-12-13 13:52:54	--	asimov.freenode.net (asimov.freenode.net): *** Couldn't look up your hostname
+2015-12-13 13:52:54	--	asimov.freenode.net (asimov.freenode.net): *** Notice -- You need to identify via SASL to use this server
+2015-12-13 13:52:54	=!=	Closing Link: gateway/vpn/privateinternetaccess/account (SASL access only)
+2015-12-13 13:52:54		irc: disconnected from server
+2015-12-13 13:52:54		irc: reconnecting to server in 10 seconds
+2015-12-13 13:53:04		irc: reconnecting to server...
+2015-12-13 13:53:04		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:53:04		irc: connected to chat.freenode.net/6667 (195.148.124.79)
+2015-12-13 13:53:04	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Looking up your hostname...
+2015-12-13 13:53:04	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Checking Ident
+2015-12-13 13:53:04	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** No Ident response
+2015-12-13 13:53:05	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Couldn't look up your hostname
+2015-12-13 13:53:05	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Notice -- You need to identify via SASL to use this server
+2015-12-13 13:53:05	=!=	Closing Link: gateway/vpn/privateinternetaccess/account (SASL access only)
+2015-12-13 13:53:05		irc: disconnected from server
+2015-12-13 13:53:05		irc: reconnecting to server in 20 seconds
+2015-12-13 13:53:25		irc: reconnecting to server...
+2015-12-13 13:53:25		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:53:25		irc: connected to chat.freenode.net/6667 (94.125.182.252)
+2015-12-13 13:53:25	--	adams.freenode.net (adams.freenode.net): *** Looking up your hostname...
+2015-12-13 13:53:25	--	adams.freenode.net (adams.freenode.net): *** Checking Ident
+2015-12-13 13:53:25	--	adams.freenode.net (adams.freenode.net): *** Couldn't look up your hostname
+2015-12-13 13:53:25	--	adams.freenode.net (adams.freenode.net): *** No Ident response
+2015-12-13 13:53:25	--	adams.freenode.net (adams.freenode.net): *** Notice -- You need to identify via SASL to use this server
+2015-12-13 13:53:25	=!=	Closing Link: gateway/vpn/privateinternetaccess/account (SASL access only)
+2015-12-13 13:53:25		irc: disconnected from server
+2015-12-13 13:53:25		irc: reconnecting to server in 40 seconds
+2015-12-13 13:54:05		irc: reconnecting to server...
+2015-12-13 13:54:05		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:54:05		irc: connected to chat.freenode.net/6667 (31.13.222.109)
+2015-12-13 13:54:05	--	hitchcock.freenode.net (hitchcock.freenode.net): *** Looking up your hostname...
+2015-12-13 13:54:05	--	hitchcock.freenode.net (hitchcock.freenode.net): *** Checking Ident
+2015-12-13 13:54:05	--	hitchcock.freenode.net (hitchcock.freenode.net): *** Couldn't look up your hostname
+2015-12-13 13:54:05	--	hitchcock.freenode.net (hitchcock.freenode.net): *** No Ident response
+2015-12-13 13:54:05	--	hitchcock.freenode.net (hitchcock.freenode.net): *** Notice -- You need to identify via SASL to use this server
+2015-12-13 13:54:05	=!=	Closing Link: gateway/vpn/privateinternetaccess/account (SASL access only)
+2015-12-13 13:54:05		irc: disconnected from server
+2015-12-13 13:54:05		irc: reconnecting to server in 1 minute, 20 seconds
+2015-12-13 13:55:25		irc: reconnecting to server...
+2015-12-13 13:55:25		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:55:25		irc: connected to chat.freenode.net/6667 (130.239.18.119)
+2015-12-13 13:55:25	--	leguin.freenode.net (leguin.freenode.net): *** Looking up your hostname...
+2015-12-13 13:55:25	--	leguin.freenode.net (leguin.freenode.net): *** Checking Ident
+2015-12-13 13:55:25	--	leguin.freenode.net (leguin.freenode.net): *** Couldn't look up your hostname
+2015-12-13 13:55:25	--	leguin.freenode.net (leguin.freenode.net): *** No Ident response
+2015-12-13 13:55:25	--	leguin.freenode.net (leguin.freenode.net): *** Notice -- You need to identify via SASL to use this server
+2015-12-13 13:55:25	=!=	Closing Link: gateway/vpn/privateinternetaccess/account (SASL access only)
+2015-12-13 13:55:25		irc: disconnected from server
+2015-12-13 13:55:25		irc: reconnecting to server in 2 minutes, 40 seconds
+2015-12-13 13:58:05		irc: reconnecting to server...
+2015-12-13 13:58:05		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 13:59:01	=!=	irc: address "chat.freenode.net" not found
+2015-12-13 13:59:01		irc: reconnecting to server in 5 minutes, 20 seconds
+2015-12-13 14:01:19		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 14:02:16	=!=	irc: address "chat.freenode.net" not found
+2015-12-13 14:02:16		irc: reconnecting to server in 10 seconds
+2015-12-13 14:02:26		irc: reconnecting to server...
+2015-12-13 14:02:26		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 14:03:22	=!=	irc: address "chat.freenode.net" not found
+2015-12-13 14:03:22		irc: reconnecting to server in 20 seconds
+2015-12-13 14:03:42		irc: reconnecting to server...
+2015-12-13 14:03:42		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 14:03:54	=!=	irc: this buffer is not a channel!
+2015-12-13 14:03:57		irc: disconnected from server
+2015-12-13 14:04:05		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 14:05:01	=!=	irc: address "chat.freenode.net" not found
+2015-12-13 14:05:01		irc: reconnecting to server in 10 seconds
+2015-12-13 14:05:11		irc: reconnecting to server...
+2015-12-13 14:05:11		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 14:06:07	=!=	irc: address "chat.freenode.net" not found
+2015-12-13 14:06:07		irc: reconnecting to server in 20 seconds
+2015-12-13 14:06:20		irc: disconnected from server
+2015-12-13 14:42:34		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 14:42:35		irc: connected to chat.freenode.net/6667 (94.125.182.252)
+2015-12-13 14:42:35	--	adams.freenode.net (adams.freenode.net): *** Looking up your hostname...
+2015-12-13 14:42:35	--	adams.freenode.net (adams.freenode.net): *** Checking Ident
+2015-12-13 14:42:35	--	adams.freenode.net (adams.freenode.net): *** Couldn't look up your hostname
+2015-12-13 14:42:35	--	adams.freenode.net (adams.freenode.net): *** No Ident response
+2015-12-13 14:42:35	--	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2015-12-13 14:42:35	--	irc: client capability, requesting: sasl
+2015-12-13 14:42:35	--	irc: client capability, enabled: sasl
+2015-12-13 14:42:37	--	You are now logged in as mainframer. (mainframer!greg@66.55.141.84)
+2015-12-13 14:42:37	--	SASL authentication successful
+2015-12-13 14:42:38	--	adams.freenode.net (adams.freenode.net): *** Spoofing your IP
+2015-12-13 14:42:38	--	Welcome to the freenode Internet Relay Chat Network mainframer
+2015-12-13 14:42:38	--	Your host is adams.freenode.net[94.125.182.252/6667], running version ircd-seven-1.1.3
+2015-12-13 14:42:38	--	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2015-12-13 14:42:38	--	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-13 14:42:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-13 14:42:38	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-13 14:42:38	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-13 14:42:38	--	There are 371 users and 84068 invisible on 25 servers
+2015-12-13 14:42:38	--	22 :IRC Operators online
+2015-12-13 14:42:38	--	19 :unknown connection(s)
+2015-12-13 14:42:38	--	50497 :channels formed
+2015-12-13 14:42:38	--	I have 1900 clients and 1 servers
+2015-12-13 14:42:38	--	1900 12001 :Current local users 1900, max 12001
+2015-12-13 14:42:38	--	84439 98867 :Current global users 84439, max 98867
+2015-12-13 14:42:38	--	Highest connection count: 12002 (12001 clients) (1897453 connections received)
+2015-12-13 14:42:38	--	- adams.freenode.net Message of the Day -
+2015-12-13 14:42:38	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2015-12-13 14:42:38	--	- (http://www.atw.hu) for sponsoring this server!
+2015-12-13 14:42:38	--	-
+2015-12-13 14:42:38	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2015-12-13 14:42:38	--	- to the Galaxy and many other witty and humourous books,
+2015-12-13 14:42:38	--	- portrayed in his uniquely British irony. He is sorely missed
+2015-12-13 14:42:38	--	- by many millions of devoted fans. "So long and thanks for all
+2015-12-13 14:42:38	--	- the books!"
+2015-12-13 14:42:38	--	-
+2015-12-13 14:42:38	--	- Welcome to freenode - supporting the free and open source
+2015-12-13 14:42:38	--	- software communities since 1998.
+2015-12-13 14:42:38	--	-
+2015-12-13 14:42:38	--	- By connecting to freenode you indicate that you have read and
+2015-12-13 14:42:38	--	- accept our policies as set out on http://www.freenode.net
+2015-12-13 14:42:38	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-13 14:42:38	--	- any network-related questions or queries, where a number of
+2015-12-13 14:42:38	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-13 14:42:38	--	-
+2015-12-13 14:42:38	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-13 14:42:38	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-13 14:42:38	--	- real-life collaboration.
+2015-12-13 14:42:38	--	-
+2015-12-13 14:42:38	--	- We would like to thank Private Internet Access
+2015-12-13 14:42:38	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-13 14:42:38	--	- organisations that help keep freenode and our other projects
+2015-12-13 14:42:38	--	- running for their sustained support.
+2015-12-13 14:42:38	--	-
+2015-12-13 14:42:38	--	- In particular we would like to thank the sponsor
+2015-12-13 14:42:38	--	- of this server, details of which can be found above.
+2015-12-13 14:42:38	--	-
+2015-12-13 14:42:38	--	End of /MOTD command.
+2015-12-13 14:42:38	--	User mode [+i] by mainframer
+2015-12-13 14:42:38	--	SaslServ (SaslServ@services.): 1 failed login since last login.
+2015-12-13 14:42:38	--	SaslServ (SaslServ@services.): Last failed attempt from: mainframer!~greggardn@pool-100-40-49-18.prvdri.fios.verizon.net on Jul 18 23:50:58 2015.
+2015-12-13 14:42:38	--	NickServ (NickServ@services.): You are already logged in as mainframer.
+2015-12-13 14:43:52	=!=	irc: this buffer is not a channel!
+2015-12-13 14:43:55		irc: disconnected from server
+2015-12-13 14:44:03		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 14:44:03		irc: connected to chat.freenode.net/6667 (195.148.124.79)
+2015-12-13 14:44:03	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Looking up your hostname...
+2015-12-13 14:44:03	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Checking Ident
+2015-12-13 14:44:03	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** No Ident response
+2015-12-13 14:44:04	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Couldn't look up your hostname
+2015-12-13 14:44:04	--	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2015-12-13 14:44:04	--	irc: client capability, requesting: sasl
+2015-12-13 14:44:04	--	irc: client capability, enabled: sasl
+2015-12-13 14:44:06	--	You are now logged in as mainframer. (mainframer!greg@66.55.141.84)
+2015-12-13 14:44:06	--	SASL authentication successful
+2015-12-13 14:44:06	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Spoofing your IP
+2015-12-13 14:44:06	--	Welcome to the freenode Internet Relay Chat Network mainframer
+2015-12-13 14:44:06	--	Your host is rajaniemi.freenode.net[195.148.124.79/6667], running version ircd-seven-1.1.3
+2015-12-13 14:44:06	--	This server was created Sun Mar 15 2015 at 18:31:24 UTC
+2015-12-13 14:44:06	--	rajaniemi.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-13 14:44:06	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-13 14:44:06	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-13 14:44:06	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-13 14:44:06	--	There are 370 users and 84114 invisible on 25 servers
+2015-12-13 14:44:06	--	22 :IRC Operators online
+2015-12-13 14:44:06	--	20 :unknown connection(s)
+2015-12-13 14:44:06	--	50520 :channels formed
+2015-12-13 14:44:06	--	I have 9245 clients and 1 servers
+2015-12-13 14:44:06	--	9245 10542 :Current local users 9245, max 10542
+2015-12-13 14:44:06	--	84484 98867 :Current global users 84484, max 98867
+2015-12-13 14:44:06	--	Highest connection count: 10543 (10542 clients) (286601 connections received)
+2015-12-13 14:44:06	--	- rajaniemi.freenode.net Message of the Day -
+2015-12-13 14:44:06	--	- Welcome to rajaniemi.freenode.net in Helsinki, Finland.  Our thanks to
+2015-12-13 14:44:06	--	- Aalto University for sponsoring this server!
+2015-12-13 14:44:06	--	-
+2015-12-13 14:44:06	--	- RAJANIEMI, Hannu  (1978-). Born in Ylivieska, Finland, Rajaniemi is the
+2015-12-13 14:44:06	--	- author of two novels and several short stories, and his debut novel 'The
+2015-12-13 14:44:06	--	- Quantum Thief' was nominated for the 2011 Locus Award for Best First
+2015-12-13 14:44:06	--	- Novel.  Rajaniemi lives in Edinburgh, Scotland where he is founding
+2015-12-13 14:44:06	--	- director of ThinkTank Maths, a commercial research organisation.
+2015-12-13 14:44:06	--	-
+2015-12-13 14:44:06	--	-
+2015-12-13 14:44:06	--	- Welcome to freenode - supporting the free and open source
+2015-12-13 14:44:06	--	- software communities since 1998.
+2015-12-13 14:44:06	--	-
+2015-12-13 14:44:06	--	- By connecting to freenode you indicate that you have read and
+2015-12-13 14:44:06	--	- accept our policies as set out on http://www.freenode.net
+2015-12-13 14:44:06	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-13 14:44:06	--	- any network-related questions or queries, where a number of
+2015-12-13 14:44:06	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-13 14:44:06	--	-
+2015-12-13 14:44:06	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-13 14:44:06	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-13 14:44:06	--	- real-life collaboration.
+2015-12-13 14:44:06	--	-
+2015-12-13 14:44:06	--	- We would like to thank Private Internet Access
+2015-12-13 14:44:06	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-13 14:44:06	--	- organisations that help keep freenode and our other projects
+2015-12-13 14:44:06	--	- running for their sustained support.
+2015-12-13 14:44:06	--	-
+2015-12-13 14:44:06	--	- In particular we would like to thank the sponsor
+2015-12-13 14:44:06	--	- of this server, details of which can be found above.
+2015-12-13 14:44:06	--	-
+2015-12-13 14:44:06	--	End of /MOTD command.
+2015-12-13 14:44:06	--	User mode [+i] by mainframer
+2015-12-13 14:44:07	--	NickServ (NickServ@services.): You are already logged in as mainframer.
+2015-12-13 17:56:41	=!=	irc: reading data on socket: error 22 Invalid argument
+2015-12-13 17:56:41		irc: disconnecting from server...
+2015-12-13 17:56:41		irc: disconnected from server
+2015-12-13 17:56:41		irc: reconnecting to server in 10 seconds
+2015-12-13 17:56:51		irc: reconnecting to server...
+2015-12-13 17:56:51		irc: connecting to server chat.freenode.net/6667...
+2015-12-13 17:56:51		irc: connected to chat.freenode.net/6667 (94.125.182.252)
+2015-12-13 17:56:51	--	adams.freenode.net (adams.freenode.net): *** Looking up your hostname...
+2015-12-13 17:56:52	--	adams.freenode.net (adams.freenode.net): *** Checking Ident
+2015-12-13 17:56:52	--	adams.freenode.net (adams.freenode.net): *** No Ident response
+2015-12-13 17:56:52	--	adams.freenode.net (adams.freenode.net): *** Couldn't look up your hostname
+2015-12-13 17:56:52	--	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2015-12-13 17:56:52	--	irc: client capability, requesting: sasl
+2015-12-13 17:56:52	--	irc: client capability, enabled: sasl
+2015-12-13 17:56:54	--	You are now logged in as mainframer. (mainframer!greg@66.55.150.180)
+2015-12-13 17:56:54	--	SASL authentication successful
+2015-12-13 17:56:54	--	adams.freenode.net (adams.freenode.net): *** Spoofing your IP
+2015-12-13 17:56:54	--	Welcome to the freenode Internet Relay Chat Network mainframer
+2015-12-13 17:56:54	--	Your host is adams.freenode.net[94.125.182.252/6667], running version ircd-seven-1.1.3
+2015-12-13 17:56:54	--	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2015-12-13 17:56:54	--	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-13 17:56:54	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-13 17:56:54	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-13 17:56:54	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-13 17:56:54	--	There are 332 users and 82371 invisible on 25 servers
+2015-12-13 17:56:54	--	22 :IRC Operators online
+2015-12-13 17:56:54	--	14 :unknown connection(s)
+2015-12-13 17:56:54	--	50511 :channels formed
+2015-12-13 17:56:54	--	I have 2820 clients and 1 servers
+2015-12-13 17:56:54	--	2820 12001 :Current local users 2820, max 12001
+2015-12-13 17:56:54	--	82703 98867 :Current global users 82703, max 98867
+2015-12-13 17:56:54	--	Highest connection count: 12002 (12001 clients) (1902244 connections received)
+2015-12-13 17:56:54	--	- adams.freenode.net Message of the Day -
+2015-12-13 17:56:54	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2015-12-13 17:56:54	--	- (http://www.atw.hu) for sponsoring this server!
+2015-12-13 17:56:54	--	-
+2015-12-13 17:56:54	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2015-12-13 17:56:54	--	- to the Galaxy and many other witty and humourous books,
+2015-12-13 17:56:54	--	- portrayed in his uniquely British irony. He is sorely missed
+2015-12-13 17:56:54	--	- by many millions of devoted fans. "So long and thanks for all
+2015-12-13 17:56:54	--	- the books!"
+2015-12-13 17:56:54	--	-
+2015-12-13 17:56:54	--	- Welcome to freenode - supporting the free and open source
+2015-12-13 17:56:54	--	- software communities since 1998.
+2015-12-13 17:56:54	--	-
+2015-12-13 17:56:54	--	- By connecting to freenode you indicate that you have read and
+2015-12-13 17:56:54	--	- accept our policies as set out on http://www.freenode.net
+2015-12-13 17:56:54	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-13 17:56:54	--	- any network-related questions or queries, where a number of
+2015-12-13 17:56:54	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-13 17:56:54	--	-
+2015-12-13 17:56:54	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-13 17:56:54	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-13 17:56:54	--	- real-life collaboration.
+2015-12-13 17:56:54	--	-
+2015-12-13 17:56:54	--	- We would like to thank Private Internet Access
+2015-12-13 17:56:54	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-13 17:56:54	--	- organisations that help keep freenode and our other projects
+2015-12-13 17:56:54	--	- running for their sustained support.
+2015-12-13 17:56:54	--	-
+2015-12-13 17:56:54	--	- In particular we would like to thank the sponsor
+2015-12-13 17:56:55	--	- of this server, details of which can be found above.
+2015-12-13 17:56:55	--	-
+2015-12-13 17:56:55	--	End of /MOTD command.
+2015-12-13 17:56:55	--	User mode [+i] by mainframer
+2015-12-13 17:56:55	--	NickServ (NickServ@services.): You are already logged in as mainframer.
+2015-12-13 19:06:14		irc: disconnected from server

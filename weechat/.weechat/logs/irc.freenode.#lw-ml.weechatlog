@@ -1,0 +1,70 @@
+2015-01-03 23:57:59	-->	mainframer (~greg@pool-96-233-138-162.prvdri.fios.verizon.net) has joined #lw-ml
+2015-01-03 23:57:59	--	Topic for #lw-ml is "Less Wrong's Machine Learning Study Group! | Next meeting: Jan 5 2014, 1:00 UTC | Current Concept: Bayes' Rule | Syllabus: http://goo.gl/Qa4LgH"
+2015-01-03 23:57:59	--	Topic set by cursive (~sqrt@unaffiliated/cursive) on Sat, 03 Jan 2015 22:39:51
+2015-01-03 23:57:59	--	Nicks #lw-ml: [@cursive @PatrickRobotham +spxtr [ui] Betawolf Burninate c0rw1n Dyo mainframer olivia otoburb realitygrill two2thehead]
+2015-01-03 23:57:59	--	Channel #lw-ml: 13 nicks (2 ops, 0 halfops, 1 voice, 10 normals)
+2015-01-03 23:58:01	--	Mode #lw-ml [+ns]
+2015-01-03 23:58:01	--	Channel created on Tue, 30 Dec 2014 15:09:45
+2015-01-04 00:00:46	mainframer	Hey folks. 
+2015-01-04 00:04:57	mainframer	The closest that I have gotten to ML is through the Bayseian Hidden Markov Models.  Other than that, I'm a blank slate with a bachelors in CS.
+2015-01-04 00:50:28	realitygrill	welcome
+2015-01-04 01:37:38	-->	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has joined #lw-ml
+2015-01-04 01:47:58	-->	shaykha (~user@unaffiliated/shaykha) has joined #lw-ml
+2015-01-04 01:48:10	<--	shaykha (~user@unaffiliated/shaykha) has left #lw-ml ("ERC Version 5.3 (IRC client for Emacs)")
+2015-01-04 02:25:22	<--	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has quit (Ping timeout: 240 seconds)
+2015-01-04 10:38:14		irc: disconnected from server
+2015-01-04 10:38:37	-->	mainframer (~greg@pool-96-233-138-162.prvdri.fios.verizon.net) has joined #lw-ml
+2015-01-04 10:38:37	--	Topic for #lw-ml is "Less Wrong's Machine Learning Study Group! | Next meeting: Jan 5 2014, 1:00 UTC | Current Concept: Bayes' Rule | Syllabus: http://goo.gl/Qa4LgH"
+2015-01-04 10:38:37	--	Topic set by cursive (~sqrt@unaffiliated/cursive) on Sat, 03 Jan 2015 22:39:50
+2015-01-04 10:38:37	--	Nicks #lw-ml: [@cursive [ui] Betawolf Burninate c0rw1n Dyo kuudes mainframer olivia otoburb QuadIngi realitygrill two2thehead]
+2015-01-04 10:38:37	--	Channel #lw-ml: 13 nicks (1 op, 0 halfops, 0 voices, 12 normals)
+2015-01-04 10:38:39	--	Mode #lw-ml [+ns]
+2015-01-04 10:38:39	--	Channel created on Tue, 30 Dec 2014 15:09:45
+2015-01-04 10:49:53	-->	redlizard (~redlizard@gentoo/developer/redlizard) has joined #lw-ml
+2015-01-04 11:23:07	-->	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has joined #lw-ml
+2015-01-04 11:27:31	@cursive	blsm: doodle should show the times in your timezone. but the only remaining option at this point is 01:00 UTC. the poll was late-notice, possibly we can redo it for next week with more options
+2015-01-04 11:28:38	blsm	I see.
+2015-01-04 11:29:22	@cursive	it's pretty hard to choose a good time for everyone since we have range from -8 to +11
+2015-01-04 11:31:58	blsm	So it would seem.
+2015-01-04 11:32:24	@cursive	might work in the future to have something like two main meeting times, + discussion throughout the day
+2015-01-04 11:43:52	<--	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has quit (Ping timeout: 240 seconds)
+2015-01-04 11:54:26	realitygrill	anyone good with mod arithmetic?
+2015-01-04 11:56:54	realitygrill	I am finding that "- 1 + (-3)" seems to be ambiguous
+2015-01-04 11:57:06	realitygrill	in Z5
+2015-01-04 12:13:27	Burninate	Doodle:
+2015-01-04 12:13:39	Burninate	Next time, 2 hour demarcations, and over more of the day
+2015-01-04 12:14:00	Burninate	Also: You don't tell blsm "sorry, doodle is 0100 UTC"
+2015-01-04 12:14:22	Burninate	You tell him "Fill out the doodle with your available times, it's looking like this one will be 0100 UTC"
+2015-01-04 12:17:38	@cursive	Burninate: you are right, that would have been better. i was thinking for next time to spread it over two days as well.
+2015-01-04 12:58:11	-->	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has joined #lw-ml
+2015-01-04 13:04:03	@cursive	blsm: i made a much vaster doodle for next week! http://doodle.com/m456pqxmy952gc39
+2015-01-04 13:06:01	blsm	cool
+2015-01-04 13:22:06	<--	two2thehead (~RDaneelOl@unaffiliated/two2thehead) has quit (Quit: Leaving)
+2015-01-04 13:39:29	<--	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has quit (Ping timeout: 265 seconds)
+2015-01-04 13:45:00	--	Mode #lw-ml [+tricm] by cursive
+2015-01-04 13:47:21	--	Mode #lw-ml [-tricm] by cursive
+2015-01-04 14:10:57	@cursive	for those who weren't here when blossom mentioned it, https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage data science courses begin tomorrow
+2015-01-04 14:11:27	@cursive	(and you don't actually need to pay for them)
+2015-01-04 14:33:09	-->	two2thehead (~RDaneelOl@unaffiliated/two2thehead) has joined #lw-ml
+2015-01-04 14:39:59	-->	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has joined #lw-ml
+2015-01-04 14:47:37	<--	QuadIngi (~FourFire@77.88.71.230) has quit (Ping timeout: 240 seconds)
+2015-01-04 15:02:06	<--	[ui] (uid21688@gateway/web/irccloud.com/x-wfhdudibabflvoiq) has quit (Quit: Connection closed for inactivity)
+2015-01-04 15:04:05	<--	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has quit (Ping timeout: 265 seconds)
+2015-01-04 15:21:44	-->	QuadIngi (~FourFire@3-134-11.connect.netcom.no) has joined #lw-ml
+2015-01-04 16:56:39		irc: disconnected from server
+2015-01-04 16:57:05	-->	mainframer (~greg@pool-96-233-138-162.prvdri.fios.verizon.net) has joined #lw-ml
+2015-01-04 16:57:05	--	Topic for #lw-ml is "Less Wrong's Machine Learning Study Group! | Next meeting: Jan 5 2014, 1:00 UTC | Current Concept: Bayes' Rule | Syllabus: http://goo.gl/Qa4LgH"
+2015-01-04 16:57:05	--	Topic set by cursive (~sqrt@unaffiliated/cursive) on Sat, 03 Jan 2015 22:39:51
+2015-01-04 16:57:05	--	Nicks #lw-ml: [@cursive Betawolf blsm Burninate c0rw1n Dyo kuudes mainframer olivia otoburb QuadIngi realitygrill redlizard two2thehead]
+2015-01-04 16:57:05	--	Channel #lw-ml: 14 nicks (1 op, 0 halfops, 0 voices, 13 normals)
+2015-01-04 16:57:07	--	Mode #lw-ml [+ns]
+2015-01-04 16:57:07	--	Channel created on Tue, 30 Dec 2014 15:09:45
+2015-01-04 16:58:00		irc: disconnected from server
+2015-01-06 01:45:18	-->	mainframer (~greg@pool-96-233-138-162.prvdri.fios.verizon.net) has joined #lw-ml
+2015-01-06 01:45:18	--	Topic for #lw-ml is "Less Wrong's Machine Learning Study Group! | Next meeting: http://doodle.com/m456pqxmy952gc39 | Current Concept: Bayes' Rule | Syllabus: http://goo.gl/Qa4LgH"
+2015-01-06 01:45:18	--	Topic set by cursive (~sqrt@unaffiliated/cursive) on Sun, 04 Jan 2015 20:19:41
+2015-01-06 01:45:18	--	Nicks #lw-ml: [@cursive [ui] Betawolf Burninate c0rw1n Dyo mainframer olivia otoburb PatrickRobotham realitygrill spxtr two2thehead]
+2015-01-06 01:45:18	--	Channel #lw-ml: 13 nicks (1 op, 0 halfops, 0 voices, 12 normals)
+2015-01-06 01:45:20	--	Mode #lw-ml [+ns]
+2015-01-06 01:45:20	--	Channel created on Tue, 30 Dec 2014 15:09:45
+2015-01-06 02:06:11		irc: disconnected from server

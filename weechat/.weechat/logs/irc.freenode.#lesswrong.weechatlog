@@ -1,0 +1,1624 @@
+2015-01-03 23:55:49	-->	mainframer (~greg@pool-96-233-138-162.prvdri.fios.verizon.net) has joined #lesswrong
+2015-01-03 23:55:49	--	Topic for #lesswrong is "http://hpmor.com/notes/progress-15-01-01/ | http://lesswrong.com | http://gwern.net/newsletter/2014/12 | #lw-prog #lw-support #lw-bitcoin | no public logs"
+2015-01-03 23:55:49	--	Topic set by gwern (~gwern@wikipedia/Gwern) on Thu, 01 Jan 2015 21:35:38
+2015-01-03 23:55:49	--	Nicks #lesswrong: [@drethelin @gwern @mjr @olivia @saturn2 @sh [mbm] [ui] A000000 Abaris abuss adiabatic ahel aloril amar amoebius amphibious Aquent argusdusty aseidl AshleyWaffle Bakkot Bansku Baughn bbrks_ beauby ben- bencryption Betawolf bets BobaMa boltR Boriss boston brainiac256 brand0 brendyyn Bright Bruloocks Burninate bydo ByronJohnson c0rw1n catern catsup CGML CheckDavid chiburbs cloudcell clsr codehotter CoJaBo Coornail Cory cpopell2 cursive cwillu cwillu_at_work daemian danlucraft danohu David Deadhand dec derfj_ deSouza dh djcb djeimsyxuis docl douglass_ Douhet drewbot DrPete dsirijus dTal dualbus dv- dx Dyo elsig emhs ephess epitron ErikBjare_ espes__ fadeway feep feepbot feignt fmu foamz FracV fxhnd77 Gabriel_ gattuso gde33 Gelsamel__ Ginguin gjord glutton govg graehl Guest52575 Guest73108 GuestX_123 hEEGy hehelleshin henry- hguux_ hugaraxia iajrz iamfishhead ilya inara` indeo inkyoto ivan\ janoelze_ jasonjckn JBeshir jeffw198_____ Jello_Raptor Jesin jgotts john_not_jenny Jonii_ jrayhawk_ jswanson jzk kanzure kapil__ keko_ key_ Khoth Kiba kimJongUno kindaish kini kmc ksotala lahwran laurenlee_ leifkb lexande linear4 Logos01 lukas Madplatypus mainframer makoLine marchdown mastensg mavhc MicaiahC Micromus midnightmagic mindspillage mitchty MoALTz_ morvkala MrEmile mspier|away nanotube ndrei neona neptunepink Neros nickenchuggets nisstyre normod notthemessiah nsh nshepperd Obormot[away] Obormot\wat OneFixt onthesta1rs orionstein oru_ otoburb oyho_____ packrat palantir_ ParahSailin paritybit passcod PatrickRobotham Peng phood pkkm pookie ppk pskosinski quanticle quintopia Raccoon Ralith realitygrill redlizard relgar rhaps0dy RiversHaveWings robsen rola roxton roxton_ rray rsaarelm Santzes SaulHarris SDr sef seismo_ sgentle Sgeo shachaf shaykha shminux siavashg SN4T14 snkcld Soft sohum SoundLogic Speed spxtr srijan4 strangewarp_ supersoju talanor tar_w tazjin Tene tenoke TheCowboy TheCowboy` TheGreatHoobini theORIGINALshawn Therms tiki Tiktalik tinster torchic_______ ToyKeeper traverseda TRManderson troposol trwired tsutsu tuningmind Twey two2thehead u__ u___ ua uber ulkesh um_ Urchin Veltzeh vikraman Vulture vzctl Wandering|Home wasp__ Wolvenreign Wolvenreign2 Ycros yedi yorick zwx]
+2015-01-03 23:55:49	--	Channel #lesswrong: 272 nicks (6 ops, 0 halfops, 0 voices, 266 normals)
+2015-01-03 23:55:49	--	Notice(rajaniemi.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2015-01-03 23:55:51	--	Mode #lesswrong [+nst]
+2015-01-03 23:55:51	--	Channel created on Thu, 02 Apr 2009 17:59:29
+2015-01-03 23:57:12	<--	Gabriel_ (ad0e9965@gateway/web/freenode/ip.173.14.153.101) has quit (Client Quit)
+2015-01-03 23:59:39	-->	CRM114 (~chatz@unaffiliated/urchin) has joined #lesswrong
+2015-01-03 23:59:52	CRM114	hi
+2015-01-04 00:01:22	-->	fibbance (~fibbance@39.44.132.149) has joined #lesswrong
+2015-01-04 00:01:33	catern	guys why do I keep bothering with politics
+2015-01-04 00:01:43	catern	how can I never, ever, ever care about politics
+2015-01-04 00:02:02	 *	catern isn't disillusioned enough
+2015-01-04 00:02:10	catern	half-disillusionment is painful!
+2015-01-04 00:03:48	-->	pppk (~ppk@49.144.251.245) has joined #lesswrong
+2015-01-04 00:06:38	<--	kimJongUno (~kimJongUn@163.55.0.110.ap.yournet.ne.jp) has quit (Quit: kimJongUno)
+2015-01-04 00:06:52	<--	ppk (~ppk@49.144.238.16) has quit (Ping timeout: 240 seconds)
+2015-01-04 00:06:53	--	pppk is now known as ppk
+2015-01-04 00:07:50	<--	nshepperd (~asdfg@220-244-175-87.static.tpgi.com.au) has quit (Read error: Connection reset by peer)
+2015-01-04 00:09:52	<--	laurenlee_ (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-01-04 00:10:34	-->	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has joined #lesswrong
+2015-01-04 00:15:06	<--	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has quit (Ping timeout: 250 seconds)
+2015-01-04 00:15:46	catern	http://lesswrong.com/r/lesswrong/lw/lhg/2014_survey_results/
+2015-01-04 00:15:47	pookie	title: 2014 Survey Results - LessWrong
+2015-01-04 00:15:49	catern	survey's out
+2015-01-04 00:15:56	catern	results anyway..
+2015-01-04 00:16:08	catern	saturn2: hey you should put it in the topic perhaps
+2015-01-04 00:16:51	@saturn2	good idea
+2015-01-04 00:16:52	realitygrill	oh shit i forgot my words
+2015-01-04 00:17:11	<--	brainiac256 (~Chris@cpe-65-24-221-106.insight.res.rr.com) has quit (Ping timeout: 256 seconds)
+2015-01-04 00:17:24	-->	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has joined #lesswrong
+2015-01-04 00:17:27	realitygrill	well, wasn't my public key
+2015-01-04 00:17:30	--	saturn2 has changed topic for #lesswrong from "http://hpmor.com/notes/progress-15-01-01/ | http://lesswrong.com | http://gwern.net/newsletter/2014/12 | #lw-prog #lw-support #lw-bitcoin | no public logs" to "http://lesswrong.com/r/lesswrong/lw/lhg/2014_survey_results/ | http://hpmor.com/notes/progress-15-01-01/ | http://gwern.net/newsletter/2014/12 | #lw-prog #lw-support #lw-bitcoin | no public logs"
+2015-01-04 00:20:29	-->	laurenlee_ (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has joined #lesswrong
+2015-01-04 00:21:54	<--	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-01-04 00:24:39	spxtr	7% of survey-takers didn't know the sequences existed until the survey.
+2015-01-04 00:26:42	realitygrill	these are interesting
+2015-01-04 00:26:55	realitygrill	the mental illness bounds, for example..
+2015-01-04 00:27:44	<--	laurenlee_ (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-01-04 00:27:58	-->	brainiac256 (~Chris@cpe-65-24-221-106.insight.res.rr.com) has joined #lesswrong
+2015-01-04 00:28:35	-->	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has joined #lesswrong
+2015-01-04 00:29:14	realitygrill	5.5% found romantic partners through LW communities
+2015-01-04 00:29:15	realitygrill	wow
+2015-01-04 00:29:40	realitygrill	oh. 'In particular, the number of people meeting romantic partners through the community increased by almost 50% over last year.'
+2015-01-04 00:29:53	spxtr	The calibration question is sad.
+2015-01-04 00:30:04	morvkala	The transition into a dating site is nearly complete
+2015-01-04 00:30:28	-->	youcrane (~youcrane@46.28.66.69) has joined #lesswrong
+2015-01-04 00:30:39	cpopell2	some friends and I were discussing steamdate
+2015-01-04 00:30:49	cpopell2	a site that calibrated your friend or date % via your steam account
+2015-01-04 00:30:50	cpopell2	>_>
+2015-01-04 00:32:56	Ralith	probably not a good plan
+2015-01-04 00:32:56	realitygrill	whaa?
+2015-01-04 00:33:05	Ralith	people buy all kinds of random crap when it costs 50 cents on sale
+2015-01-04 00:33:10	cpopell2	weighted by time played
+2015-01-04 00:33:12	cpopell2	and how recent
+2015-01-04 00:33:15	Ralith	that would work better
+2015-01-04 00:34:19	realitygrill	cpopell2: relative to friends?
+2015-01-04 00:34:48	cpopell2	realitygrill : It would, if you let it look at your account, pull your city, and that data, and match you with potential friends/partners
+2015-01-04 00:34:57	cpopell2	accounts on the date site would be anonymized from your actual steam account
+2015-01-04 00:35:07	cpopell2	until you chose to actually share
+2015-01-04 00:35:19	realitygrill	ahh.
+2015-01-04 00:35:45	Ralith	still a pretty small sample size for determining personality
+2015-01-04 00:35:54	Ralith	I only play one game at present
+2015-01-04 00:35:55	cpopell2	vov no worse than a lot of stuff
+2015-01-04 00:36:16	morvkala	Also, "Uses steam and thinks it is a good filter for romantic partners"
+2015-01-04 00:36:17	<--	youcrane (~youcrane@46.28.66.69) has quit (K-Lined)
+2015-01-04 00:36:34	-->	johnnycarcin (~jc@gateway/tor-sasl/johnnycarcin) has joined #lesswrong
+2015-01-04 00:36:36	Ralith	idk, I think okcupid does a good job with its broad set of tests to see that two people will not horribly offend eachother
+2015-01-04 00:36:46	cpopell2	OKC has been dumbing down more and more though
+2015-01-04 00:36:56	cpopell2	I've definitely noticed a decrease in the average nerd level of people using it around here
+2015-01-04 00:40:51	-->	sandGorgon (~sandGorgo@182.69.149.154) has joined #lesswrong
+2015-01-04 00:43:22	-->	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has joined #lesswrong
+2015-01-04 00:43:50	CRM114	there is now a communist dating site
+2015-01-04 00:44:04	CRM114	objectivist dating site is old news
+2015-01-04 00:45:14	CRM114	both are interesting filters
+2015-01-04 00:46:44	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #lesswrong
+2015-01-04 00:47:44	<--	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has quit (Ping timeout: 245 seconds)
+2015-01-04 00:49:11	Vulture	OkComrade is best
+2015-01-04 00:55:38	nickenchuggets	lmao
+2015-01-04 00:56:01	<--	Wolvenreign2 (329e8bdc@gateway/web/cgi-irc/kiwiirc.com/ip.50.158.139.220) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-01-04 00:56:18	nickenchuggets	funny
+2015-01-04 00:59:52	<--	TheCowboy` (~TheCowboy@ip68-98-183-236.dc.dc.cox.net) has quit (Ping timeout: 244 seconds)
+2015-01-04 01:03:17	Logos01	You know, every once in a while I am left with some rather interesting conclusions.
+2015-01-04 01:03:55	Logos01	Up until last year, I wore glasses (I got LASIK).  Despite being active in the bdsm community for the last 18 or so years, I never did pick up whips or the like.
+2015-01-04 01:03:59	CRM114	[6.9% of single people have at least one partner; 1.8% have more than one.]
+2015-01-04 01:04:01	CRM114	lol
+2015-01-04 01:04:14	Logos01	Now that I am, I am realizing that this is essentially rehabilitative therapy for my extremely poor experience handling depth perception.
+2015-01-04 01:04:16	quanticle	Burnout Paradise City is a really fun game.
+2015-01-04 01:04:18	quanticle	Oh, sorry, wrong channel.
+2015-01-04 01:04:20	-->	MicaiahC_ (~quassel@2601:9:7e02:5720:9964:b95:5626:731b) has joined #lesswrong
+2015-01-04 01:04:24	Logos01	quanticle: lol
+2015-01-04 01:04:30	@drethelin	Quanticle meh
+2015-01-04 01:04:40	@drethelin	Burnout 3 was better
+2015-01-04 01:04:52	@drethelin	Driving around Paradise City actually gets kind of tedious pretty quickly
+2015-01-04 01:04:58	Logos01	I wonder if this will have any significant impact on my cognition.
+2015-01-04 01:05:00	@drethelin	whereas Burnout 3 was all missions of various kinds
+2015-01-04 01:05:09	Logos01	Hrm.
+2015-01-04 01:05:22	@drethelin	Logos: are you about to pick up a whip soon?
+2015-01-04 01:05:27	quanticle	It does, but I like the fact that it's possible to take wrong turns in a street race ^_^
+2015-01-04 01:06:05	realitygrill	Logos01: what, like you'd whip the wrong things?
+2015-01-04 01:06:28	Logos01	realitygrill: I'm not willing to use it on a human being until I have sufficient expertise in predicting where the falls will land during the strike.
+2015-01-04 01:06:35	<--	MicaiahC (~quassel@2601:9:7e02:5720:9964:b95:5626:731b) has quit (Ping timeout: 244 seconds)
+2015-01-04 01:06:42	Logos01	So for now I've clamped a feather cat toy to a shelf so I have a dangling and fragile target to aim at.
+2015-01-04 01:07:08	Logos01	drethelin: I've had it for a couple of months now, but I don't get much practice in because scheduling.
+2015-01-04 01:07:54	Logos01	Not the best one for training with -- 3ft leather-plaited bullwhip type thing -- but it was only $40 so it's expendible.
+2015-01-04 01:10:27	-->	nihali (~nihali@gateway/vpn/privateinternetaccess/nihali) has joined #lesswrong
+2015-01-04 01:11:54	<--	Obormot\wat (6c060c38@gateway/web/freenode/ip.108.6.12.56) has left #lesswrong
+2015-01-04 01:12:44	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 245 seconds)
+2015-01-04 01:13:56	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #lesswrong
+2015-01-04 01:15:48	-->	Lethena (~Lethena@71-89-52-248.dhcp.stpt.wi.charter.com) has joined #lesswrong
+2015-01-04 01:17:20	quanticle	Are cat toys fragile?
+2015-01-04 01:17:20	realitygrill	Logos01: speaking of which, do you just let it go if a sub stops talking to you?
+2015-01-04 01:17:26	-->	amar_ (~amar@unaffiliated/amar) has joined #lesswrong
+2015-01-04 01:17:31	Logos01	quanticle: Feathers?
+2015-01-04 01:17:37	realitygrill	laser pointers
+2015-01-04 01:17:39	Logos01	realitygrill: ... Context?
+2015-01-04 01:17:41	Burninate	cpopell2, These days, you don't get real big Internet wars.  Why, in my day, we took down a cult!
+2015-01-04 01:17:48	Logos01	realitygrill: Depending on the laser pointer, yeah.
+2015-01-04 01:17:59	Logos01	But I'm using a feather toy thing.
+2015-01-04 01:18:01	cpopell2	:P
+2015-01-04 01:18:15	realitygrill	Logos01: shrug. just like, online
+2015-01-04 01:18:25	<--	AshleyWaffle (~quassel@unaffiliated/anastasiawyatt) has quit (Read error: Connection reset by peer)
+2015-01-04 01:18:56	Logos01	realitygrill: Well, I mean, what else would you do if a person just stops talking to you and there's no non-stalkerish means of redressing that?
+2015-01-04 01:19:02	Logos01	Plenty of fish in the sea and all that noise.
+2015-01-04 01:19:02	nihali	hey fags
+2015-01-04 01:19:05	nihali	sup faggots
+2015-01-04 01:19:05	realitygrill	don't people often complain about stepping on dog toys?
+2015-01-04 01:19:39	Logos01	Doesn't happen to me enough to have a sound answer to your question.
+2015-01-04 01:19:44	nihali	fags
+2015-01-04 01:20:11	realitygrill	Logos01: meh, k
+2015-01-04 01:20:14	nihali	ass
+2015-01-04 01:20:15	nihali	ass
+2015-01-04 01:20:15	nihali	ass
+2015-01-04 01:20:15	nihali	ass
+2015-01-04 01:20:15	nihali	ass
+2015-01-04 01:20:17	nihali	ass
+2015-01-04 01:20:19	nihali	ass
+2015-01-04 01:20:21	nihali	ass
+2015-01-04 01:20:25	nihali	ass
+2015-01-04 01:20:27	nihali	ass
+2015-01-04 01:20:29	nihali	ass
+2015-01-04 01:20:30	cpopell2	Man, what is with the shit tier trolls tonight?
+2015-01-04 01:20:31	nihali	ass
+2015-01-04 01:20:33	nihali	ass
+2015-01-04 01:20:35	nihali	ass
+2015-01-04 01:20:35	<--	amar (~amar@unaffiliated/amar) has quit (Ping timeout: 264 seconds)
+2015-01-04 01:20:35	Burninate	* #lesswrong :You're not a channel operator
+2015-01-04 01:20:37	nihali	ass
+2015-01-04 01:20:39	nihali	ass
+2015-01-04 01:20:41	nihali	ass
+2015-01-04 01:20:43	nihali	ass
+2015-01-04 01:20:45	nihali	ass
+2015-01-04 01:20:47	nihali	ass
+2015-01-04 01:20:49	nihali	ass
+2015-01-04 01:20:51	nihali	ass
+2015-01-04 01:20:52	Logos01	dafuq
+2015-01-04 01:20:53	realitygrill	gwern: saturn2: alert
+2015-01-04 01:20:54	Logos01	olivia:
+2015-01-04 01:20:55	nihali	ass
+2015-01-04 01:20:56	Burninate	gwern olivia saturn2: ping
+2015-01-04 01:20:57	nihali	ass
+2015-01-04 01:20:59	nihali	ass
+2015-01-04 01:21:01	nihali	ass
+2015-01-04 01:21:03	nihali	ass
+2015-01-04 01:21:05	nihali	ass
+2015-01-04 01:21:07	nihali	ass
+2015-01-04 01:21:08	Logos01	clear
+2015-01-04 01:21:09	spxtr	Burninate: Weren't you given op the other day?
+2015-01-04 01:21:09	nihali	ass
+2015-01-04 01:21:11	nihali	ass
+2015-01-04 01:21:13	nihali	ass
+2015-01-04 01:21:15	nihali	ass
+2015-01-04 01:21:16	Logos01	spxtr: Voice I think.
+2015-01-04 01:21:17	nihali	ass
+2015-01-04 01:21:19	nihali	ass
+2015-01-04 01:21:19	Burninate	drethelin mjr sh: also ping
+2015-01-04 01:21:21	nihali	ass
+2015-01-04 01:21:25	nihali	ass
+2015-01-04 01:21:27	nihali	ass
+2015-01-04 01:21:28	<--	sh has kicked nihali (nihali)
+2015-01-04 01:21:29	-->	nihali (~nihali@gateway/vpn/privateinternetaccess/nihali) has joined #lesswrong
+2015-01-04 01:21:31	nihali	ass
+2015-01-04 01:21:33	nihali	ass
+2015-01-04 01:21:35	nihali	ass
+2015-01-04 01:21:37	nihali	ass
+2015-01-04 01:21:39	nihali	ass
+2015-01-04 01:21:41	nihali	ass
+2015-01-04 01:21:43	Burninate	Gonna need a ban
+2015-01-04 01:21:43	nihali	ass
+2015-01-04 01:21:45	nihali	ass
+2015-01-04 01:21:46	--	Mode #lesswrong [+b *!~nihali@*] by sh
+2015-01-04 01:21:47	<--	sh has kicked nihali (nihali)
+2015-01-04 01:21:51	spxtr	Thanks.
+2015-01-04 01:21:51	Burninate	Thanks.
+2015-01-04 01:22:18	realitygrill	domo
+2015-01-04 01:22:28	--	Mode #lesswrong [+b *!*@gateway/vpn/privateinternetaccess/nihali] by sh
+2015-01-04 01:22:33	@sh	Better to double up on this.
+2015-01-04 01:22:49	CoJaBo	He changes proxies every time
+2015-01-04 01:23:05	@drethelin	sorry I was distracted
+2015-01-04 01:23:10	Logos01	That kind of trolling makes no sense to me.
+2015-01-04 01:23:17	@drethelin	some people just want to see the world ass
+2015-01-04 01:23:31	realitygrill	maybe he's an ass-optimizer
+2015-01-04 01:23:43	@sh	Wanting to see ass is predicted perfectly well by evpsych, but ..
+2015-01-04 01:23:50	Burninate	#lw-gamegate: Is this your doing?  Is just mentioning its name sufficient to call the trolls?
+2015-01-04 01:24:10	morvkala	Probably...
+2015-01-04 01:24:51	Burninate	My impression was that gamergate was the name of the conflict, but I see now it's the name of one of the sides of the conflict.  How do I call the conflict stupid without taking sides?
+2015-01-04 01:25:17	cpopell2	Just call it 'the gamergate conflict'
+2015-01-04 01:25:21	@drethelin	just don't talk about it
+2015-01-04 01:25:24	cpopell2	^
+2015-01-04 01:25:32	 *	Burninate nods
+2015-01-04 01:26:25	Vulture	call it Gamerghazi
+2015-01-04 01:26:33	Vulture	that is the neutral name
+2015-01-04 01:26:36	morvkala	gamergategate?
+2015-01-04 01:26:36	cpopell2	No it's not :P
+2015-01-04 01:26:38	@olivia	oh dear.
+2015-01-04 01:26:42	cpopell2	Just don't talk about it
+2015-01-04 01:26:44	Vulture	also survey results are up
+2015-01-04 01:26:51	Logos01	cpopell2: So ... Game Club?
+2015-01-04 01:26:54	Logos01	<_<
+2015-01-04 01:26:56	Logos01	Sorry.
+2015-01-04 01:27:45	@olivia	the hell is going on in here
+2015-01-04 01:27:51	cpopell2	olivia: lots of ass
+2015-01-04 01:27:55	@olivia	so i see
+2015-01-04 01:27:57	cpopell2	and it wasn't mine for once
+2015-01-04 01:28:17	Vulture	SURVEY RESULTS ARE UP
+2015-01-04 01:28:50	CRM114	why avoid picking sides?
+2015-01-04 01:29:07	cpopell2	CRM114: Both sides get doxed if you're loud enough
+2015-01-04 01:29:15	SDr	huh, google auto-suggests URLs, if you start typing http://
+2015-01-04 01:29:19	SDr	instructive
+2015-01-04 01:29:46	cpopell2	CRM114: Also it's torn apart a lot of friendships and forums
+2015-01-04 01:29:47	CRM114	great...
+2015-01-04 01:30:15	cpopell2	*Note that neither side is primarily doing the doxxing, it's mostly trolls targeting anyone loud enough that it generates more outrage
+2015-01-04 01:30:43	CoJaBo	I'd just ban that entire provider.. I've not yet seen even a SINGLE person using it who wasn't either a cholby or a Bitcoin scammer (who might possibly have been cholby even)
+2015-01-04 01:30:53	CRM114	so it's just trolls dumping fuel on the fire?
+2015-01-04 01:30:57	cpopell2	Mhm
+2015-01-04 01:31:02	cpopell2	There's....
+2015-01-04 01:31:08	Vulture	gamergate is like a bathtub full of nitroglycerin and also the survey results are up
+2015-01-04 01:31:28	cpopell2	former Bantown, FYAD, GNAA, BWC, and associated encyclopediadramatica, plus unaffiliated
+2015-01-04 01:32:03	CRM114	I've only heard of some, but I'd expect it's them
+2015-01-04 01:32:41	-->	samohtys (~samohty@gateway/vpn/privateinternetaccess/samohty) has joined #lesswrong
+2015-01-04 01:33:36	CoJaBo	Cholby detected in sector 26
+2015-01-04 01:33:52	cpopell2	explain terminology 'cholby'?
+2015-01-04 01:34:07	CoJaBo	The channel-flooding guy who just got banned.
+2015-01-04 01:34:43	Logos01	No, explain what a "cholby" is
+2015-01-04 01:35:25	CoJaBo	His original nick
+2015-01-04 01:36:35	<--	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2015-01-04 01:37:37	-->	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has joined #lesswrong
+2015-01-04 01:38:27	shaykha	ah, so it started before cheeseomelette
+2015-01-04 01:38:45	<--	hugaraxia (~hugaraxia@hvgrx.net) has quit (Quit: No Ping reply in 180 seconds.)
+2015-01-04 01:39:05	shaykha	whatś the point of flooding channels? I fail to see any amusement to be felt
+2015-01-04 01:40:01	--	Mode #lesswrong [+b *!*@gateway/vpn/privateinternetaccess/*] by sh
+2015-01-04 01:40:14	@olivia	was in the process of typing that
+2015-01-04 01:40:18	<--	olivia has kicked samohtys (samohtys)
+2015-01-04 01:40:31	@sh	Agreed with the provider thing (obviously). On checking the properties of various nicks, this very much looks like a sybil attack.
+2015-01-04 01:40:31	<--	amar_ (~amar@unaffiliated/amar) has quit (Remote host closed the connection)
+2015-01-04 01:40:38	blsm	Did I miss something fun?
+2015-01-04 01:40:52	-->	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has joined #lesswrong
+2015-01-04 01:41:01	--	Mode #lesswrong [-b *!*@gateway/vpn/privateinternetaccess/nihali] by sh
+2015-01-04 01:41:06	shaykha	no, though you did miss somebody flooding the channel with the word äss"
+2015-01-04 01:41:14	<--	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2015-01-04 01:41:15	blsm	Intriguing.
+2015-01-04 01:41:19	-->	hugaraxia (~hugaraxia@hvgrx.net) has joined #lesswrong
+2015-01-04 01:41:28	--	Mode #lesswrong [-b *!~nihali@*] by sh
+2015-01-04 01:41:34	@olivia	shaykha: you seem to be adding accented characters in places. there a reason for that?
+2015-01-04 01:41:57	@olivia	just curious
+2015-01-04 01:42:03	-->	amar (~amar@unaffiliated/amar) has joined #lesswrong
+2015-01-04 01:42:06	shaykha	because I need to switch from the en-international keyboard to the regular en qwerty keyboard
+2015-01-04 01:42:27	blsm	Why need?
+2015-01-04 01:42:28	shaykha	but it's too much work navigating the cursor all the way to the top left of the screen, why can't I just type it?
+2015-01-04 01:42:33	shaykha	emacs has spoiled me
+2015-01-04 01:42:45	-->	darora (~darora@198.41.221.202.bf.2iij.net) has joined #lesswrong
+2015-01-04 01:42:49	Logos01	shaykha: Why do you say Sybil attack?
+2015-01-04 01:42:52	Logos01	Against what target?
+2015-01-04 01:42:56	Vulture	hey uh guys
+2015-01-04 01:43:04	spxtr	Ah yes, emacs truly is the root of all keyboard-related issues.
+2015-01-04 01:43:05	@sh	Logos01: Did you mean me?
+2015-01-04 01:43:07	Vulture	the survey results are up
+2015-01-04 01:43:13	adiabatic	I've heard of heavy-metal ümlaüts, but not caróńś
+2015-01-04 01:43:26	@olivia	Vulture: so i see
+2015-01-04 01:43:26	<--	yedi (~yedi@ool-44c38728.dyn.optonline.net) has quit (Remote host closed the connection)
+2015-01-04 01:43:30	@olivia	Vulture: got any comments?
+2015-01-04 01:43:31	Logos01	sh: Yes, yes I did.
+2015-01-04 01:43:32	Logos01	Damn.
+2015-01-04 01:43:37	@olivia	Vulture: you'll note it in the topic.
+2015-01-04 01:43:46	Vulture	oh
+2015-01-04 01:43:55	@sh	Logos01: And it turns out I misused the term, since we don't actually have a reputation system.
+2015-01-04 01:43:56	Vulture	sorry I'm an idiot
+2015-01-04 01:44:02	-->	yedi (~yedi@ool-44c38728.dyn.optonline.net) has joined #lesswrong
+2015-01-04 01:44:04	@olivia	Vulture: it was news to me
+2015-01-04 01:44:08	@olivia	Vulture: i didn't set that topic
+2015-01-04 01:44:09	-->	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has joined #lesswrong
+2015-01-04 01:44:22	Logos01	sh: Ahh. 'k
+2015-01-04 01:44:44	@sh	Logos01: Still, one person pretending they have several identities. Badly.
+2015-01-04 01:44:50	shaykha	awesome, we are about to see more hpmor
+2015-01-04 01:44:59	-->	ambiate (~x@216-188-238-141.dyn.grandenetworks.net) has joined #lesswrong
+2015-01-04 01:45:00	Logos01	sh: Fair.
+2015-01-04 01:45:08	Vulture	olivia: in my defense this client doesn't put the topic at the top. glad I was a little helpful though
+2015-01-04 01:46:59	Logos01	Here's a concept that took far, far too long to come about:
+2015-01-04 01:47:00	Logos01	https://www.youtube.com/watch?feature=player_embedded&v=Jt5mHKhlmQ4
+2015-01-04 01:47:02	pookie	video: くるくる鍋アルミ箔 (length: 00:29, views: 4,603, rating: 4.8, posted: 2013-03-03)
+2015-01-04 01:47:08	Logos01	(Self-stirring pots)
+2015-01-04 01:47:14	@olivia	um
+2015-01-04 01:47:26	@olivia	.g magnetic stirrer
+2015-01-04 01:47:29	feepbot	olivia: http://www.instructables.com/id/How-to-Make-a-Cheap-Portable-Magnetic-Stirrer/ How to Make a Cheap, Portable Magnetic Stirrer
+2015-01-04 01:47:43	Burninate	So: Hanu Rajaniemi, another chapter of linear algebra, the #lw-ml reading for the week, and sleep.  Maybe not in that order.  But no more IRC.  Goodnight.
+2015-01-04 01:47:52	Logos01	olivia: No, no magnets in this
+2015-01-04 01:48:13	Logos01	olivia: It's just the shape of the pot. The heated water's flows creates a cyclonic effect stirring the contents.
+2015-01-04 01:48:22	<--	yedi (~yedi@ool-44c38728.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2015-01-04 01:48:36	@olivia	Logos01: so i see. that's pretty cool.
+2015-01-04 01:48:42	<--	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has quit (Ping timeout: 250 seconds)
+2015-01-04 01:49:30	Burninate	It does that in a normal boiling pot without the "cyclone".
+2015-01-04 01:49:49	<--	hEEGy (~hEEGy@unaffiliated/heegy) has quit (Remote host closed the connection)
+2015-01-04 01:49:52	Burninate	Steam stirs the water.
+2015-01-04 01:49:54	Logos01	Burninate: Right, this is leveraging convection to create turbulence in the water.
+2015-01-04 01:50:08	@olivia	hmmm
+2015-01-04 01:50:22	<--	Ginguin (uid56958@gateway/web/irccloud.com/x-drmrzlpblrciydeu) has quit (Quit: Connection closed for inactivity)
+2015-01-04 01:50:22	blsm	I don't see why 'Thelema' is an amusing denomination in the religions section of the survey.
+2015-01-04 01:50:38	Logos01	blsm: Because it's an antiepistemic religion?
+2015-01-04 01:50:42	Burninate	This is organizing flows so there's less turbulence in the water, and it seems to you to all be moving in roughly the same direction - toroidally
+2015-01-04 01:50:43	@olivia	is there a coating you could put in strips on the sides of a pot that would have a similar thermal effect?
+2015-01-04 01:50:45	Logos01	Magic practice
+2015-01-04 01:50:50	Logos01	Hermeticism
+2015-01-04 01:50:54	blsm	I know that.
+2015-01-04 01:51:18	@olivia	what is an antiepistemic religion
+2015-01-04 01:51:30	blsm	Every religion, really.
+2015-01-04 01:51:38	@olivia	well yeah but Logos01 meant something by that
+2015-01-04 01:51:44	Logos01	olivia: Well. They all are, yes. But some are worse than others.
+2015-01-04 01:52:02	blsm	And why would you consider Thelema worse?
+2015-01-04 01:52:09	Ralith	olivia: boiling water is always turbulent, you don't need to faff about
+2015-01-04 01:52:14	Logos01	Most religions don't actively subvert the adherent's perceptions of the natural world.
+2015-01-04 01:52:17	Logos01	Thelema does.
+2015-01-04 01:52:29	blsm	Elaborate.
+2015-01-04 01:52:36	quanticle	_The Martian_ is an excellent hard SF novel
+2015-01-04 01:52:43	@olivia	quanticle: yes. yes it is.
+2015-01-04 01:52:50	quanticle	That is all.
+2015-01-04 01:52:55	Logos01	blsm: It's one thing to believe in a mostly Deistic religion.
+2015-01-04 01:53:07	blsm	Besides which, that doesn't make it any less serious a religion than any other.
+2015-01-04 01:53:17	Logos01	It's another to believe that you, personally, can directly change the world through will alone.
+2015-01-04 01:53:37	Ralith	_The Martian_ is absolutely not excellent
+2015-01-04 01:53:39	Ralith	it is merely okay
+2015-01-04 01:53:55	@olivia	Ralith: you are wrong and should be ashamed of yourself.
+2015-01-04 01:53:59	Ralith	no u
+2015-01-04 01:54:05	blsm	Well, a large majority of occult groups will assure you the truth of that.
+2015-01-04 01:54:08	CRM114	lol
+2015-01-04 01:54:28	<--	Lethena (~Lethena@71-89-52-248.dhcp.stpt.wi.charter.com) has left #lesswrong ("Leaving")
+2015-01-04 01:54:34	CRM114	martian is nice, but I didn't get trough it, the file I had was terrible
+2015-01-04 01:54:45	Logos01	blsm: Yes. So I classify them as especially antiepistemic on that grounds.
+2015-01-04 01:54:49	<--	CheckDavid (uid14990@gateway/web/irccloud.com/x-coorhsfvssswpskb) has quit (Quit: Connection closed for inactivity)
+2015-01-04 01:54:55	@olivia	...
+2015-01-04 01:55:03	@olivia	look at that user that left just now
+2015-01-04 01:55:06	@olivia	that is amusing.
+2015-01-04 01:55:06	<--	darora (~darora@198.41.221.202.bf.2iij.net) has quit (Quit: leaving)
+2015-01-04 01:55:19	Logos01	olivia: CheckDavid ?
+2015-01-04 01:55:21	blsm	Logos01:  They do have a point though.
+2015-01-04 01:55:25	@olivia	Logos01: before that
+2015-01-04 01:55:33	Logos01	Lethena?
+2015-01-04 01:55:49	Logos01	blsm: What point would that bE?
+2015-01-04 01:55:51	Logos01	be*
+2015-01-04 01:55:52	@olivia	look at the letters for a second. i just thought that was amusing considering the conversation.
+2015-01-04 01:56:22	Logos01	olivia: Ah. Thelema vs Lethena
+2015-01-04 01:56:26	Logos01	Near-anagram
+2015-01-04 01:56:30	-->	moreati (~alex@moreati.plus.com) has joined #lesswrong
+2015-01-04 01:56:32	@olivia	oh shit i didnt notice the m/n
+2015-01-04 01:56:33	Logos01	amagran?
+2015-01-04 01:57:07	@olivia	amagramagram
+2015-01-04 01:57:16	blsm	I quite definitely agree that you can change the world through 'will alone'. Usually because a whole lot of effort comes with that will.
+2015-01-04 01:57:18	Logos01	amagranarama
+2015-01-04 01:57:27	Logos01	blsm: Umm... no.
+2015-01-04 01:57:30	CRM114	deities described as "literary conveniences", lol, this sounds almost like a bigger joke than Discordianism
+2015-01-04 01:57:32	@olivia	anamanagramarama
+2015-01-04 01:57:34	Logos01	That's by definition *NOT* "will alone"
+2015-01-04 01:57:38	Logos01	That's will + other stuff
+2015-01-04 01:57:45	blsm	In that case no such thing exists.
+2015-01-04 01:57:47	Logos01	It's that other stuff that does all of the lifting -- heavy and light
+2015-01-04 01:57:50	Logos01	blsm: Bingo.
+2015-01-04 01:57:56	Logos01	Yet they perpetrate the notion that it does.
+2015-01-04 01:58:06	spxtr	Ralith: What hard scifi novel did you like more than _The Martian_?
+2015-01-04 01:58:59	Ralith	spxtr: that question is a bit dubious, but relevation space is a good series that is on the harder end of the scale
+2015-01-04 01:59:08	<--	iajrz (~user@190.166.84.136) has quit (Read error: Connection reset by peer)
+2015-01-04 01:59:15	Ralith	only issue is lacking sympathetic characters
+2015-01-04 01:59:29	blsm	Logos01: So you take everything any religion ever claims literally
+2015-01-04 01:59:35	@olivia	Ralith: first we need to find out how you weight elements of a hard SF story.
+2015-01-04 01:59:46	Ralith	no
+2015-01-04 01:59:51	Logos01	blsm: No
+2015-01-04 02:00:11	Logos01	blsm: But I do take the actual claims of religions I have first hand experience with to be representative of their actual claims.
+2015-01-04 02:00:20	Logos01	blsm: I am a former occultist.
+2015-01-04 02:00:34	blsm	Logos01: Not the only one here.
+2015-01-04 02:00:47	Logos01	It's hard to go down that route without being familiar with the Thelema.
+2015-01-04 02:00:49	Logos01	Anyhow.
+2015-01-04 02:03:30	@olivia	the reasoning behind the question i just asked Ralith makes me want to start a blog. so i can write about a Grand Unifying Theory of Literary Criticism. but considering that said thing just occurred to me, it's probably wildly wrong and dependent on lots of things specific to my experience. so i'm not going to. this is a fairly common experience of mine. maybe i should write stuff down anyway.
+2015-01-04 02:03:57	-->	hEEGy (~hEEGy@unaffiliated/heegy) has joined #lesswrong
+2015-01-04 02:04:30	Ralith	writing stuff down rarely hurts
+2015-01-04 02:04:57	<--	amar (~amar@unaffiliated/amar) has quit (Remote host closed the connection)
+2015-01-04 02:06:25	CRM114	I found the characters in Revelation space to be appropriate to the setting, not detracting from the science
+2015-01-04 02:06:56	Logos01	Is it just me or is this article especially obnoxious in some underlying way?
+2015-01-04 02:06:57	Logos01	http://www.neuroscientistnews.com/research-news/new-test-measures-analytical-thinking-linked-depression-fueling-idea-depression-may-be
+2015-01-04 02:06:58	pookie	title: A new test measures analytical thinking linked to depression, fueling the idea that depression may be a form of adaptation | neuroscientistnews.com
+2015-01-04 02:07:13	Logos01	I can't quite lay my finger on what that "underlying way" is.
+2015-01-04 02:07:17	@olivia	Logos01: how long is it
+2015-01-04 02:07:42	Logos01	olivia: less than 500 words I guesstimate
+2015-01-04 02:07:48	@olivia	okay
+2015-01-04 02:07:56	Logos01	single page
+2015-01-04 02:08:02	<--	hEEGy (~hEEGy@unaffiliated/heegy) has quit (Read error: Connection reset by peer)
+2015-01-04 02:08:19	Ralith	Logos01: xclip -o |wc -w is your friend
+2015-01-04 02:08:21	Logos01	Basically it's saying that they used a 20-question test to establish a "relationship" between "analytical rumination" and depression
+2015-01-04 02:08:30	Logos01	Ralith: That takes effort though.
+2015-01-04 02:08:35	Logos01	All that clicking and pasting.
+2015-01-04 02:08:48	Logos01	Also I tend to use tmux so sometimes xclip gets wonky
+2015-01-04 02:08:49	Ralith	there is exactly one click involved, and no pasting to speak of
+2015-01-04 02:08:51	Ralith	:p
+2015-01-04 02:08:54	Logos01	I can fix that but it's per-session.
+2015-01-04 02:09:10	Logos01	(And I never remember to.)
+2015-01-04 02:09:25	Ralith	tmux will have no effect on xclip unless you are restarting your X in strange ways
+2015-01-04 02:09:36	@olivia	it does seem vaguely annoying
+2015-01-04 02:09:42	@olivia	maybe i was just primed for that
+2015-01-04 02:09:44	Logos01	Ralith: That's not true.
+2015-01-04 02:10:23	Logos01	Ralith: For example: http://unix.stackexchange.com/questions/131011/use-system-clipboard-in-vi-copy-mode-in-tmux
+2015-01-04 02:10:24	pookie	title: xclip - Use system clipboard in vi-copy mode in tmux - Unix & Linux Stack Exchange
+2015-01-04 02:10:25	-->	iajrz (~user@190.166.84.136) has joined #lesswrong
+2015-01-04 02:10:47	-->	pinebanner (~pinebanne@198.41.221.202.bf.2iij.net) has joined #lesswrong
+2015-01-04 02:11:07	Logos01	olivia: It's the whole "We establish a relationship! We won't say what that relationship is exactly nor how strong it is, but it's there, honest! And that means this other wildassed conclusion because we totes have evidence now."
+2015-01-04 02:11:10	Ralith	Logos01: that post has nothing to do with xclip at all...
+2015-01-04 02:11:12	Logos01	That irks me.
+2015-01-04 02:11:22	Logos01	Ralith: Erm... yeah, you're wrong, sir.
+2015-01-04 02:11:48	-->	rejuvyesh (~rejuvyesh@202.3.77.214) has joined #lesswrong
+2015-01-04 02:12:09	Ralith	olivia: you should start a blog
+2015-01-04 02:12:34	<--	rejuvyesh (~rejuvyesh@202.3.77.214) has quit (Changing host)
+2015-01-04 02:12:34	-->	rejuvyesh (~rejuvyesh@unaffiliated/rejuvyesh) has joined #lesswrong
+2015-01-04 02:13:06	<--	Abaris (6145a746@gateway/web/freenode/ip.97.69.167.70) has left #lesswrong
+2015-01-04 02:13:39	-->	fugyk (~fugyk@117.222.66.219) has joined #lesswrong
+2015-01-04 02:14:57	<--	john_not_jenny (~jnj@unaffiliated/john-not-jenny/x-7219418) has quit (Remote host closed the connection)
+2015-01-04 02:18:39	<--	pinebanner (~pinebanne@198.41.221.202.bf.2iij.net) has quit (Quit: leaving)
+2015-01-04 02:19:50	-->	pinebanner (~pinebanne@198.41.221.202.bf.2iij.net) has joined #lesswrong
+2015-01-04 02:22:22	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 245 seconds)
+2015-01-04 02:22:43	shaykha	I was looking for something like xclip a few days ago, thanks Logos01
+2015-01-04 02:23:30	<--	pinebanner (~pinebanne@198.41.221.202.bf.2iij.net) has quit (Client Quit)
+2015-01-04 02:23:31	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #lesswrong
+2015-01-04 02:23:39	-->	pinebanner (~pinebanne@198.41.221.202.bf.2iij.net) has joined #lesswrong
+2015-01-04 02:23:54	Ralith	shaykha: you're welcome
+2015-01-04 02:23:55	Ralith	:p
+2015-01-04 02:24:30	Ralith	I don't know if Logos01 has ever even used it
+2015-01-04 02:25:11	Logos01	So infrequently I apparently know more about its edgecases than you do.
+2015-01-04 02:25:14	Logos01	So obviously no.
+2015-01-04 02:25:22	<--	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has quit (Ping timeout: 240 seconds)
+2015-01-04 02:25:29	shaykha	I'm torn between answering with sarcasm or with thanks
+2015-01-04 02:25:33	shaykha	it's time to go to sleep
+2015-01-04 02:26:03	shaykha	good night
+2015-01-04 02:26:26	Ralith	~
+2015-01-04 10:38:14		irc: disconnected from server
+2015-01-04 10:38:37	-->	mainframer (~greg@pool-96-233-138-162.prvdri.fios.verizon.net) has joined #lesswrong
+2015-01-04 10:38:37	--	Topic for #lesswrong is "http://lesswrong.com/r/lesswrong/lw/lhg/2014_survey_results/ | http://hpmor.com/notes/progress-15-01-01/ | http://gwern.net/newsletter/2014/12 | #lw-prog #lw-support #lw-bitcoin | no public logs"
+2015-01-04 10:38:37	--	Topic set by saturn2 (~visitant@unaffiliated/clone-of-saturn/x-2509460) on Sun, 04 Jan 2015 00:17:30
+2015-01-04 10:38:37	--	Nicks #lesswrong: [@Burninate @gwern @mjr @olivia @saturn2 @sh [mbm] [ui] A000000 abuss ahel aloril ambiate amoebius amphibious Anonymous357 argusdusty aseidl Bakkot Bansku Baughn beauby ben- bencryption Betawolf bets BobaMa boltR Boriss boston brainiac256 brand0 brendyyn Bright Bruloocks bydo ByronJohnson c0rw1n catern catsup CGML cloudcell clsr cntrational codehotter CoJaBo Coornail Cory cpopell2 csabiftw_ cursive cwillu cwillu_at_work daemian danlucraft danohu David Deadhand dec derfj_ deSouza dh djcb djeimsyxuis docl douglass_ Douhet drewbot DrPete dsirijus dTal dualbus dv- dx Dyo elevation elsig EnLilaSko ephess epitron ErikBjare_ espes__ fadeway feep feepbot feignt Filipe fmu foamz FracV fxhnd77 gattuso gde33 Gelsamel_ gjord glutton govg graehl Guest52575 Guest73108 GuestX_123 Gurkenglas Gyrodiot hehelleshin henry- hguux_ hugaraxia iamfishhead ilya inara` indeo inkyoto ivan\ janoelze_ JBeshir jeffw198_____ Jello_Raptor Jesin jgotts johnnycarcin Jonii_ jrayhawk_ jswanson jzk kanzure KD9AUS keko_ key_ Khoth Kiba kindaish kini kmc ksotala kuudes lahwran leifkb lexande linear4 Logos01 lukas Lycerion Madplatypus mainframer marchdown mastensg mavhc MicaiahC Micromus midnightmagic mindspillage mitchty MoALTz moreati morvkala MrEmile mspier|away nanotube ndrei neona neptunepink Neros nickenchuggets nisstyre normod notthemessiah nsh Obormot[away] OneFixt onthesta1rs orionstein oru_ otoburb oyho_____ packrat palantir_ ParahSailin paritybit passcod Peng phood pkkm pookie ppk pskosinski QuadIngi quanticle quintopia Raccoon Ralith realitygrill redlizard relgar rhaps0dy RiversHaveWings robsen rola roxton roxton_ rray rsaarelm Santzes SaulHarris SDr sef seismo_ sgentle Sgeo shachaf shminux_ siavashg smiley1983 SN4T14 snkcld Soft sohum SoundLogic Speed srijan4 strangewarp_ supersoju talanor tar_w tazjin Tene tenoke TheCowboy theORIGINALshawn Therms tiki Tiktalik tinster torchic____ ToyKeeper traverseda TRManderson troposol trwired tsutsu tuningmind twanvl Twey two2thehead u__ ua uber ulkesh um_ Urchin Veltzeh viccuad vikraman Vulture vzctl Wandering|Home wasp__ Wolvenreign wombawomba Ycros yorick zwx]
+2015-01-04 10:38:37	--	Channel #lesswrong: 261 nicks (6 ops, 0 halfops, 0 voices, 255 normals)
+2015-01-04 10:38:37	--	Mode #lesswrong [+nst]
+2015-01-04 10:38:37	--	Channel created on Thu, 02 Apr 2009 17:59:29
+2015-01-04 10:39:27	kuudes	i made my master's thesis in effort estimation, though likely i think i owuld now have better insights into knowing to what to ask. but i guess that topic has also an interest to me
+2015-01-04 10:41:42	Gyrodiot	What is your field ?
+2015-01-04 10:42:08	kuudes	i have masters in computer science, Gyrodiot, though i am not very certain what is my field :-)
+2015-01-04 10:42:53	Gyrodiot	OK :)
+2015-01-04 10:43:57	Gyrodiot	I have a problem with code integration. I'm used to re-code frameworks on the side of a project, sometimes reinventing the wheel
+2015-01-04 10:44:06	c0rw1n	one problem in the knot is i simply don't know enough, and the learning curve towards things i actually find interesting looks like ten years locked up with books.
+2015-01-04 10:44:06	c0rw1n	problem two is i don't know how to begin to learn basic programming techniques i need, like unit testing. problem 3 is i have no motivation to spend the effort to learn new environments all the time, related to problem 3.5: software sucks, nothing works and everything is broken.
+2015-01-04 10:44:06	c0rw1n	Problem four doesn't exist. problem five is i'm always unhappy about my setup and always need one more tool to even begin to work, even though i'm losing so much time pining for tools that i could have done the same work if i just kludged it with what i already had.
+2015-01-04 10:46:24	redlizard	c0rw1n: So what are the topics you find interesting?
+2015-01-04 10:46:25	cursive	i have had many similar problems c0rw1n
+2015-01-04 10:46:26	Gyrodiot	4 will be the hardest to solve.
+2015-01-04 10:46:35	kuudes	hmm... if you have x bits of information and you add a new bit there, i guess you have 2x options of (0/1 times possible positions). as loc count measures x but information amount grows with 2^x, perhaps effort should be measured in 2^x...
+2015-01-04 10:47:16	c0rw1n	redlizard: extensions to cryptocurrency, and ai-related things
+2015-01-04 10:47:27	kuudes	i mean, perhaps the product the people in coding are producing is the amount of information, so loc difference should slow down logarithmically or something
+2015-01-04 10:47:29	kuudes	oh well
+2015-01-04 10:48:06	redlizard	c0rw1n: Cryptocurrencies will involve studying quite a bit of math but are pretty light in terms of programming.
+2015-01-04 10:48:08	kuudes	i have similar feelings than you also c0rw1n
+2015-01-04 10:48:12	-->	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has joined #lesswrong
+2015-01-04 10:49:12	redlizard	AI is more challenging, but as long as you stay within the boundaries of well-understood techniques it too is more a matter of understanding the concepts than raw programming ability.
+2015-01-04 10:49:34	redlizard	If you want to push the envelope with really new stuff, good luck.
+2015-01-04 10:49:42	cursive	c0rw1n: you should really try going along with our #lw-ml. i don't think what we're doing is super complicated
+2015-01-04 10:49:42	redlizard	(You'll need it.)
+2015-01-04 10:49:48	 *	Gyrodiot pushes. It's hard
+2015-01-04 10:50:59	c0rw1n	yeah but seriously, my level in math is nowhere near beginning the prerequisites for following the #lw-ml syllabus. even the little i know of calculus and differential equations is obfuscated by the problem that i learned that in french
+2015-01-04 10:51:16	Gyrodiot	... is there a list of #lw-* channels ?
+2015-01-04 10:51:19	redlizard	Gyrodiot: http://www.sinfest.net/view.php?date=2003-06-24
+2015-01-04 10:51:20	pookie	title: Sinfest :: Archive
+2015-01-04 10:51:36	c0rw1n	yeah, /whois everyone on activity. you'll get a complete list in a day
+2015-01-04 10:51:57	Gyrodiot	redlizard: :D
+2015-01-04 10:52:05	c0rw1n	lulz
+2015-01-04 10:52:16	Gyrodiot	c0rw1n: Hmm... nice.
+2015-01-04 10:52:18	Gyrodiot	Thanks
+2015-01-04 10:52:27	c0rw1n	yw :3
+2015-01-04 10:53:54	Gyrodiot	I should invest in an actual IRC client.
+2015-01-04 10:54:27	c0rw1n	i'm on : #lesswrong , #lesswrong-sex , #lw-bitcoin , #lw-cryonics , #lw-ml , #lw-prog , #lw-sex , and #gwern
+2015-01-04 10:55:19	cursive	c0rw1n: /whois only reveals channels you are in mutually, though?
+2015-01-04 10:55:27	c0rw1n	no
+2015-01-04 10:55:35	c0rw1n	reveals what channels the user is on
+2015-01-04 10:55:36	cursive	also i like how there are two lesswrong subchannels for sex
+2015-01-04 10:55:47	cursive	when i /whois you i only see #lesswrong and #lw-ml
+2015-01-04 10:55:48	c0rw1n	oh, and don't /whois midnightmagic
+2015-01-04 10:56:03	c0rw1n	they're on like 300 channels
+2015-01-04 10:56:16	cursive	hmm
+2015-01-04 10:56:17	kuudes	i think +i channels are not shown?
+2015-01-04 10:56:22	c0rw1n	cursive: oh. idk
+2015-01-04 10:56:33	cursive	when i whois midnightmagic i only see #lesswrong
+2015-01-04 10:56:43	c0rw1n	oh well
+2015-01-04 10:56:46	Gyrodiot	Same here
+2015-01-04 10:57:17	@Burninate	<Ralith> I want a bakery to make a pastry that's just like<Ralith> layers upon layers of apple pie bottom crust
+2015-01-04 10:57:17	@Burninate	<Ralith> baked together
+2015-01-04 10:57:18	@Burninate	<Ralith> tha twould be amazing
+2015-01-04 10:57:28	c0rw1n	i see them on a dozen channels, all channels i'm on too
+2015-01-04 10:57:30	c0rw1n	weird
+2015-01-04 10:57:34	@Burninate	Apple rugelach
+2015-01-04 10:58:09	c0rw1n	there's an inverted pie we call Tatin in french
+2015-01-04 10:58:29	c0rw1n	it's usually served with cream and sometimes an ice cream ball
+2015-01-04 10:58:49	@Burninate	The foodies think galettes are the shit right now
+2015-01-04 10:59:07	@Burninate	not sure what that buys you over a normal pie
+2015-01-04 10:59:09	c0rw1n	wtf, galettes have been around for like 35000 years
+2015-01-04 10:59:15	c0rw1n	and they're only a thing now? lol
+2015-01-04 10:59:41	cntrational	what are galettes
+2015-01-04 10:59:55	@Burninate	yes, and quinoa has been around for thousands of years too, but it is obviously part of an 'ancient grains' trend in the last few days
+2015-01-04 11:00:03	@Burninate	*years
+2015-01-04 11:00:07	@Burninate	*so what?
+2015-01-04 11:00:10	c0rw1n	galettes are all sorts of primitive bread
+2015-01-04 11:00:16	cntrational	i see
+2015-01-04 11:00:31	<--	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has quit (Remote host closed the connection)
+2015-01-04 11:00:33	@Burninate	galettes are pies without sides
+2015-01-04 11:00:46	@Burninate	http://en.wikipedia.org/wiki/File:Galette_compl%C3%A8te_in_Annecy,_France_-_20130714.jpg
+2015-01-04 11:00:47	pookie	wikimedia: 1,536 × 2,048 pixels, file size: 868 KB, MIME type: image/jpeg
+2015-01-04 11:00:48	c0rw1n	(my definition, from how i use the french word, learned by osmosis)
+2015-01-04 11:01:02	@Burninate	http://en.wikipedia.org/wiki/Galette
+2015-01-04 11:01:02	pookie	wikipedia: Galette is a term used in French cuisine to designate various types of flat round or freeform crusty cakes,[1] or, in the case of a Breton galette (galette bretonne), a pancake made with buckwheat flour usually with a savoury filling.
+2015-01-04 11:01:18	@Burninate	http://www.tastespotting.com/search/galette/1
+2015-01-04 11:01:18	pookie	title: TasteSpotting
+2015-01-04 11:02:44	@Burninate	also something Ralith might enjoy, due to ratio of crust to filling
+2015-01-04 11:02:46	Gyrodiot	Also called "crêpe".
+2015-01-04 11:03:12	Gyrodiot	More or less accurately.
+2015-01-04 11:03:24	@Burninate	Um... no.
+2015-01-04 11:03:46	@Burninate	A crepe is made of batter that spreads out
+2015-01-04 11:04:09	@Burninate	and remains soft +pliable after cooking
+2015-01-04 11:04:21	@Burninate	a galette is pie crust dough that one folds over that gets crunchy after baking
+2015-01-04 11:04:36	@Burninate	Not at all the same, from what I can tell.
+2015-01-04 11:04:46	c0rw1n	ok, so that's the ecyclopedia definition of how galette is used in english. for some reason, c0rw1n!french's usege of the word "galette" is much more inclusive. going to go see the french wikipedia page... ok, same def as on english wikipedia. so ok, i need a new word for "bread generally, with the center of this category as the noor bread"
+2015-01-04 11:05:07	@Burninate	flatbread?
+2015-01-04 11:05:20	Gyrodiot	Sorry, mixed with the "galette bretonne"
+2015-01-04 11:05:25	c0rw1n	maybe :\
+2015-01-04 11:05:26	@Burninate	http://en.wikipedia.org/wiki/Unleavened_bread
+2015-01-04 11:05:26	pookie	wikipedia: Unleavened bread can refer to a wide variety of breads which are not prepared with leavening agents. Unleavened breads are generally flat breads; however, not all flat breads are unleavened. Unleavened breads, such as the tortilla and roti, are staple foods in Central America and South Asia, respectively.
+2015-01-04 11:06:44	c0rw1n	good enough i guess
+2015-01-04 11:06:54	<--	ndrei (~avo@83.142.149.227) has quit (Quit: Lost terminal)
+2015-01-04 11:09:43	-->	hEEGy (~hEEGy@unaffiliated/heegy) has joined #lesswrong
+2015-01-04 11:10:54	-->	themediator (uid24709@gateway/web/irccloud.com/x-hrtnltieipsytufs) has joined #lesswrong
+2015-01-04 11:12:21	@Burninate	huh - I didn't realize that distinction
+2015-01-04 11:12:40	@Burninate	"Galette, or more properly Breton galette (French: Galette bretonne, Breton: Krampouezhenn gwinizh du), is also the name given in most French crêperies to savoury buckwheat flour pancakes, while those made from wheat flour, much smaller in size and mostly served with a sweet filling, are branded crêpes. "
+2015-01-04 11:12:59	@Burninate	France does have pancakes.
+2015-01-04 11:13:15	c0rw1n	oh we did go play in that discussion tree some time ago
+2015-01-04 11:13:45	@Burninate	though... Google Images indicates they're nothing like US pancakes.
+2015-01-04 11:14:01	Wolvenreign	Back.
+2015-01-04 11:14:02	@Burninate	and served in the shape of a galette wrapped around ham and cheese mainly
+2015-01-04 11:14:15	@Burninate	basically buckwheat crepes
+2015-01-04 11:14:38	@Burninate	*an egg
+2015-01-04 11:14:40	@Burninate	*and egg
+2015-01-04 11:15:31	-->	yabbes (~yabbes@dslb-094-220-085-229.094.220.pools.vodafone-ip.de) has joined #lesswrong
+2015-01-04 11:15:42	@Burninate	How is it galette is a French word barely used in the US and I'm correcting people on it?
+2015-01-04 11:16:09	@Burninate	c0rw1n: Flemish or French side of the country?
+2015-01-04 11:16:36	kuudes	are you hungry, Burninate? :-)
+2015-01-04 11:16:37	c0rw1n	wallifornia :)
+2015-01-04 11:20:37	@Burninate	kuudes: Always, lately.  Side effect of not eating enough to maintain weight.
+2015-01-04 11:20:57	kuudes	ah. restriction of calories ongoing?
+2015-01-04 11:21:02	@Burninate	Yes
+2015-01-04 11:22:53	@Burninate	https://www.google.com/search?q=buckwheat+pancakes&source=lnms&tbm=isch&sa=X  <-- Maybe I'll try these for breakfast
+2015-01-04 11:22:54	pookie	title: buckwheat pancakes - Google Search
+2015-01-04 11:23:07	-->	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has joined #lesswrong
+2015-01-04 11:23:18	-->	rejuvyesh (~rejuvyesh@202.3.77.215) has joined #lesswrong
+2015-01-04 11:23:52	<--	rejuvyesh (~rejuvyesh@202.3.77.215) has quit (Client Quit)
+2015-01-04 11:24:01	-->	rejuvyesh (~rejuvyesh@202.3.77.215) has joined #lesswrong
+2015-01-04 11:24:53	<--	rejuvyesh (~rejuvyesh@202.3.77.215) has quit (Changing host)
+2015-01-04 11:24:54	-->	rejuvyesh (~rejuvyesh@unaffiliated/rejuvyesh) has joined #lesswrong
+2015-01-04 11:26:09	redlizard	<c0rw1n> related to problem 3.5: software sucks, nothing works and everything is broken.
+2015-01-04 11:26:19	redlizard	c0rw1n: So help out reducing that problem by fixing some software.
+2015-01-04 11:34:44	kuudes	not by reducing software? ;-) :-p
+2015-01-04 11:35:09	c0rw1n	the problem is i don't want to do that even for me... like, i could fix that thing where my eclipse for c/cpp setup doesn't find the binaries it compiles, but then i'd have found one or more additional problems in the process, which might well not exist if i re-did a proper setup of the whole package... point is, it's broken, and it *breaks too easily*
+2015-01-04 11:35:38	-->	wombawom1a (~wombawomb@captiveportal-247-68.public.su.se) has joined #lesswrong
+2015-01-04 11:35:38	<--	wombawom1a (~wombawomb@captiveportal-247-68.public.su.se) has quit (Client Quit)
+2015-01-04 11:36:21	cursive	c0rw1n: that's a horrible trap. my strategy is just to find something that works well enough and try not to fuck with it unless low-effort solutions are apparent
+2015-01-04 11:36:43	cursive	i had trouble settling on this strategy because of similar reasons to you.
+2015-01-04 11:38:02	c0rw1n	one part of the trap there is that every friction tresses me way more than i can sustain for getting shit done
+2015-01-04 11:38:09	c0rw1n	*stresses me
+2015-01-04 11:38:11	<--	MrEmile (~Emile@stc92-3-82-245-250-186.fbx.proxad.net) has quit (Ping timeout: 265 seconds)
+2015-01-04 11:38:25	-->	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has joined #lesswrong
+2015-01-04 11:40:23	c0rw1n	the epicycles of Getting It to Just Work just seem so costly, with the caricature having been the vhdl class where we'd have the time to program circuits of like twenty lines at most, because the xilinx toolchain we used sucked so fucking hard
+2015-01-04 11:41:06	cursive	hmm. i find writing in emacs/vi + commandline interpreter/compiler (or web framework when i'm doing that kind of stuff) pretty low-friction. but it depends on what exactly you're trying to do.
+2015-01-04 11:42:07	redlizard	All I can say there is "choose your tools carefully".
+2015-01-04 11:42:27	c0rw1n	thinking of it, most of my labs were just like that, the main teacher had that philosophy that learning on really shitty environments would teach us to get shit done in lots of bad conditions. partly true : we learned to set shit up, but not much to get shit done once set up
+2015-01-04 11:42:48	<--	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has quit (Ping timeout: 244 seconds)
+2015-01-04 11:42:52	c0rw1n	which might well tie into my problem 1 : low skills and knowledge
+2015-01-04 11:42:52	cursive	that sounds horrible. no wonder you have an aversion to coding.
+2015-01-04 11:43:01	c0rw1n	but i LIKED coding!
+2015-01-04 11:43:33	-->	MrEmile (~Emile@stc92-3-82-245-250-186.fbx.proxad.net) has joined #lesswrong
+2015-01-04 11:43:36	redlizard	c0rw1n: There is a reason that many programmers have their own carefully tuned environments and refuse to work anywhere else.
+2015-01-04 11:43:52	<--	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has quit (Ping timeout: 240 seconds)
+2015-01-04 11:44:04	redlizard	And there is also a reason that many favour environments that are simple and robust rather than featureful.
+2015-01-04 11:44:09	c0rw1n	there's a tradeoff right there...
+2015-01-04 11:44:26	MrEmile	c0rw1n: hey by the way, were you at the Berlin meetup?
+2015-01-04 11:44:30	redlizard	Where?
+2015-01-04 11:44:30	MrEmile	(sorry if I already asked)
+2015-01-04 11:44:47	c0rw1n	MrEmile: no, wasn't there :(
+2015-01-04 11:45:00	-->	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has joined #lesswrong
+2015-01-04 11:45:10	feep	MrEmile: when was that one?
+2015-01-04 11:46:16	MrEmile	feep: last april or may I think
+2015-01-04 11:46:19	feep	o right
+2015-01-04 11:46:24	feep	I thought it was recent
+2015-01-04 11:46:41	MrEmile	c0rw1n: ok, I met a couple belgians, wasn't sure if you were one of 'em
+2015-01-04 11:47:05	c0rw1n	i went to the belgian meetup right after, and yeah two or three of them had gone to berlin
+2015-01-04 11:47:35	redlizard	c0rw1n: But anyway, the friction will be much less if you find an environment you like and stick with it.
+2015-01-04 11:47:58	-->	mstevens (~mstevens@fsf/member/pdpc.active.mstevens) has joined #lesswrong
+2015-01-04 11:48:36	<--	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has quit (Remote host closed the connection)
+2015-01-04 11:49:02	c0rw1n	that then runs into "learning curve an environment i like" ... last time i seriously tried was when i failed at modding vim
+2015-01-04 11:49:11	kuudes	i should get a machine with much more memory than currently. :-(
+2015-01-04 11:50:15	c0rw1n	(but then i was probably sorta asking for it. vim extensions on a gentoo via portage, of *course* that would be Broken By Default )
+2015-01-04 11:50:33	cursive	c0rw1n: bad idea
+2015-01-04 11:50:58	cursive	vim has its own package manager thingy
+2015-01-04 11:50:58	<--	Guest52575 (~Hyphen-at@c-73-180-34-198.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2015-01-04 11:50:59	c0rw1n	well if i'd gotten it to work, it would have been solid
+2015-01-04 11:50:59	cursive	pathogen
+2015-01-04 11:51:08	cursive	https://github.com/tpope/vim-pathogen
+2015-01-04 11:51:10	pookie	github: tpope/vim-pathogen - pathogen.vim: manage your runtimepath (watchers: 5,652, forks: 663)
+2015-01-04 11:51:15	redlizard	So get it to work.
+2015-01-04 11:51:15	c0rw1n	oh ok. but then wtf are vim extensions doing in portage...
+2015-01-04 11:51:24	redlizard	It's a one-time investment that pays off a lot in the long run.
+2015-01-04 11:51:24	mstevens	hello #lesswrong
+2015-01-04 11:51:30	c0rw1n	hello mstevens
+2015-01-04 11:51:30	kuudes	hi mstevens
+2015-01-04 11:51:39	-->	Guest52575 (~Hyphen-at@c-73-180-34-198.hsd1.or.comcast.net) has joined #lesswrong
+2015-01-04 11:51:46	redlizard	c0rw1n: They are packages, so they are in the package manager.
+2015-01-04 11:51:50	mstevens	I have an exciting newyear plan! I am considering... joining facebook
+2015-01-04 11:51:51	redlizard	As they should be.
+2015-01-04 11:52:02	c0rw1n	mstevens: the company?
+2015-01-04 11:52:31	mstevens	c0rw1n: As in creating a facebook user account, as many people do
+2015-01-04 11:53:17	kuudes	didn't you have one before and then quit, or do i remember wrong, mstevens?
+2015-01-04 11:53:28	mstevens	kuudes: you are correct
+2015-01-04 11:53:33	kuudes	nice
+2015-01-04 11:54:08	mstevens	kuudes: but now I feel like there's a bunch of people/organisations I want to interact with that are no facebook, so it might be worth the cost to go back
+2015-01-04 11:54:28	mstevens	no=on
+2015-01-04 11:54:33	kuudes	ah
+2015-01-04 11:54:44	kuudes	indeed :-(
+2015-01-04 11:55:00	-->	emhs (~emhs@104.152.204.228) has joined #lesswrong
+2015-01-04 11:55:39	 *	MrEmile invested some time learning vim but never found that it was a good investment
+2015-01-04 11:56:04	mstevens	MrEmile: I found it was a good investment but I can see it would depend a lot on your situation
+2015-01-04 11:56:16	mstevens	well, I learnt vi, I don't bother with most of the extensions
+2015-01-04 11:56:19	kuudes	i have pondered on the proposition that "the cloud" is making bubbles of memes for users where it ends up increasing the emotional affect the information causes in users regardless of what type of emotion it stirs there. didn't slatestarcodex write about this some time ago?
+2015-01-04 11:57:01	<--	Kiba (~chatzilla@adsl-184-36-165-160.asm.bellsouth.net) has quit (Ping timeout: 256 seconds)
+2015-01-04 11:57:57	c0rw1n	about something related yes. Toxoplasma of Rage
+2015-01-04 11:58:03	kuudes	yep
+2015-01-04 11:58:15	c0rw1n	oooh i have a model
+2015-01-04 11:58:16	mstevens	kuudes: eg my local games shop has a facebook, and this seems to be their preferred way for people to interact with them online
+2015-01-04 12:00:19	-->	onthestairs (~austin@host-92-24-92-168.ppp.as43234.net) has joined #lesswrong
+2015-01-04 12:00:52	kuudes	mstevens: indeed. c0rw1n: ?
+2015-01-04 12:02:19	mstevens	I wish one of the distributed facebook replacements would succeed
+2015-01-04 12:02:20	c0rw1n	the bubbles of subculture, as made up of each member's social/memetic bubble. Users who participate in more groups, clustered far apart, have more ... diluted? identities, little loyalty to each, not much identification with it as an ingroup. (generally.) users who participate a lot, in attention-time-effort, create expressions that are very central to how those very central in those groups feel. they produce content a
+2015-01-04 12:02:20	c0rw1n	nd meta around it, /the more they're active is the more they produce, and the more they consume/...
+2015-01-04 12:02:50	c0rw1n	... not sure how to finish to formulate that
+2015-01-04 12:02:52	<--	wombawomba (~wombawomb@captiveportal-247-68.public.su.se) has quit (Ping timeout: 240 seconds)
+2015-01-04 12:03:11	c0rw1n	in short : network effects on clusters of people
+2015-01-04 12:03:22	mstevens	I'm also thinking of giving up on the tumblr experiment. is not that great so far.
+2015-01-04 12:03:40	mainframer	Maybe internet memes themselves provide the reader with a small sense of belonging to a subculture.  The feeling might be akin to the small dopamine hit of pulling a slot machine lever. 
+2015-01-04 12:03:54	mainframer	Also hello #lesswrong!
+2015-01-04 12:03:59	mstevens	hello
+2015-01-04 12:03:59	<--	emhs (~emhs@104.152.204.228) has quit (Ping timeout: 245 seconds)
+2015-01-04 12:04:40	@Burninate	Welcome to #lesswrong.  May I take your order?
+2015-01-04 12:04:45	@Burninate	erm.
+2015-01-04 12:04:53	-->	pppk (~ppk@49.144.251.245) has joined #lesswrong
+2015-01-04 12:04:54	@Burninate	What brings you to the channel?
+2015-01-04 12:04:54	mstevens	hi Burninate!
+2015-01-04 12:05:01	morvkala	I'd like a pizza Burninate
+2015-01-04 12:05:18	c0rw1n	one big steak, fries, salt
+2015-01-04 12:05:32	mstevens	and then
+2015-01-04 12:05:32	mstevens	?
+2015-01-04 12:05:35	mainframer	A quest for acceptance and personal improvement.
+2015-01-04 12:05:43	-->	pppk_ (~ppk@49.144.238.16) has joined #lesswrong
+2015-01-04 12:05:46	mainframer	and a side of fries.
+2015-01-04 12:05:53	@Burninate	Are you aware of the web community attached to this room?
+2015-01-04 12:05:55	morvkala	One salt-rich rock in a cliff that rises at a near 90 degree slope.
+2015-01-04 12:06:19	-->	emhs (~emhs@104.152.204.228) has joined #lesswrong
+2015-01-04 12:06:53	mainframer	Not yet. I've lurked for a bit, and read some of SlaterStarCodex.
+2015-01-04 12:06:57	<--	ppk (~ppk@49.144.251.245) has quit (Ping timeout: 245 seconds)
+2015-01-04 12:06:58	--	pppk_ is now known as ppk
+2015-01-04 12:07:28	@Burninate	But you know of http://lesswrong.com/ http://wiki.lesswrong.com/wiki/Sequences , right?
+2015-01-04 12:07:29	pookie	title: Welcome to Less Wrong
+2015-01-04 12:07:30	pookie	title: Sequences - Lesswrongwiki
+2015-01-04 12:08:13	@Burninate	Just checking :)
+2015-01-04 12:09:15	-->	adiabatic (~adiabatic@pool-173-58-129-183.lsanca.fios.verizon.net) has joined #lesswrong
+2015-01-04 12:09:15	mainframer	Ah! Please excuse me for a month. I have some reading and lurking to attend to.
+2015-01-04 12:09:17	<--	pppk (~ppk@49.144.251.245) has quit (Ping timeout: 240 seconds)
+2015-01-04 12:09:52	realitygrill	a month? whoa
+2015-01-04 12:10:01	c0rw1n	:D if only all our noobs were like this ^^
+2015-01-04 12:10:17	realitygrill	let's give mainframer an award
+2015-01-04 12:10:18	mstevens	mainframer: personally I like the epub form for extended reading.
+2015-01-04 12:10:52	c0rw1n	took me one or two months, with nothing else to do. and ofc i should reread the whole thing at least one over
+2015-01-04 12:11:05	mstevens	(I also don't like the main site these days, I should probably kick myself out or something)
+2015-01-04 12:11:44	@gwern	'Although he was Jewish, his family celebrated Christmas, and he and his wife encouraged their son and two daughters to believe in Santa Claus. In time, his older daughter reached the age when she began to doubt Santa Claus's existence and suspected that her parents were the real source of Christmas gifts. But on Christmas morning, she opened a gift and found an expensive item that she had...
+2015-01-04 12:11:50	@gwern	...wanted. "There must be a Santa Claus," she said, excitedly. "Dad's too cheap to spend that much money." Murray delighted in telling that story.' http://object.cato.org/sites/cato.org/files/serials/files/regulation/2014/12/regulation-v37n4-2.pdf ouch
+2015-01-04 12:11:53	pookie	type: application/pdf, size: 3,204,095 bytes
+2015-01-04 12:13:17	<--	adiabatic (~adiabatic@pool-173-58-129-183.lsanca.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2015-01-04 12:13:37	@gwern	that's not funny, that's sad: that your daughter thinks you're such a selfish skinflint that you would never buy gifts for your children and that it's so much more likely a supernatural entity is delivering the gifts that it proves said entity's existence
+2015-01-04 12:14:02	@gwern	(one hopes the daughter was just making a joke and was not in the least bit serious)
+2015-01-04 12:14:22	realitygrill	never buy _expensive_ gifts
+2015-01-04 12:14:42	c0rw1n	just _relatively_ expensive gifts. we've read the same advice
+2015-01-04 12:16:03	@Burninate	Use it as a test of their letter-writing ability.  They get to pick their presents if the letter reaches Santa and he can read it.
+2015-01-04 12:16:39	@Burninate	#PervertingTheHolidays
+2015-01-04 12:19:08	@gwern	'However, little is known about sex differences in idiotic risk taking behaviour. This paper reviews the data on winners of the Darwin Award over a 20 year period (1995-2014). Winners of the Darwin Award must eliminate themselves from the gene pool in such an idiotic manner that their action ensures one less idiot will survive. This paper reports a marked sex difference in Darwin Award...
+2015-01-04 12:19:09	c0rw1n	i'm going out now. bye later all
+2015-01-04 12:19:14	@gwern	...winners: males are significantly more likely to receive the award than females (P<0.0001).' http://www.bmj.com/content/349/bmj.g7094
+2015-01-04 12:19:16	pookie	title: The Darwin Awards: sex differences in idiotic behaviour | The BMJ
+2015-01-04 12:19:22	@sh	gwern: Yeah, 'never buy gifts' is too strong. It was specifically about the price.
+2015-01-04 12:20:04	@sh	The DA thing is yet another case of higher male variance. Not surprising.
+2015-01-04 12:20:44	c0rw1n	plz someone work out the math to see how significant the darwin award winners are wrt eliminating idiocy from the gene pool
+2015-01-04 12:21:26	c0rw1n	(i suspect "way under statistical noise")
+2015-01-04 12:21:51	@gwern	c0rw1n: just the darwin awards? there aren't that many of them
+2015-01-04 12:22:03	c0rw1n	which is why my prediction
+2015-01-04 12:23:11	QuadIngi	"<c0rw1n> :D if only all our noobs were like this ^^" agreed
+2015-01-04 12:23:20	QuadIngi	damn, I still haven't read all the sequences
+2015-01-04 12:23:44	QuadIngi	I keep getting stuck at the one with evolution and the stone counting sheepherder
+2015-01-04 12:23:45	mstevens	I skimmed some. I could never get into the metaethics one, no clue what that's about
+2015-01-04 12:24:21	QuadIngi	like a few times a year I'll try to dive into that pdf, and just end up there and give up for some reason
+2015-01-04 12:24:30	QuadIngi	I'll try again tonight
+2015-01-04 12:24:37	c0rw1n	thatparable is written in a very heavy way, yes
+2015-01-04 12:24:52	c0rw1n	but AN Alien God and such, they're beautiful
+2015-01-04 12:25:13	-->	john_not_jenny (~jnj@unaffiliated/john-not-jenny/x-7219418) has joined #lesswrong
+2015-01-04 12:26:41	c0rw1n	also, Thou Art Physics and Thou Art Godshatter
+2015-01-04 12:27:02	<--	onthestairs (~austin@host-92-24-92-168.ppp.as43234.net) has quit (Ping timeout: 244 seconds)
+2015-01-04 12:27:49	<--	Wolvenreign (~Wolvenrei@107-147-76-33.res.bhn.net) has quit (Quit: Leaving)
+2015-01-04 12:27:56	-->	emlow (~emlow@morton.emlow.com) has joined #lesswrong
+2015-01-04 12:27:56	cntrational	gwern: https://33.media.tumblr.com/d73507e14cc264d58bce760b0981a7b5/tumblr_ncnb4zKVqD1qlrl8mo1_400.gif omg
+2015-01-04 12:27:58	pookie	image: 350x197 GIF (1,531,578 bytes, 45 frames)
+2015-01-04 12:29:47	<--	brainiac256 (~Chris@cpe-65-24-221-106.insight.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-01-04 12:29:51	-->	petersr (~PeterSR@87-58-53-250-static.dk.customer.tdc.net) has joined #lesswrong
+2015-01-04 12:30:09	QuadIngi	damnit ys it's this sequence: http://www.yudkowsky.net/rational/the-simple-truth
+2015-01-04 12:30:09	-->	amar (~amar@unaffiliated/amar) has joined #lesswrong
+2015-01-04 12:30:11	pookie	title: Yudkowsky - The Simple Truth
+2015-01-04 12:30:11	-->	brainiac256 (~Chris@cpe-65-24-221-106.insight.res.rr.com) has joined #lesswrong
+2015-01-04 12:30:16	QuadIngi	I really should skip it
+2015-01-04 12:31:01	cursive	it's just "the truth should correspond to reality" basically
+2015-01-04 12:32:22	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 245 seconds)
+2015-01-04 12:32:30	cursive	well, and i suppose "the closer your beliefs are to the truth, the more likely they are to be useful"
+2015-01-04 12:33:09	 *	mstevens deletes tumblr (it was a silly place)
+2015-01-04 12:33:53	QuadIngi	I still don't get how I'm supposed to calculate real life situations in mathematicians bits
+2015-01-04 12:34:24	QuadIngi	good on you mstevens I've managed to avoid it amlost entirely myself
+2015-01-04 12:35:21	cursive	well, that is an ideal, i think, QuadIngi. the closer you can get your heuristics to approximate it, the better.
+2015-01-04 12:36:06	cntrational	heyyy
+2015-01-04 12:36:11	cntrational	i'm using tumblr for stories
+2015-01-04 12:36:52	mstevens	QuadIngi: I was experimenting with it but after careful testing I think it sucks
+2015-01-04 12:36:53	QuadIngi	cursive, I literally don't grok what these bits are supposed to represent, I'm pretty sure it's to do with my deficit of mathematical ability :/
+2015-01-04 12:37:25	QuadIngi	someone I know claims that it is superior to reddit because "it's just so much easier to organise what you want"
+2015-01-04 12:37:27	<--	yabbes (~yabbes@dslb-094-220-085-229.094.220.pools.vodafone-ip.de) has left #lesswrong
+2015-01-04 12:38:16	mstevens	I found the UI is the worst part
+2015-01-04 12:42:00	@gwern	'Van Tassel’s interpretation of Genesis is particularly disconcerting: Eve was not a woman but a wild animal, and the original sin to which Christian doctrine refers was bestiality. Through Eve’s debased genetic line descend all the horrors of the modern world: materialism, corruption, nuclear bombs, and even taxes.' http://www.cabinetmagazine.org/issues/53/archibald.php
+2015-01-04 12:42:01	pookie	title: CABINET // Mass Effect
+2015-01-04 12:42:24	feep	yo
+2015-01-04 12:42:25	feep	agdq 15 is on!
+2015-01-04 12:44:28	-->	vultuure (~Vulture@2600:1012:b108:8c11:9cce:8210:3825:319a) has joined #lesswrong
+2015-01-04 12:47:11	<--	Vulture (~Vulture@2600:1012:b06d:2fff:7845:7aaa:3c68:2914) has quit (Ping timeout: 244 seconds)
+2015-01-04 12:47:13	-->	CheckDavid (uid14990@gateway/web/irccloud.com/x-gvanjgawgulhbvfn) has joined #lesswrong
+2015-01-04 12:47:31	feep	http://www.twitch.tv/gamesdonequick
+2015-01-04 12:47:32	pookie	title: Twitch
+2015-01-04 12:47:53	-->	Loweren (~Loweren@84.23.61.78) has joined #lesswrong
+2015-01-04 12:48:17	Loweren	just marathoned original star wars trilogy with friends
+2015-01-04 12:48:26	Loweren	am I officially a geek now?
+2015-01-04 12:50:00	@Burninate	Now do the same with Star Trek.
+2015-01-04 12:50:15	kuudes	hmm... still computer ads do not have how much noise they make
+2015-01-04 12:51:22	cursive	QuadIngi: so, mathematical ability might improve your precision to some degree, but in most aspects of life you're not dealing with precise numbers. i think the important lesson is "the more possible alternatives there are to a hypothesis, or the lower your priors are for that hypothesis, the more evidence you need to be confident in it."
+2015-01-04 12:51:59	moreati	kuudes: do you mean website ads that make sound are annoying you?
+2015-01-04 12:52:10	feep	Loweren: go marathon agdq next!
+2015-01-04 12:52:23	kuudes	no, the pcs
+2015-01-04 12:52:42	moreati	ah
+2015-01-04 12:52:49	kuudes	other appliances seem to list the decibels they make
+2015-01-04 12:52:58	QuadIngi	It helps a lot more to know what ballpark something is in than not having a clue, compared to knowing the precise probability
+2015-01-04 12:53:05	feep	Loweren: http://www.twitch.tv/gamesdonequick !
+2015-01-04 12:53:05	pookie	title: Twitch
+2015-01-04 12:53:18	kuudes	i guess there likely is some regulation to other appliances but not to computers
+2015-01-04 12:54:33	cursive	that is true QuadIngi. i definitely want to improve my own mathematical intuition for this reason. but you can still benefit from this lesson by reasoning like, "this seems really unlikely. i shouldn't let myself be convinced without overwhelming evidence."
+2015-01-04 12:55:44	QuadIngi	yeah, I try that often
+2015-01-04 12:56:19	-->	jasonjckn (~jasonjckn@173-164-196-202-SFBA.hfc.comcastbusiness.net) has joined #lesswrong
+2015-01-04 12:57:00	kuudes	hmm... i guess desktops can make as much sound as dishwashers... :-p
+2015-01-04 12:57:42	-->	seismo (~seismo@p5B0E8BDE.dip0.t-ipconnect.de) has joined #lesswrong
+2015-01-04 12:57:43	<--	emhs (~emhs@104.152.204.228) has quit (Ping timeout: 244 seconds)
+2015-01-04 12:58:11	-->	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has joined #lesswrong
+2015-01-04 13:00:30	cntrational	huh, i didn't know there were mass-market wearable cameras already
+2015-01-04 13:00:36	cntrational	(that are not glasses)
+2015-01-04 13:01:06	<--	govg (~govg@unaffiliated/govg) has quit (Quit: leaving)
+2015-01-04 13:01:20	-->	govg (~govg@unaffiliated/govg) has joined #lesswrong
+2015-01-04 13:01:23	<--	jasonjckn (~jasonjckn@173-164-196-202-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2015-01-04 13:01:43	Anonymous357	you mean the alzheimers ones?
+2015-01-04 13:01:59	Anonymous357	the future is here, and it's wipe clean
+2015-01-04 13:02:06	cntrational	http://www.engadget.com/2015/01/04/narrative-clip-2/
+2015-01-04 13:02:07	pookie	title: Say hello to the second generation of Narrative's wearable camera
+2015-01-04 13:02:15	-->	Kiba (~chatzilla@adsl-184-36-165-160.asm.bellsouth.net) has joined #lesswrong
+2015-01-04 13:03:34	kuudes	hmm... how well it would work if i would bring outside cold air inside a computer? i suppose the humidity would be the problem there?
+2015-01-04 13:03:59	kuudes	and cold air would not be available at summertime :-/
+2015-01-04 13:04:53	-->	Anders_H (~anders@134.174.140.40) has joined #lesswrong
+2015-01-04 13:08:41	-->	jouathau (6cec4aac@gateway/web/freenode/ip.108.236.74.172) has joined #lesswrong
+2015-01-04 13:09:30	Kiba	would the world be better off with a powerful world government?
+2015-01-04 13:09:47	 *	Kiba ponder the idea of pan-humanism for a lack of better world
+2015-01-04 13:09:52	Kiba	s/world/word
+2015-01-04 13:10:19	kuudes	nice, someone has done research on running computers out-of-room http://conferences.sigcomm.org/sigcomm/2010/papers/green/p9.pdf
+2015-01-04 13:10:21	pookie	type: application/pdf, size: 917,379 bytes
+2015-01-04 13:10:25	--	shminux_ is now known as shminux
+2015-01-04 13:11:08	kuudes	Kiba: how so? technically, un already is legally the world government, the member states just restrict it rather much...
+2015-01-04 13:11:29	blsm	So you can't call it powerful.
+2015-01-04 13:13:57	@Burninate	kuudes: Um... not really?  TWeber defined the state as an entity that successfully claims a "monopoly of the legitimate use of physical force within a given territory".
+2015-01-04 13:14:27	@Burninate	The UN does not do that.  Indeed, it would now be allowed to deploy forces at all throughout most of the world.
+2015-01-04 13:14:35	@Burninate	*not
+2015-01-04 13:14:37	kuudes	Burninate: well un technically has monopoly of armed power conditional on non-opposition from permanent members of un security council
+2015-01-04 13:14:44	kuudes	http://www.un.org/en/documents/charter/chapter7.shtml
+2015-01-04 13:14:45	pookie	title: Charter of the United Nations: Chapter VII: Action with Respect to Threats to the Peace, Breaches of the Peace and Acts of Agression
+2015-01-04 13:15:22	<--	amar (~amar@unaffiliated/amar) has quit (Remote host closed the connection)
+2015-01-04 13:15:43	blsm	You could also argue indefinitely over definitions of what constitutes a state.
+2015-01-04 13:15:51	@Burninate	No.  It doesn't.  The rest of the world maintains the right to field military forces and prosecute enemies of the state within their borders;  Including several areas that are not UN members.
+2015-01-04 13:15:53	kuudes	§48.1 " The action required to carry out the decisions of the Security Council for the maintenance of international peace and security shall be taken by all the Members of the United Nations or by some of them, as the Security Council may determine."
+2015-01-04 13:16:02	-->	amar (~amar@unaffiliated/amar) has joined #lesswrong
+2015-01-04 13:16:13	kuudes	security council may declare world war against any state as almost-last measure
+2015-01-04 13:16:18	Kiba	the UN does not have a monopoly on violence
+2015-01-04 13:16:22	kuudes	and it is binding on member states.
+2015-01-04 13:16:30	@Burninate	The UN is furthermore ridiculously poorly-obeyed when it does issue a directive approved by its voting process.
+2015-01-04 13:16:36	Kiba	it's only binding as far as someone follow it
+2015-01-04 13:16:41	Kiba	it's an anarchy basically
+2015-01-04 13:16:59	kuudes	*shrugs*
+2015-01-04 13:17:17	kuudes	i guess that depends on the sec council nuke states...
+2015-01-04 13:17:24	cursive	and even if the UN had a monopoly of force on its member states, not every state is a member state.
+2015-01-04 13:17:52	Kiba	eh, close enough
+2015-01-04 13:17:54	cursive	we don't say the US has a monopoly of force over countries it could theoretically invade? but 'monopoly of force' doesn't really seem like a useful idea anyway
+2015-01-04 13:17:54	kuudes	cursive: un charter gives un authority even on non-member areas iirc (conditional security council vetos again)
+2015-01-04 13:17:56	@Burninate	kuudes: Even that! That may work in theory, but as soon as the US, UK, China, Russia, & France start orderring South Korea where to deploy its forces, South Korea will withdraw from the UN.
+2015-01-04 13:18:16	kuudes	well korean war was un operation. un vs north korea.
+2015-01-04 13:18:19	@Burninate	The UN is a framework for diplomatic negotiation, not a government.
+2015-01-04 13:18:37	Kiba	it's like the league of nation, even bigger
+2015-01-04 13:18:59	@Burninate	It will *occasionally* deploy forces *volunteered* from member states that have an interest and simultaneously approve of the conflict.
+2015-01-04 13:19:00	kuudes	Burninate: read the charter. the only thing that makes it to current level of non-bindingness is the security council vetos.
+2015-01-04 13:19:22	@Burninate	But when a regiment in the US military disappears, we call it desertion.  When Australia leaves Afghanistan, we call it "Withdrawing".
+2015-01-04 13:19:49	Kiba	was the invasion of Afghanistan UN approved?
+2015-01-04 13:19:50	kuudes	i guess you are free to choose your own terms in your language there. i don't know how you define your terms.
+2015-01-04 13:19:55	kuudes	Kiba: yes.
+2015-01-04 13:19:58	kuudes	iraq wa not
+2015-01-04 13:20:01	kuudes	libya was.
+2015-01-04 13:20:14	<--	amar (~amar@unaffiliated/amar) has quit (Ping timeout: 245 seconds)
+2015-01-04 13:20:18	kuudes	syria afaik has not been, though anti-isis has been approved
+2015-01-04 13:21:19	Kiba	one way UN would be a state is if FTL is practical and there's a reason to band together against alien invaders
+2015-01-04 13:22:06	<--	two2thehead (~RDaneelOl@unaffiliated/two2thehead) has quit (Quit: Leaving)
+2015-01-04 13:22:50	Kiba	the hard part is the nations giving up their soverignity
+2015-01-04 13:23:14	@Burninate	The UN does not maintain a standing army, or demand compliance from member states in conflict, or issue directives to member states not in conflict, and expect them to be obeyed.  It does not redistribute money between members, it does not tax members, membership dues have been poorly enforced forever (something that may be changing now), it does not have a meaningful criminal justice system that it expects members to comply
+2015-01-04 13:23:14	@Burninate	 with.
+2015-01-04 13:23:24	Kiba	you could compromise by giving UN only interstellar authority
+2015-01-04 13:23:58	@Burninate	Its budget is minimal compared with member state economies
+2015-01-04 13:24:00	 *	gwern jailbreaks https://pdf.yt/d/zguK1Egu2kFycsA- / https://www.dropbox.com/s/4ky5snzyteftmz2/1974-bem.pdf
+2015-01-04 13:24:01	pookie	title: View 1974-bem.pdf - PDFy - Instant PDF Host
+2015-01-04 13:24:01	pookie	title: Dropbox - Error
+2015-01-04 13:24:14	@Burninate	Its budget is dwarfed by many member state *governments*
+2015-01-04 13:24:34	kuudes	Burninate: un actually has readyforces...
+2015-01-04 13:24:47	Kiba	UN peacekeepers?
+2015-01-04 13:25:03	Kiba	we don't have a first contact plan, right
+2015-01-04 13:25:05	kuudes	http://www.un.org/en/documents/charter/chapter7.shtml §45: "In order to enable the United Nations to take urgent military measures, Members shall hold immediately available national air-force contingents for combined international enforcement action. The strength and degree of readiness of these contingents and plans for their combined action shall be determined within the limits laid down in the special agreement or agreements re
+2015-01-04 13:25:05	kuudes	to in Article 43, by the Security Council with the assistance of the Military Staff Committee. "
+2015-01-04 13:25:06	pookie	title: Charter of the United Nations: Chapter VII: Action with Respect to Threats to the Peace, Breaches of the Peace and Acts of Agression
+2015-01-04 13:25:17	@Burninate	It coordinates voluntary contributions of forces from member states towards conflicts they agree with.
+2015-01-04 13:25:43	 *	gwern jailbreaks https://pdf.yt/d/zueukhIJDa6woF9R / https://www.dropbox.com/s/dwjrpviga6e137z/1988-spiller.pdf / http://sci-hub.org/downloads/d5cf/spiller1988.pdf
+2015-01-04 13:25:44	pookie	title: View 1988-spiller.pdf - PDFy - Instant PDF Host
+2015-01-04 13:25:44	pookie	title: Dropbox - 1988-spiller.pdf
+2015-01-04 13:26:03	@Burninate	"Why does the UN not have a standing reserve?
+2015-01-04 13:26:03	@Burninate	  It takes considerable time to deploy troops and we are often asked why we do not have a standing reserve." - http://www.un.org/en/peacekeeping/issues/military.shtml
+2015-01-04 13:26:04	pookie	title: Military. United Nations Peacekeeping
+2015-01-04 13:26:24	@Burninate	"  A standing reserve sounds logical, but it would be immensely costly to have a force of several thousand people on permanent standby. It would require training, accommodating, feeding, etc. and then might not even be used.  "
+2015-01-04 13:30:07	morvkala	I wish restaurants provided calories / dollar ...
+2015-01-04 13:30:07	@Burninate	" All military personnel working under the Blue Helmet are first and foremost members of their own national armies and are then seconded to work with the UN for periods normally of up to one year in the field, or two years in the UN headquarters. Any queries about working for the UN in a military capacity should be addressed within an applicants own country first.  "
+2015-01-04 13:30:07	morvkala	It'd save me a lot of work
+2015-01-04 13:30:07	cntrational	oh god it was a bad idea to add a shell to interadv
+2015-01-04 13:30:07	blsm	morvkala: Do you try to maximize your calories/dollar?
+2015-01-04 13:30:07	@sh	I frequently want to, when buying food.
+2015-01-04 13:30:07	quintopia	calories per dollar maximization is a good way to be sick and obese
+2015-01-04 13:30:07	blsm	Not really, quintopia.
+2015-01-04 13:30:07	morvkala	quintopia, I have considerable difficulty not being anorexic, and not a lot of money :p
+2015-01-04 13:30:07	@sh	quintopia: Not really. If you're missing fiber or micronutrients, you can add those separately.
+2015-01-04 13:30:07	@sh	quintopia: As for overeating, some people just aren't prone to it, so this just means they spend less.
+2015-01-04 13:30:07	morvkala	I still eat a lot of varied foods - For instance look for the cheapest vegetable with lots of vitamin A, and then the cheapest fruit, cheapest fish, etc.
+2015-01-04 13:30:07	@Burninate	oy, we are going down optimal nutrition rabbithole again?
+2015-01-04 13:30:08	kuudes	http://en.wikipedia.org/wiki/EU_Battlegroup
+2015-01-04 13:30:09	pookie	wikipedia: An EU Battlegroup (EUBG) is a military unit adhering to the Common Security and Defence Policy (CSDP) of the European Union (EU).
+2015-01-04 13:30:12	morvkala	But the overall plan is to hit a high calorie count without going broke
+2015-01-04 13:30:15	quintopia	but if you add things separately, you are no longer maxizing calories
+2015-01-04 13:30:19	@Burninate	morvkala: what's the monthly budget?
+2015-01-04 13:30:30	blsm	Why do you go to a restaurant then?
+2015-01-04 13:30:35	quintopia	that looks good morvkala
+2015-01-04 13:30:37	@sh	morvkala: To be fair, restaurants are horrible in calories/money in general. You'd do much better buying stuff in a shop.
+2015-01-04 13:30:55	morvkala	I'm not going to a restaurant, but someone else wants to go to one and I'm trying to pick the least terrible :p
+2015-01-04 13:30:58	kuudes	at least in finland there have been much political talk over previous decision over years which mean that nordics hold un combat troops at readiness
+2015-01-04 13:31:08	morvkala	Well. Without telling them that's what I'm doing.
+2015-01-04 13:31:13	Kiba	so you have the European Union
+2015-01-04 13:31:22	@sh	morvkala: Might as well tell them, communication is good. But I see your problem, and agree.
+2015-01-04 13:31:26	morvkala	*I'm not the type that usually goes to restaurants
+2015-01-04 13:31:26	Kiba	which is a super-state
+2015-01-04 13:32:04	@sh	morvkala: You'd probably do ok with a heuristic of choosing cheap options for a given category of meal. The higher-priced ones are usually intended for people who care more about taste than volume.
+2015-01-04 13:32:05	-->	shreyas1 (~shreyas@117.192.206.195) has joined #lesswrong
+2015-01-04 13:32:09	 *	Kiba sees the European Union as a prototype for a world government
+2015-01-04 13:32:10	morvkala	Ah well, breaking optimization in the service of normal socialization is probably allowable on occasion.
+2015-01-04 13:32:15	Kiba	it just needs to admit more members
+2015-01-04 13:32:21	blsm	No.
+2015-01-04 13:32:38	@Burninate	kuudes: The EU is *a lot closer* to a functional state, but still not quite there.
+2015-01-04 13:32:41	Bright	i can't tell if my speakers objectively sound tinny or it's my ears being disturbed from being ill and air travel
+2015-01-04 13:32:52	Kiba	anyway
+2015-01-04 13:32:57	Bright	the frequency-response looks ok
+2015-01-04 13:33:05	@sh	morvkala: And this works even better because the whole process is inefficient, so limiting expenditure means the inefficiencies over other forms of food acquisition don't hit as bad on an absolute scale.
+2015-01-04 13:33:05	kuudes	Burninate: i guess you have some definition of state. i will likely be unable to change your opinion in the matter.
+2015-01-04 13:33:06	Bright	so i think it's me
+2015-01-04 13:33:07	Kiba	I am not ready to admit that we are ready for a world government
+2015-01-04 13:33:30	-->	shreyas11 (~shreyas@122.172.167.8) has joined #lesswrong
+2015-01-04 13:34:27	Kiba	if you have one world government, maybe it's easier for tyranny to flourish
+2015-01-04 13:34:51	@Burninate	kuudes: We did't really *do* weak confederacies in modern international relations, before the EU.  They had severe financial problems in part due to their structure.  It remains to be seen whether they get stronger, or go away.  I'm betting on stronger.
+2015-01-04 13:34:59	Kiba	because you only need to focus on one organization
+2015-01-04 13:35:50	<--	boston (~luser@macnab.me) has left #lesswrong
+2015-01-04 13:36:06	kuudes	my take on the discussion was to try to answer the question "does un have unlimited legal authority over earth?" and my answer to there is so far yes
+2015-01-04 13:36:21	kuudes	the un charter gives un the normal, unlimited authority similar to any state
+2015-01-04 13:36:33	<--	shreyas1 (~shreyas@117.192.206.195) has quit (Ping timeout: 255 seconds)
+2015-01-04 13:36:50	kuudes	the charter however gives un security council permanent members practical veto right to most any actual action
+2015-01-04 13:37:04	kuudes	which generally limits the power of un.
+2015-01-04 13:37:41	kuudes	but if one checks; does the un charter give un the power to decide in itself what its powers are? - the answer is yes, but security council veto.
+2015-01-04 13:37:44	@Burninate	There are a lot of different ways to define a state, but the UN fails most all of them.
+2015-01-04 13:38:06	kuudes	so already the states of the world have given un that power by getting an un membership.
+2015-01-04 13:38:16	kuudes	so it is legal as it currently is.
+2015-01-04 13:38:38	@Burninate	I don't believe they have, because I don't believe UN membership requires any de facto compliance.
+2015-01-04 13:38:48	kuudes	can the european central bank issue unlimited amount of currency? yes, but it does not do so in practice.
+2015-01-04 13:38:59	kuudes	it requires de jure compliance.
+2015-01-04 13:39:29	<--	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has quit (Ping timeout: 265 seconds)
+2015-01-04 13:39:33	kuudes	all memberstates who have ratified their membership, have accepted legislation in their own functioning way that accepts the un charter as legal.
+2015-01-04 13:40:02	kuudes	http://www.un.org/en/documents/charter/chapter18.shtml and http://www.un.org/en/documents/charter/chapter19.shtml
+2015-01-04 13:40:03	pookie	title: Charter of the United Nations: Chapter XVIII: Amendments
+2015-01-04 13:40:03	pookie	title: Charter of the United Nations: Chapter XIX: Ratification and Signature
+2015-01-04 13:40:41	kuudes	"Article 108
+2015-01-04 13:40:42	kuudes	Amendments to the present Charter shall come into force for all Members of the United Nations when they have been adopted by a vote of two thirds of the members of the General Assembly and ratified in accordance with their respective constitutional processes by two thirds of the Members of the United Nations, including all the permanent members of the Security Council. "
+2015-01-04 13:41:06	kuudes	un charter can be changed to anything as long as there is 2/3 majority of memberstates and no veto.
+2015-01-04 13:41:20	kuudes	so 1/3 memberstates can still oppose the change and it is still legal.
+2015-01-04 13:41:39	kuudes	-> un has the legal permission to decide its own authority
+2015-01-04 13:42:30	@Burninate	http://www.un.org/en/documents/charter/chapter6.shtml  <--  On the elimination of 'war'
+2015-01-04 13:42:31	pookie	title: Charter of the United Nations: Chapter VI: Pacific Settlement of Disputes
+2015-01-04 13:42:38	@Burninate	http://en.wikipedia.org/wiki/Chapter_VI_of_the_United_Nations_Charter
+2015-01-04 13:42:39	pookie	wikipedia: Chapter VI of the United Nations Charter deals with peaceful settlement of disputes.
+2015-01-04 13:42:48	@Burninate	"There is a general agreement among legal scholars outside the organization that resolutions made under Chapter VI (Pacific Settlement of Disputes) are not legally binding.[4][5][6][7][8][9][10][11][12] One argument is that since they have no enforcement mechanism, except self-help, they may not be legally binding.[13]"
+2015-01-04 13:43:10	@Burninate	How many "wars" have we had since the UN was created?
+2015-01-04 13:44:04	kuudes	well chapter vi indeed, but chapter vii has binding rules, §41 an §42. it was quite widely debated in scholarly community of international law if world was ready for such binding rule iirc
+2015-01-04 13:44:15	@Burninate	How many has the UN stepped in and stopped because it cannot tolerate member states who break its rules?
+2015-01-04 13:44:24	@Burninate	How many member states have been punished for wars?
+2015-01-04 13:44:46	@Burninate	*Could* the UN step in and stop a war?
+2015-01-04 13:45:07	@Burninate	This is quite literally its most basic directive, and it fails routinely.
+2015-01-04 13:45:33	@Burninate	Has it been a force for peace in the world?  *definitely*.
+2015-01-04 13:45:48	@Burninate	But just because it makes a positive contribution, does not make it a government.
+2015-01-04 13:46:59	kuudes	http://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_1970 http://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_1973
+2015-01-04 13:47:00	pookie	wikipedia: United Nations Security Council Resolution 1970 was a measure adopted unanimously by the UN Security Council on 26 February 2011.
+2015-01-04 13:47:01	pookie	wikipedia: United Nations Security Council Resolution 1973, on the situation in Libya, is a measure that was adopted on 17 March 2011. The Security Council resolution was proposed by France, Lebanon, and the United Kingdom.[1][2]
+2015-01-04 13:47:20	kuudes	certainly libya opposed bombing of libya...
+2015-01-04 13:47:42	<--	csabiftw_ (~csabiftw@51B6D2F2.dsl.pool.telekom.hu) has quit (Remote host closed the connection)
+2015-01-04 13:47:45	kuudes	or at least outsiders bombing libya
+2015-01-04 13:47:47	-->	petersr_ (~PeterSR@87-58-53-250-static.dk.customer.tdc.net) has joined #lesswrong
+2015-01-04 13:47:53	@Burninate	My own government has been both the principle creator of many of these provisions, and one of their chief violators.  That's what NATO actions and independent USM actions and CIA / Special forces actions are: breaches of the peace without UN approval.
+2015-01-04 13:48:49	<--	petersr_ (~PeterSR@87-58-53-250-static.dk.customer.tdc.net) has quit (Remote host closed the connection)
+2015-01-04 13:50:49	@Burninate	I will note that Libya did not end in a negotiated peace, it ended in http://www.liveleak.com/view?i=ee6_1319234557  (trigger warning)
+2015-01-04 13:50:49	pookie	title: LiveLeak.com - Full Video of Killing of Gaddafi
+2015-01-04 13:52:19	-->	Ginguin (uid56958@gateway/web/irccloud.com/x-lncvtaebzsoqtvzn) has joined #lesswrong
+2015-01-04 13:52:33	-->	shaykha (~user@unaffiliated/shaykha) has joined #lesswrong
+2015-01-04 13:54:13	kuudes	so?
+2015-01-04 13:54:23	<--	SoundLogic (~SoundLogi@216.53.143.250) has quit (Read error: Connection reset by peer)
+2015-01-04 13:55:22	kuudes	i don't understand what you are arguing? i certainly agree that united states is not a nation.
+2015-01-04 13:55:23	@Burninate	Government requires effective control, not just the ability to affect an action occasionally.  Think through Weber's conception - "A monopoly on force/violence".
+2015-01-04 13:55:35	kuudes	well by definition, un has that.
+2015-01-04 13:55:46	@Burninate	Not an effective one.
+2015-01-04 13:56:09	-->	sandGorgon (~sandGorgo@182.69.131.26) has joined #lesswrong
+2015-01-04 13:56:19	kuudes	in practice, it varies. there certainly are areas in the world where un holds actual, hands on monopoly of violence
+2015-01-04 13:56:25	@Burninate	The number of (people who have retreated from a UN peacekeeper force) is less than the number of (people who have violated UN rules with impunity).
+2015-01-04 13:56:32	cntrational	http://interactive-adv.tumblr.com/ shameless advertising~
+2015-01-04 13:56:33	pookie	title: (An Interactive Adventure)
+2015-01-04 13:56:35	kuudes	does us hold monopoly of violence?
+2015-01-04 13:56:52	kuudes	i see there are many non-state licenced actors in usa committing violent acts
+2015-01-04 13:57:04	kuudes	i guess usa then does not hold monopoly of force/violence.
+2015-01-04 13:57:12	@Burninate	The number of (People who have retreated from armed policemen) is less than the number of (people who have assaulted policement and gotten away with it)
+2015-01-04 13:57:21	cntrational	when people say "monopoly of force"
+2015-01-04 13:57:26	catern	cntrational: nice
+2015-01-04 13:57:30	cntrational	they mean "they have all the cool guns!"
+2015-01-04 13:57:49	-->	adiabatic (~adiabatic@pool-173-58-129-183.lsanca.fios.verizon.net) has joined #lesswrong
+2015-01-04 13:58:06	kuudes	there are many nationstates that have 0% tax. as they do not collect tax, i guess they lack a mark of government then... :-p
+2015-01-04 13:58:06	cursive	this all comes down to where you draw the line between 'monopoly' and 'not a monopoly'.
+2015-01-04 13:58:14	@Burninate	The US maintains a federal system that says (and deploys troops in support of) that member states are required to follow federal government directives & laws.
+2015-01-04 13:58:24	cursive	and how you define a state. the UN fails at many definitions, maybe succeeds at a few
+2015-01-04 13:58:24	quanticle	kuudes: There are many nonstate licensed actors in the US committing violent acts, but they are almost always legally sanctioned for it. That's what monopoly of violence means. It doesn't mean that I'm prevented from shooting you. It means that if I do shoot you, I will go to jail.
+2015-01-04 13:58:32	kuudes	well un charter says similar of member states of un.
+2015-01-04 13:58:32	cursive	very little of substance is actually being argued here
+2015-01-04 13:58:50	quanticle	As opposed to the international case, where, if I'm powerful enough, I can invade another country and not be sanctioned for it.
+2015-01-04 13:58:55	kuudes	quanticle: well, that is what i am saying: un really has the legal power to authorize war.
+2015-01-04 13:59:01	quanticle	See Russia invading Georgia, for example.
+2015-01-04 13:59:11	cntrational	hmm
+2015-01-04 13:59:23	cntrational	i wonder if there's a plausible alt-history/future-history where the UN took over the world
+2015-01-04 13:59:29	kuudes	quanticle: invasion is illegal per law.
+2015-01-04 13:59:31	@Burninate	quanticle: Not even that.  In the international case, you don't need to be particularly powerful to invade another country and not effectively discouraged from doing it again.
+2015-01-04 13:59:35	kuudes	you just escape justice.
+2015-01-04 14:00:09	quanticle	kuudes: It is illegal, but laws are only as good as the enforcement.
+2015-01-04 14:00:46	@Burninate	Iran and Iraq fought one of the bigger and longer wars of the 20th century, neither had more than an ounce of favor in the security council.
+2015-01-04 14:01:14	quanticle	And you don't even need to look to the international case - look at any third world kleptocracy. The defining characteristic is that their laws are fine... they're just extremely selectively enforced.
+2015-01-04 14:01:14	@Burninate	Iraq only got in trouble when it misinterpreted US support and went up against the Gulf oil states.
+2015-01-04 14:01:26	quanticle	Burninate: True. Also Ethiopia/Eritrea.
+2015-01-04 14:01:41	@Burninate	The Congo war was another of the huge 20th century wars.
+2015-01-04 14:01:48	quanticle	And China/Vietnam.
+2015-01-04 14:01:55	@gwern	agghh. so I want to dump the download links from https://docs.google.com/spreadsheets/d/1ysbYVjcWkdNxGFviTDnAdABvqnJmaA9cQ7f2ILc3Q6o/htmlview?pli=1&sle=true . google docs refuses to provide a download link. so fine, I look up the API and discover 'https://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=1ysbYVjcWkdNxGFviTDnAdABvqnJmaA9cQ7f2ILc3Q6o&exportFormat=xls' works to...
+2015-01-04 14:01:56	pookie	title: C87 Upload Spreadsheet
+2015-01-04 14:02:01	@gwern	...force a download. I open it up in Libreoffice calc and save as html. the html includes no hyperlinks. I save as CSV. the csv includes no hyperlinks. I save as PDF. it includes no hyperlinks. I go googling for ways to extract URLs from Calc, and all I can find are macros for extracting from a particular cell, not just dumping a whole spreadsheet in like a line-delimited way
+2015-01-04 14:02:07	@Burninate	Last article I read had a genocide happening 2 kilometers outside a UN peacekeeper compound.
+2015-01-04 14:02:13	kuudes	i guess this is a cultural thing.
+2015-01-04 14:02:23	<--	jouathau (6cec4aac@gateway/web/freenode/ip.108.236.74.172) has quit (Quit: Page closed)
+2015-01-04 14:02:35	<--	adiabatic (~adiabatic@pool-173-58-129-183.lsanca.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2015-01-04 14:02:38	kuudes	over finland, we have nice narrative how the government has remained legal authority from the 1200s of swedish government
+2015-01-04 14:02:56	<--	tenoke (~tenoke@2.30.67.103) has quit (Ping timeout: 240 seconds)
+2015-01-04 14:03:07	kuudes	and we hold the rule of law quite central
+2015-01-04 14:03:20	-->	wombawomba (~wombawomb@captiveportal-247-68.public.su.se) has joined #lesswrong
+2015-01-04 14:03:23	@Burninate	"International Law" is not "Law" with the same connotations it holds inside a state.  There is no rule of law, only *suggestions*.
+2015-01-04 14:03:28	kuudes	no.
+2015-01-04 14:04:01	@Burninate	This is where it all gets political, to turn a phrase from Pratchett.
+2015-01-04 14:04:08	-->	bbrks (~bbrks@host-2-103-168-109.as13285.net) has joined #lesswrong
+2015-01-04 14:04:44	 *	gwern unzips the damn xlsx and starts grubbing around in the raw xml
+2015-01-04 14:04:45	@Burninate	Who your friends are and what their incentive structures are matters much more than what you actually did, in international law.
+2015-01-04 14:05:13	kuudes	Burninate: have you studied international law?
+2015-01-04 14:05:16	@Burninate	Even if the UN has constructed a fantasy constitution for a world government
+2015-01-04 14:06:04	-->	tenoke (~tenoke@2.28.73.192) has joined #lesswrong
+2015-01-04 14:06:05	@Burninate	kuudes: To some extent, as part of half a dozen polysci courses, though I have not had a course labelled 'international law'.
+2015-01-04 14:06:35	Filipe	Burninate: are you graduated?
+2015-01-04 14:06:40	Filipe	if I may know
+2015-01-04 14:07:05	-->	Alcibiades (cff44d8b@gateway/web/freenode/ip.207.244.77.139) has joined #lesswrong
+2015-01-04 14:07:28	 *	Filipe is not, btw
+2015-01-04 14:07:30	quanticle	gwern: Isn't software just great?
+2015-01-04 14:07:34	quanticle	Just so great?
+2015-01-04 14:07:37	@gwern	argle bargle
+2015-01-04 14:08:09	-->	makoLine (~mako@103-224-128-14.flip.co.nz) has joined #lesswrong
+2015-01-04 14:08:11	<--	Anders_H (~anders@134.174.140.40) has quit (Quit: Anders_H)
+2015-01-04 14:08:26	@Burninate	Does it matter?  I have a Bsc in Geography with certificates in Geographic Education, Cartography, and two in GIS.  I very nearly completed an Msc in Geography, but burned out during final project time after a breakup.
+2015-01-04 14:08:28	cntrational	i remember when i took polisci for my 12th
+2015-01-04 14:08:33	cntrational	*12th exams
+2015-01-04 14:08:46	cntrational	most boring and jingoistic shit ever
+2015-01-04 14:09:01	@Burninate	Oh, wait
+2015-01-04 14:09:06	kuudes	hey, i still agree that i am no expert in international law.
+2015-01-04 14:09:08	@Burninate	"The history of US Foreign Relations"
+2015-01-04 14:09:11	@Burninate	I did take that.
+2015-01-04 14:09:27	kuudes	i return to my prior point: it is not likely i can offer anything that may change your mind on the matter. sorry.
+2015-01-04 14:09:39	@Burninate	it's cool :)
+2015-01-04 14:09:40	@gwern	there! I found the right 'worksheet', opened it up and it's a huge xml mess with thankfully urls not specially encoded. do a search-replace of 'http' with '\nhttp' to break the text at all urls, then delete the trailing &quots and stuff with an emacs macro. VICTORY
+2015-01-04 14:09:57	catern	i so hate google docs
+2015-01-04 14:09:59	kuudes	grats, gwern
+2015-01-04 14:10:01	@gwern	and yet, somehow, it feels so pyrrhic
+2015-01-04 14:10:04	catern	it's the worst
+2015-01-04 14:10:13	catern	for exactly this reason
+2015-01-04 14:10:31	-->	tenoke_ (~tenoke@2.28.84.169) has joined #lesswrong
+2015-01-04 14:10:31	catern	people so frequently use it for lists of links, and it is so bad for that purpose
+2015-01-04 14:10:56	@gwern	catern: really, everything here is at fault. why didn't google docs show a reasonable download? why didn't its csv or tsv formats include the urls? why didn't libreoffice include the urls when exporting to html/pdf/csv? why is there no good way inside libreoffice to dump all urls? etc
+2015-01-04 14:10:59	@Burninate	gwern: I did extensive tabular formatting using a combination of Excel 97 and notepad.exe's search-and-replace.  It's really powerful if you can figure out how to work it.
+2015-01-04 14:11:06	kuudes	i guess it matters locally, as finland is not a member of nato and there is strong talk over consensus that only un can mandate any use of military force
+2015-01-04 14:11:24	<--	tenoke (~tenoke@2.28.73.192) has quit (Ping timeout: 244 seconds)
+2015-01-04 14:11:29	<--	wombawomba (~wombawomb@captiveportal-247-68.public.su.se) has quit (Ping timeout: 245 seconds)
+2015-01-04 14:12:07	kuudes	basicly, there are almost or over half of the adult population that holds that any country, including nato countries, are committing acts against general human welfare if they use minitary force outside of their territory without un approval.
+2015-01-04 14:12:22	@Burninate	kuudes: To put it clearly: For my country's political background, I'm an internationalist.  I look at the UN (or the EU) and I find it wanting.
+2015-01-04 14:12:48	@Burninate	I am not anti-UN / anti-EU.  I think they can only be more effective if they have more power.
+2015-01-04 14:12:49	kuudes	so for me it is nothing very weird to think that us president or uk prime minister is war criminal by the act that their country has used military force without un approval.
+2015-01-04 14:13:49	kuudes	it just falls under the general human condition, not that we don't have laws against it.
+2015-01-04 14:13:50	@Burninate	War criminals who get more votes (1 each) than you do.
+2015-01-04 14:14:34	kuudes	and personally, i don't find many politicians in finland to be actual criminals
+2015-01-04 14:14:36	<--	sandGorgon (~sandGorgo@182.69.131.26) has quit (Ping timeout: 264 seconds)
+2015-01-04 14:14:37	 *	quanticle is amused by gwern's adventures in software.
+2015-01-04 14:14:45	@Burninate	The UNSC is a desperate attempt to prevent global thermonuclear war... and that's it.  The rest is cosmetic for the most part.
+2015-01-04 14:15:00	@Burninate	Or merely a platform for actual negotiations to take place
+2015-01-04 14:15:19	Obormot[away]	kuudes: The question is, from what does the U.N. derive its authority?
+2015-01-04 14:15:21	@Burninate	Now that we all have Skype, those negotiations could take place through weekly meetings just as easily.
+2015-01-04 14:15:34	kuudes	Obormot[away]: charter, which is a law in memeber states.
+2015-01-04 14:15:57	kuudes	so democratic will of the people of earth -> member states -> un.
+2015-01-04 14:16:13	Obormot[away]	And if a member state decides that it prefers not to follow the U.N.'s charter
+2015-01-04 14:16:17	<--	linear4 (L@unaffiliated/lynear) has quit (Ping timeout: 272 seconds)
+2015-01-04 14:16:19	Obormot[away]	The authority instantly evaporates, does it not?
+2015-01-04 14:16:22	kuudes	no.
+2015-01-04 14:16:23	--	Obormot[away] is now known as Obormot
+2015-01-04 14:16:29	Obormot	How not?
+2015-01-04 14:16:34	kuudes	laws do not evaporate because someone chooses not to abide them
+2015-01-04 14:16:56	Obormot	What remains of the law/
+2015-01-04 14:16:57	Obormot	?
+2015-01-04 14:16:59	kuudes	i may choose to not abide the tax laws, but de jure that is not my choice unless by legal means
+2015-01-04 14:17:13	Obormot	Sure, and if you do that, your government will take actions against you
+2015-01-04 14:17:17	Obormot	That's what gives the law its force
+2015-01-04 14:17:27	Obormot	If the U.S. decides not to abide by a U.N. resolution or something
+2015-01-04 14:17:29	kuudes	well, government can take illegal actions or legal actions.
+2015-01-04 14:17:32	Obormot	The U.N. will... what?
+2015-01-04 14:17:41	-->	linear4 (L@unaffiliated/lynear) has joined #lesswrong
+2015-01-04 14:17:43	@Burninate	de facto, people with guns will come after you and throw you in prisons if you do not abide the tax laws.  The government has *the effective authority to deter you from disobeying the law*, by whatever means it chooses.
+2015-01-04 14:17:49	kuudes	in finland, the constitution says all government activity must be based on specific law.
+2015-01-04 14:18:02	Obormot	And in practice what effect does that have?
+2015-01-04 14:18:15	kuudes	much.
+2015-01-04 14:18:19	Obormot	And specifically?
+2015-01-04 14:18:40	-->	u_ (~u_@adsl-75-57-172-164.dsl.emhril.sbcglobal.net) has joined #lesswrong
+2015-01-04 14:18:58	kuudes	government cannot ban overaged people from applying to free universities even though some civil servants would like
+2015-01-04 14:19:02	Obormot	Ok
+2015-01-04 14:19:06	Obormot	And let's say the government did that
+2015-01-04 14:19:11	Obormot	What would happen
+2015-01-04 14:19:12	kuudes	and parliament cannot make law to that effect without changing constitution.
+2015-01-04 14:19:21	quanticle	Obormot: I assume there'd be a court case.
+2015-01-04 14:19:37	kuudes	there was, and law was changed because of court proceeding.
+2015-01-04 14:19:52	Obormot	Ok
+2015-01-04 14:19:59	Obormot	And if the court made a decision
+2015-01-04 14:20:07	Obormot	But the government institutions didn't abide by it
+2015-01-04 14:20:10	Obormot	What would happen
+2015-01-04 14:20:15	kuudes	that does not happen.
+2015-01-04 14:20:21	Obormot	And if it did
+2015-01-04 14:20:22	Obormot	?
+2015-01-04 14:20:25	kuudes	it does not.
+2015-01-04 14:20:28	@Burninate	de facto, people with guns will come after you and throw you in prisons if you do not abide the tax laws.  The government has *the effective authority to deter you from disobeying the law*, by whatever means it chooses.
+2015-01-04 14:20:29	kuudes	russia would eat us all.
+2015-01-04 14:20:33	Obormot	Heh
+2015-01-04 14:20:39	kuudes	it does not happen.
+2015-01-04 14:20:47	Obormot	What prevents it from happening, kuudes?
+2015-01-04 14:20:56	kuudes	hell that would follow.
+2015-01-04 14:21:03	Obormot	What sort of hell?
+2015-01-04 14:21:10	kuudes	...
+2015-01-04 14:21:25	Loweren	oh hi
+2015-01-04 14:21:26	Obormot	Literal hell? Earth would open up and Satan would come up with his armies?
+2015-01-04 14:21:27	Obormot	Or what
+2015-01-04 14:21:38	kuudes	Obormot: are you sure you are not trolling?
+2015-01-04 14:21:44	Obormot	100%
+2015-01-04 14:21:54	-->	yedi (~yedi@ool-44c38728.dyn.optonline.net) has joined #lesswrong
+2015-01-04 14:22:01	@Burninate	You are pestering him on a moot point, the demarcation of Constitutional law from Statutory law.  That's not relevant to this case.
+2015-01-04 14:22:08	Obormot	Burninate: No no
+2015-01-04 14:22:11	Obormot	That is not my point
+2015-01-04 14:22:40	@Burninate	*And the separation of powers
+2015-01-04 14:23:03	Obormot	My point is that the force of the laws to bind the government comes from a hard-to-describe, but very powerful, consensus among the populace
+2015-01-04 14:23:11	Obormot	And a complex web of incentive structures
+2015-01-04 14:24:25	quanticle	kuudes: For context, in the US, the executive branch has, on rare ocassions, refused to abide by Supreme Court decisions. The most famous example, I think, is Andrew Jackson saying, "Justice Marshall has made his decision, now let him enforce it," and pushing the Cherokee nation off its homeland even though they won a court challenge to the law expelling them.
+2015-01-04 14:24:26	Obormot	The "law" is only the law as long as the government enforces it, and as long as people believe it to be legitimate
+2015-01-04 14:24:26	Obormot	Legitimacy does not inhere in documents
+2015-01-04 14:24:26	Obormot	Or signatures
+2015-01-04 14:24:26	Obormot	Those are certainly things that contribute to the perception, the consensus, of legitimacy
+2015-01-04 14:24:35	Obormot	But it's that perception and consensus that actually constitutes the fact of legitimacy
+2015-01-04 14:25:09	kuudes	quanticle: i agree. such has not occurred here afaik
+2015-01-04 14:25:27	Obormot	And kuudes's extremely naive-seeming notion of the law as sociopolitical fact just following directly from some document or whatever
+2015-01-04 14:25:31	Obormot	Is incorrect
+2015-01-04 14:25:33	Obormot	That is my point.
+2015-01-04 14:26:14	kuudes	in practice, what happens is what happens.
+2015-01-04 14:26:23	kuudes	i agree there.
+2015-01-04 14:26:40	Obormot	The consequence of the above is that the U.N. charter is not actually binding on anyone who does not have the actual force to not abide by it
+2015-01-04 14:27:12	Obormot	There is no meaningful sense in which, if the U.S. chooses to violate the U.N.'s directives, it is "actually" breaking a "law"
+2015-01-04 14:27:29	kuudes	hey, my wallet was stolen some years ago. clearly it was against the law. does that mean that finland had no authority to protect me from theft, as the police did not find the thief?
+2015-01-04 14:28:01	kuudes	clearly a wallet was stolen and the thief was not punished as described in the law.
+2015-01-04 14:28:17	kuudes	i guess the thief then had the right to steal my wallet per this logic
+2015-01-04 14:28:19	Obormot	There's a difference between *trying to enforce a law and failing* and *choosing not to enforce a law*
+2015-01-04 14:28:21	Alcibiades	Obormot: if there's a statute prohibiting something, but no one enforces it, is it against the law?
+2015-01-04 14:28:25	@saturn2	kuudes: a piece of paper cannot throw the thief in jail
+2015-01-04 14:28:51	kuudes	saturn2: i agree. what we specify should happen and what happens are two different things.
+2015-01-04 14:28:57	<--	makoLine (~mako@103-224-128-14.flip.co.nz) has quit (Ping timeout: 240 seconds)
+2015-01-04 14:28:58	iamfishhead	A lot of the purpose of punishment is deterrence
+2015-01-04 14:29:31	kuudes	my point is that currently un has been specified to have the authority in using military power in the world, as un charter describes
+2015-01-04 14:29:37	Obormot	Alcibiades: De facto, no; de jure, yes. That's why we have those concepts. The former means that you will, in actual fact, get away with doing that thing. That is an empirical prediction. But the latter also has consequences; for example, if the police want to get you for an unrelated matter but have no evidence, they might choose to enforce this toothless law in your case only, for their convenience.
+2015-01-04 14:29:43	kuudes	does it actually happen is a different matter
+2015-01-04 14:30:06	-->	two2thehead (~RDaneelOl@unaffiliated/two2thehead) has joined #lesswrong
+2015-01-04 14:30:15	-->	Lethena (~Lethena@71-89-52-248.dhcp.stpt.wi.charter.com) has joined #lesswrong
+2015-01-04 14:30:23	two2thehead	One important thing to understand is that Putin's policy choices in this matter have important implications for the distribution of wealth in Russia. The collapse in the value of the ruble is a disaster for Russians who have debts denominated in foreign currencies, but it's not necessarily the worst thing in the world for those who don't. Indeed, Russians working in tourism (which, admittedly, isn't that many people since Russia is
+2015-01-04 14:30:24	kuudes	and as i have described, un has de jure power to decide its auhtority even against opposition of some member states.
+2015-01-04 14:30:30	two2thehead	mostly cold and empty) or in the country's handful of export industries that aren't oil and gas actually benefit from a cheap currency.
+2015-01-04 14:30:33	two2thehead	http://www.vox.com/2014/12/16/7401401/ruble-collapse-interest-rates
+2015-01-04 14:30:34	pookie	title: Why the Russian economy is melting down - Vox
+2015-01-04 14:31:16	iamfishhead	kuudes: With most of the big powers on the security council, things get vetoed quite often
+2015-01-04 14:31:20	kuudes	and i don't see any non-trivial part of the world to actually deny that un charter is de jure in effect
+2015-01-04 14:31:31	kuudes	yes, but that is as is described in the charter
+2015-01-04 14:31:36	kuudes	the veto is legal.
+2015-01-04 14:31:59	kuudes	it is not that the un sec council permanents claim that the charter is invalid
+2015-01-04 14:31:59	Obormot	Here's another key difference
+2015-01-04 14:32:10	kuudes	they just have the power to disable the action
+2015-01-04 14:32:10	@Burninate	Whether there exists rule of law or not is a _de facto_ judgement, not a _de jure_ judgement.
+2015-01-04 14:32:14	Obormot	The supreme law of the land in the United States is the U.S. Constitution.
+2015-01-04 14:32:36	Obormot	Nothing can supersede that (although it does of course have a mechanism for self-modification).
+2015-01-04 14:32:38	@Burninate	People don't talk about 'rule of law' in a _de jure_ sense because it's tautological.
+2015-01-04 14:32:42	kuudes	only because un has not made resolution to bind us to international court of justice
+2015-01-04 14:32:46	@Burninate	The UN does not have 'rule of law'
+2015-01-04 14:32:50	kuudes	which it will not do, because us will veto that.
+2015-01-04 14:33:01	Obormot	The law by which we adhere to the U.N. charter is *below* the Constitution in precedence.
+2015-01-04 14:33:06	kuudes	certainly un has the legal power to do that if no veto
+2015-01-04 14:33:28	Obormot	Nothing the U.N. ever does can ever take legal precedence, as far as the U.S. government is concerned, over our laws.
+2015-01-04 14:33:36	Obormot	This is legal and actual fact in the United States.
+2015-01-04 14:33:53	kuudes	now you are confusing de jure and de facto as you previously described, Obormot
+2015-01-04 14:33:58	Obormot	No, I am not.
+2015-01-04 14:34:08	kuudes	ah. certainly then. :-I
+2015-01-04 14:34:22	-->	zach1829 (~zach1829@104-8-1-74.lightspeed.sntcca.sbcglobal.net) has joined #lesswrong
+2015-01-04 14:35:07	Obormot	In order for this to change, the fundamental legal structure the United States as a nation would have to change
+2015-01-04 14:35:10	@Burninate	Whether there exists rule of law or not is a _de facto_ judgement, not a _de jure_ judgement.  People don't talk about 'rule of law' in a _de jure_ sense because it's tautological.  The _de facto_ sense is the only one that means anything.  The UN does not have 'rule of law' in this sense.  Its members routinely and openly disregard its directives, which violations barely ever trigger any enforcement action.
+2015-01-04 14:35:13	Obormot	From the ground up
+2015-01-04 14:35:36	Obormot	Short of that, there's no possible legal way for the U.N. to have binding legal authority over American actions
+2015-01-04 14:35:37	two2thehead	Yet some experts are skeptical that driving in America will increase hugely — at least in the short term. A recent report from the Energy Information Administration points out that Americans have been driving less and less in recent years thanks to all sorts of cultural and demographic shifts (see chart). And these driving habits have been remarkably insensitive to swings in gas prices. So forecasters don't expect a surge of drivin
+2015-01-04 14:35:37	two2thehead	g in 2015, even if gas prices stay low.
+2015-01-04 14:35:40	two2thehead	http://www.vox.com/2014/12/27/7451011/gas-prices-driving
+2015-01-04 14:35:41	pookie	title: Driving in the US has been declining for years. Will cheap gas change that? - Vox
+2015-01-04 14:35:44	Obormot	And this is borne out in practice, de facto
+2015-01-04 14:35:48	kuudes	Burninate: i don't agree with disregarding there
+2015-01-04 14:36:03	<--	notthemessiah (~castthesh@2601:b:c582:1f80:eade:27ff:fe89:c2d0) has quit (Ping timeout: 265 seconds)
+2015-01-04 14:36:03	Obormot	Aided by the fact that overwhelmingly, this is reflected in the consensus among the populace
+2015-01-04 14:36:35	kuudes	mostly i observe that un action is either blocked by veto or there is no interest to make the resolution binding
+2015-01-04 14:36:36	@Burninate	There are also few automatic enforcement mechanisms available to the UN - most of it is "Ask the UNSC to do something [unspecified] about it".
+2015-01-04 14:36:42	<--	yedi (~yedi@ool-44c38728.dyn.optonline.net) has quit (Remote host closed the connection)
+2015-01-04 14:36:47	-->	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has joined #lesswrong
+2015-01-04 14:36:49	kuudes	so they do not disregard anything that actually forces anyone.
+2015-01-04 14:36:53	@Burninate	Or "Ask member states to negotiate sanctions"
+2015-01-04 14:37:02	-->	wombawomba (~wombawomb@captiveportal-247-68.public.su.se) has joined #lesswrong
+2015-01-04 14:37:09	kuudes	unsc has the veto on most anything that actually forces anyone to do anything
+2015-01-04 14:37:17	-->	yedi (~yedi@ool-44c38728.dyn.optonline.net) has joined #lesswrong
+2015-01-04 14:37:24	kuudes	or more specifically the permanent members have.
+2015-01-04 14:37:59	@Burninate	Actual laws specify punishments, and people challenging those laws are entreated to a legal process - possibly from a prison cell.
+2015-01-04 14:38:12	kuudes	so un could per its charter to mandate binding laws to the world if the unsec permanent memebers, unsec as whole or the assembly as whole would not prohibit such
+2015-01-04 14:38:26	kuudes	un could, it just chooses not to :->
+2015-01-04 14:38:56	@Burninate	"The UN could govern, by its declared principles, it just chooses not to"
+2015-01-04 14:39:03	iamfishhead	Ok. That's what I was looking for. Roughly 10% of draft proposals to the security council are vetoed
+2015-01-04 14:39:04	@Burninate	So it's not a government.
+2015-01-04 14:39:44	<--	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has quit (Remote host closed the connection)
+2015-01-04 14:39:52	@Burninate	Also: It couldn't govern, because its member states would flee the UN if the decisionmaking body (the 5 UNSCp members) made decisions that they disagreed strongly with.
+2015-01-04 14:39:59	-->	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has joined #lesswrong
+2015-01-04 14:40:25	kuudes	i guess finland is not a government, as it chooses to have tax less than 100% because the population would oppose that. :-p
+2015-01-04 14:40:27	@Burninate	They would *withdraw* from the UN.  They have that option.  Nobody punishes you for withdrawing from the UN with a mandated UN invasion.
+2015-01-04 14:40:53	kuudes	as anything that is a government clearly cannot make a decision to not to make certain decision.
+2015-01-04 14:40:59	kuudes	per this line of reasoning.
+2015-01-04 14:41:24	@Burninate	You don't have the option to withdraw from Finland and become a microstate because you disagree with its tax policy;  If all Finnish people believed they had this option, Finland would not be a state.
+2015-01-04 14:41:55	<--	yedi (~yedi@ool-44c38728.dyn.optonline.net) has quit (Ping timeout: 256 seconds)
+2015-01-04 14:41:59	two2thehead	http://www.reuters.com/video/2015/01/02/new-glasses-promise-a-good-nights-sleep?videoId=358455344&videoChannel=118065&channelName=Moments+of+Innovation
+2015-01-04 14:42:00	pookie	title: New glasses promise a good night's sleep | Video | Reuters.com
+2015-01-04 14:42:16	@Burninate	A state involves social contracts that the individual can't withdraw from voluntarily.
+2015-01-04 14:42:44	kuudes	i guess crimeans had then the right to stop believing in the ukrainian state and decide to form their own state and decide to join russian federation
+2015-01-04 14:42:45	@Burninate	And the society enforces, that are (in a legalistic modern Westphalian state) laid out in statutes.
+2015-01-04 14:43:12	@Burninate	There are no rights in international relations, only realpolitik.
+2015-01-04 14:43:22	<--	Gurkenglas (~Gurkengla@dslb-178-000-089-035.178.000.pools.vodafone-ip.de) has quit (Read error: Connection reset by peer)
+2015-01-04 14:43:38	-->	Gurkenglas (Gurkenglas@dslb-178-000-089-035.178.000.pools.vodafone-ip.de) has joined #lesswrong
+2015-01-04 14:43:48	morvkala	kuudes, a typical government will physically oppose groups that stop paying taxes and break their laws. If an outside force physically intervenes to prevent them from doing this, it's a completely different setup.
+2015-01-04 14:43:51	@Burninate	"rights" are several steps of inferential distance farther away than they are inside the bounds of a state.
+2015-01-04 14:43:58	morvkala	The government is not saying "Fine, do what you want" as the UN does
+2015-01-04 14:44:00	iamfishhead	I have always understood the UN as a complicated treaty organization. It can't really be a government because of the voluntary nature.
+2015-01-04 14:44:05	kuudes	i guess us has the government over us territory only because it holds the biggest guns there, and nothing to do with any laws or constitution
+2015-01-04 14:44:13	-->	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has joined #lesswrong
+2015-01-04 14:44:33	morvkala	kuudes, why do you think it is a government. It does not even call itself a government, neh?
+2015-01-04 14:44:36	kuudes	and it is not a government as it chooses not to forbid holding of armament by people as many governments do
+2015-01-04 14:44:38	Obormot	The notion of "rights" is shaky in the first place, but applying it to international relations is triply foolish
+2015-01-04 14:44:58	-->	jasonjckn (~jasonjckn@173-164-196-202-SFBA.hfc.comcastbusiness.net) has joined #lesswrong
+2015-01-04 14:45:01	@Burninate	We are mixing up legalistic rule of law and state power, unfortunately;  The two notions are linked but not identical.
+2015-01-04 14:45:10	Obormot	kuudes: "i guess us has the government over us territory only because it holds the biggest guns there" <- uh, yeah :p Have you ever heard of the American Civil War??
+2015-01-04 14:45:11	kuudes	un has the power of law in here.
+2015-01-04 14:45:13	@Burninate	We accept statehood for dictatorships.
+2015-01-04 14:45:14	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: o/)
+2015-01-04 14:45:38	-->	makoLine (~mako@103-224-128-14.flip.co.nz) has joined #lesswrong
+2015-01-04 14:45:51	kuudes	the law refers directly to un authority when deciding wht are war crimes and such
+2015-01-04 14:46:04	-->	drethelin (~drethelin@71-87-115-157.dhcp.mdsn.wi.charter.com) has joined #lesswrong
+2015-01-04 14:46:22	Obormot	Could Finland decide NOT to obey U.N. law?
+2015-01-04 14:46:27	Obormot	By its own internal laws?
+2015-01-04 14:47:01	iamfishhead	kuudes: Wasn't the modern UN war crimes law mostly based on previous treaties?
+2015-01-04 14:47:20	kuudes	i think it would require constitution amendmend, but i am not fully certain
+2015-01-04 14:47:25	@Burninate	Legalistic rule of law is only made functioinal by actual state power.
+2015-01-04 14:47:35	@Burninate	UN has the former but not the latter.
+2015-01-04 14:47:37	<--	QuadIngi (~FourFire@77.88.71.230) has quit (Ping timeout: 240 seconds)
+2015-01-04 14:47:44	kuudes	the finnish constitution makes allowance for finnish membership in international organizations very early in the constitution
+2015-01-04 14:47:52	-->	notthemessiah (~castthesh@2601:b:c582:1f80:eade:27ff:fe89:c2d0) has joined #lesswrong
+2015-01-04 14:47:52	@saturn2	is there a disagreement here on anything other than word definitions?
+2015-01-04 14:47:56	@Burninate	The UN is endowed with less actual agency than most of its member states.
+2015-01-04 14:47:57	kuudes	i think before at least some human rights
+2015-01-04 14:48:25	Obormot	saturn2: I think this is an instance of a certain European fantasy of control
+2015-01-04 14:48:33	iamfishhead	I remember in the 40s or something, there was a suggestion brought up to give the UN all of the nukes in the world
+2015-01-04 14:48:34	kuudes	iamfishhead: not wholly. nurenberg made some new precursors iirc
+2015-01-04 14:48:55	iamfishhead	The US and USSR didn't want to give them up though
+2015-01-04 14:49:00	Obormot	saturn2: The desire to believe that the U.S.'s power is bounded and reined in by a body over which they (Europeans) habe control over and have say in
+2015-01-04 14:49:17	<--	jasonjckn (~jasonjckn@173-164-196-202-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2015-01-04 14:49:20	@saturn2	well, that makes sense
+2015-01-04 14:49:22	<--	shaykha (~user@unaffiliated/shaykha) has quit (Ping timeout: 240 seconds)
+2015-01-04 14:49:25	kuudes	saturn2: i agree. my point is that un has de jure authority over world, i observe the opposition point to be it does not have de facto authority over most of the world
+2015-01-04 14:49:55	@saturn2	i think many americans have that same desire :p
+2015-01-04 14:50:14	@Burninate	Most people who actually deal with international stuff are forced to deal with the world as it is, not the world as a piece of paper says it should be.
+2015-01-04 14:50:25	kuudes	ok. is there any general recognised nation on the world that directly has decided that un charter is illegal or that some parts of it are illegal?
+2015-01-04 14:50:58	kuudes	north korea perhaps?
+2015-01-04 14:51:01	iamfishhead	kuudes: No. But they might ignore things.
+2015-01-04 14:51:02	Obormot	It doesn't matter
+2015-01-04 14:51:06	Obormot	That's the whole point
+2015-01-04 14:51:22	@Burninate	If they violate it routinely and without issue, whether they concieve of it as "illegal" doesn't make a difference.
+2015-01-04 14:51:26	Obormot	The U.N. charter is so irrelevant that no one actually has to go to the trouble of "deciding that it's illegal"
+2015-01-04 14:51:29	Obormot	They just ignore it
+2015-01-04 14:51:30	Obormot	The end
+2015-01-04 14:51:33	@Burninate	Obormot+1
+2015-01-04 14:51:57	iamfishhead	The best the UN can do is sanctions, which can certainly be problematic
+2015-01-04 14:52:02	kuudes	afaik most of the governments in the world have ratified the un charter, meaning they have made the law of their country to include the un charter.
+2015-01-04 14:52:11	@Burninate	I feel like we are strip mining some important bits of kuudes' idealized world, and that's a nasty thing to do.
+2015-01-04 14:52:19	Obormot	Hah
+2015-01-04 14:52:57	iamfishhead	I mean, the UN does implement collective punishment, like I said
+2015-01-04 14:53:05	kuudes	ah, membership in eu is in §1 of finnish constitution.
+2015-01-04 14:53:05	@Burninate	kuudes: But they rarely respect those requirements, even if they're laid out in the laws of their countries.
+2015-01-04 14:53:27	@Burninate	Are you familiar with the term "Legal fiction"?
+2015-01-04 14:55:09	@Burninate	The US agrees to abide by UN dictates which it wrote down in a little book upon ratification and immediately, conveniently, forgot they existed.
+2015-01-04 14:55:12	kuudes	finland can delegate national power to eu or international organizations per constitution §94, though with similar measures than changing constitution
+2015-01-04 14:55:50	@Burninate	"A law with no enforcement mechanism is not a real law"
+2015-01-04 14:56:47	kuudes	ok... i guess you hold un charter invalid then?
+2015-01-04 14:57:10	@gwern	'invalid' has the wrong connotations. 'ineffective' is better
+2015-01-04 14:57:13	kuudes	i wonder why borders accept those un passports etc then, weird...
+2015-01-04 14:57:27	@Burninate	I think it's a grand statement of ideals for an organization that established a way to avoid global thermonuclear war, and everything else they've done has been mostly ineffective.
+2015-01-04 14:57:33	kuudes	as un charter has no actual effect per your observations
+2015-01-04 14:57:49	@gwern	realpolitik. the benefits of respecting un passports is larger than the costs, but the benefits of respecting rules against invasion etc do not. so one part gets respected where convenient, and the other doesn't
+2015-01-04 14:58:09	kuudes	many governments are said to be rather ineffective, i haven't know that ineffectiveness makes something non-government
+2015-01-04 14:58:35	Obormot	If they're ineffective at enforcing something like, say, basic property relations...
+2015-01-04 14:58:37	two2thehead	http://www.washingtonpost.com/blogs/wonkblog/wp/2013/04/13/peak-oil-isnt-dead-an-interview-with-chris-nelder/
+2015-01-04 14:58:40	pookie	title: Peak oil isn't dead: An interview with Chris Nelder - The Washington Post
+2015-01-04 14:58:46	Obormot	Then they might indeed be considered "not government"
+2015-01-04 14:59:01	Obormot	Where is the line between "government" and "most powerful warlord in this region"?
+2015-01-04 14:59:13	kuudes	un has no preferred property relation model iirc. or do you think communism is generally against human rights or whatnot?
+2015-01-04 14:59:40	kuudes	china has no ip and many in us would like to consider communist china as non-government though, i agree there
+2015-01-04 14:59:40	Obormot	Well, certainly communism is generally against human rights, but that seems like a non sequitur
+2015-01-04 14:59:54	two2thehead	Chris Nelder: There has always been a lot of confusion about this point. Peak oil was never about "running out of oil." The only people who characterized it that way either didn't know what they were talking about or were trying to confuse the issue. Peak oil has always referred to the production rate of oil — it's about finding the point where that production rate peaks.
+2015-01-04 15:00:07	<--	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has quit (Read error: Connection reset by peer)
+2015-01-04 15:00:07	@Burninate	kuudes: Among the first duties of a state in the early conceptions was protecting its citizens from stealing each others' things;  Enforcing collective obligations and rules.
+2015-01-04 15:00:29	kuudes	not in here, property protection is subordinated to many other human rights, Burninate
+2015-01-04 15:00:39	-->	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has joined #lesswrong
+2015-01-04 15:00:48	Obormot	If we both live in China and I steal something from you, I will get put in jail
+2015-01-04 15:00:50	@Burninate	Stealing a wallet once every few thousand victim-years is distinct from having no conception that you can own wallets, because the guy with the bigger gun has precedence.
+2015-01-04 15:00:52	Obormot	Is this the case in Finland?
+2015-01-04 15:01:00	two2thehead	And there's a turning point on this — it's called the "net energy cliff." When the ratio of energy output to energy input gets down to about 6, then you fall off this cliff, and it's just not worth doing. In the early days of oil production, that ratio was about 100 to 1. Globally, right now, it's approaching 11 to 1. And it's even lower for some newer sources. The return on investment for heavy oil from the Kern River field i
+2015-01-04 15:01:00	two2thehead	n California is about 4 to 1.
+2015-01-04 15:02:06	<--	[ui] (uid21688@gateway/web/irccloud.com/x-wfhdudibabflvoiq) has quit (Quit: Connection closed for inactivity)
+2015-01-04 15:02:17	realitygrill	I just discovered a copy of vol 1 of The Art of Computer Programming in my basement. what?
+2015-01-04 15:02:18	kuudes	it is §15 of constitution over here, before that are rights of equality before law, right to life and freedom and inviolability, legality, privacy, religious freedom, freedom of speech, freedom of association and right to participate
+2015-01-04 15:03:11	kuudes	there is the general acceptance that they are considered in the order of first is higher right, though that is not technically written
+2015-01-04 15:03:18	@Burninate	You are speaking to an idealized modern Constitutional document, I am speaking to the Leviathon and Social Contract Theory and the Code of Hammurabi
+2015-01-04 15:03:34	@Burninate	And other primitive systems
+2015-01-04 15:03:41	kuudes	over here, we have very independent civil servants
+2015-01-04 15:03:56	kuudes	who have the only specification that they have to do as they are specified in the law
+2015-01-04 15:04:05	<--	blsm (~blsm@ppp-93-104-113-94.dynamic.mnet-online.de) has quit (Ping timeout: 265 seconds)
+2015-01-04 15:04:21	kuudes	like teachers are civil servants, the school or parents or government cannot specify what they have to teach, unless by law.
+2015-01-04 15:04:32	kuudes	doctors etc similar
+2015-01-04 15:05:15	@Burninate	I don't understand what the last four lines have to do with anything.
+2015-01-04 15:06:22	kuudes	we have very different view of law.
+2015-01-04 15:07:16	kuudes	here, each civil servant interprets the law and constitution very independently. they are not forced to some choices because their superiors would fire them or give them orders etc
+2015-01-04 15:07:36	two2thehead	CN: The growing economies of Asia get so much more marginal economic utility out of a gallon of fuel than we do. In a poorer country, you might have a couple guys on a moped, burning one gallon of fuel to get to the market and back. They get so much more economic value out of doing that than a construction worker in the U.S. gets in his pickup truck burning 5 gallons per day.
+2015-01-04 15:07:55	kuudes	public government is sort of collection of qualified individuals who act on their own interpretation of the law.
+2015-01-04 15:08:17	kuudes	i have understood it is somewhat different in usa
+2015-01-04 15:08:40	@Burninate	And civil servanthood & bureaucracy - the concept that enforcement should happen through neutral actors without a stake in the matter, rather than through whoever your landlord hires to collect rents - is a *grand tradition* that happened much, much later in the history of government than the establishment of legalism.
+2015-01-04 15:08:58	@gwern	two2thehead: sure, but the US still has much higher per capita productivity based on that. marginal yes, absolute utility, no
+2015-01-04 15:09:00	-->	onthestairs (~austin@host-92-24-92-168.ppp.as43234.net) has joined #lesswrong
+2015-01-04 15:09:30	-->	jesyspa (~jesyspa@ip4da1331c.direct-adsl.nl) has joined #lesswrong
+2015-01-04 15:09:34	<--	jesyspa (~jesyspa@ip4da1331c.direct-adsl.nl) has quit (Changing host)
+2015-01-04 15:09:34	-->	jesyspa (~jesyspa@unaffiliated/jesyspa) has joined #lesswrong
+2015-01-04 15:09:42	@Burninate	kuudes: The most fundamental moral/legal code that you and I can agree on if we're locked away on a desert island is - I won't try to kill you, and you won't try to kill me.
+2015-01-04 15:10:12	@Burninate	The next one  (if we're locked away with other people) is - You and I will hunt down whoever tries to kill one of us.
+2015-01-04 15:10:28	@Burninate	After that, we arrive at "I won't take your stuff if you won't take mine"
+2015-01-04 15:11:42	two2thehead	gwern, yep
+2015-01-04 15:11:52	@Burninate	Modern liberal democracy does not come by in these first few tens or hundreds of rules.  It arises from thousands of years of further examination of the philosophical basis for governance.
+2015-01-04 15:12:05	feep	Burninate: uh, the second obvious one is "let's share food"
+2015-01-04 15:12:06	<--	rejuvyesh (~rejuvyesh@unaffiliated/rejuvyesh) has quit (Quit: WeeChat 1.0.1)
+2015-01-04 15:12:18	kuudes	feep: not for randians, i suppose
+2015-01-04 15:12:23	feep	well randians starve
+2015-01-04 15:12:25	@Burninate	"let's share food" is something we don't agree on even now.
+2015-01-04 15:12:25	feep	shrug
+2015-01-04 15:12:27	two2thehead	I pasted that because it was an interesting example of how thinkers in these fields see usage per gallon
+2015-01-04 15:12:36	Obormot	Yeah I dunno about "let's share food"
+2015-01-04 15:12:45	Obormot	It depends on the stuff Burninate said, but not vice versa
+2015-01-04 15:12:49	Obormot	Can't share food if you're dead
+2015-01-04 15:13:10	Obormot	And also the notion of "share food" is irrelevant if there's no notion of ownership
+2015-01-04 15:13:30	@Burninate	This conception of the state, as a series of agreements people make with each other, is termed 'Social Contract Theory', and dates to Thomas Hobbes - http://en.wikipedia.org/wiki/Social_contract#Thomas_Hobbes.27_Leviathan_.281651.29
+2015-01-04 15:13:31	pookie	wikipedia: In moral and political philosophy, the social contract or political contract is a theory or model, originating during the Age of Enlightenment, that typically addresses the questions of the origin of society and the legitimacy of the authority of the state over the individual.
+2015-01-04 15:13:45	two2thehead	http://www.smartplanet.com/blog/the-energy-futurist/oil-demand-shift-asia-takes-over/
+2015-01-04 15:13:47	pookie	title: Oil demand shift: Asia takes over - SmartPlanet
+2015-01-04 15:14:24	two2thehead	Of course, exports can fall to zero in theory only, not in practice. In reality, high prices will kill the most inefficient, unsubsidized demand first—in the U.S. and Europe. Next, demand will be curbed in net exporting countries, first via the removal of domestic fuel subsidies, and then by world prices. The demand of the four billion people in Asia will be the last to go because they use it most efficiently.
+2015-01-04 15:14:24	two2thehead	We should disabuse ourselves of the notion that Americans can adjust to emerging markets demand and declining exports by simply buying more efficient vehicles. First, at the 2011 U.S. sales rate of 12.8 million light vehicles—a rate which will not hold in a scenario of declining fuel supply and increasing economic pain—it would take 19 years to turn over the fleet. Second, our fuel economy simply isn't improving quickly enough.
+2015-01-04 15:14:35	two2thehead	Potential for the google autonomous car, I think
+2015-01-04 15:16:11	@Burninate	There is a *whole lot more content* there if you're interested, but that's one of the ones that's found its way into a lot of our understanding of what government is and states are, and provides the basis for the 'monopoly on violence' thing.
+2015-01-04 15:16:23	kuudes	two2thehead: just put +300% tax on gasoline as is done here... :-p
+2015-01-04 15:16:46	kuudes	and +150% tax to cars in general
+2015-01-04 15:17:48	-->	MicaiahC_ (~quassel@2601:9:7e02:5720:9d53:1a9d:805b:b1aa) has joined #lesswrong
+2015-01-04 15:18:15	@saturn2	americans would rather starve than buy mopeds?
+2015-01-04 15:18:26	kuudes	i think part of this is indeed the https://en.wikipedia.org/wiki/List_of_national_legal_systems difference
+2015-01-04 15:18:28	pookie	wikipedia: The contemporary legal systems of the world are generally based on one of three basic systems: civil law, common law, and religious law -- or combinations of these. However, the legal system of each country is shaped by its unique history and so incorporates individual variations.
+2015-01-04 15:19:10	kuudes	here we have the civil law system, and courts cannot judge someone just because they seem outrageous and government nor people are allowed to discriminate against such
+2015-01-04 15:19:24	-->	Vulture (~Vulture@cpe-66-74-9-186.dc.res.rr.com) has joined #lesswrong
+2015-01-04 15:19:34	kuudes	the law really is closed system here. crimes are numbered.
+2015-01-04 15:19:44	@Burninate	"legalism".
+2015-01-04 15:19:52	kuudes	well, yes
+2015-01-04 15:20:02	<--	MicaiahC (~quassel@2601:9:7e02:5720:9d53:1a9d:805b:b1aa) has quit (Ping timeout: 265 seconds)
+2015-01-04 15:20:03	kuudes	and in that sense, un has legal authority.
+2015-01-04 15:20:17	two2thehead	kuudes, yeah but what are the odds that it would pass congress?
+2015-01-04 15:20:19	kuudes	as there is the writ which is accepted to have legal power over the nation.
+2015-01-04 15:20:27	kuudes	here it already has.
+2015-01-04 15:20:28	@Burninate	"rule of law" is used to connote both effective deterrance against breaking the law, and the principle that it is the law, rather than the identity of the transgressor, that decides whether a violation has occurred.
+2015-01-04 15:20:29	@saturn2	kuudes: what happens if the un declares some un-numbered crimes?
+2015-01-04 15:20:43	kuudes	saturn2: they are no longer un-declared. :-p
+2015-01-04 15:20:45	two2thehead	kuudes, yep . different legal systems can be a hassle
+2015-01-04 15:21:12	@Burninate	While the UN has written itself a legalistic framework, it does not have rule of law.
+2015-01-04 15:21:28	@Burninate	And indeed, it wouldn't have written that framework if it expected it to be strictly enforced.
+2015-01-04 15:21:44	-->	QuadIngi (~FourFire@3-134-11.connect.netcom.no) has joined #lesswrong
+2015-01-04 15:22:11	@Burninate	Every member state has one violation or other of the UN conventions coded into its Constitution - if they expected Blue Helmet invasions on that basis, they would have been a lot more careful in crafting the coda.
+2015-01-04 15:22:56	<--	vultuure (~Vulture@2600:1012:b108:8c11:9cce:8210:3825:319a) has quit (Ping timeout: 265 seconds)
+2015-01-04 15:24:11	@Burninate	http://www.un.org/en/documents/udhr/  <--- I'll bet even Finland has something in here it can't fulfill.
+2015-01-04 15:24:12	pookie	title: The Universal Declaration of Human Rights
+2015-01-04 15:24:48	@Burninate	Though maybe it comes close
+2015-01-04 15:24:55	@Burninate	(closer than most nations)
+2015-01-04 15:24:56	-->	tenoke__ (~tenoke@2.28.84.189) has joined #lesswrong
+2015-01-04 15:25:15	-->	jasonjckn (~jasonjckn@173-164-196-202-SFBA.hfc.comcastbusiness.net) has joined #lesswrong
+2015-01-04 15:25:15	Khoth	The right not to be eaten by wolves
+2015-01-04 15:25:22	kuudes	there is still at least subjective poverty around here, and it should get fixed.
+2015-01-04 15:26:21	kuudes	i do not think there are actual disrepancies in finnish constitution re un human rights as we don't have death penalty
+2015-01-04 15:26:54	kuudes	and i know some laws such as youth law refer to human rights declaration in their base
+2015-01-04 15:27:21	<--	tenoke_ (~tenoke@2.28.84.169) has quit (Ping timeout: 244 seconds)
+2015-01-04 15:27:21	kuudes	things like prenatal care coming from article 25 II
+2015-01-04 15:27:59	@Burninate	So: Good conversation, but it ate my whole afternoon!  Gtg
+2015-01-04 15:28:05	kuudes	have fun!
+2015-01-04 15:28:19	kuudes	i think we have had this same conversation at least once before.
+2015-01-04 15:29:35	-->	yedi (~yedi@ool-44c38728.dyn.optonline.net) has joined #lesswrong
+2015-01-04 15:30:19	-->	flipsidecreation (~flipsidec@h145.254.212.69.cable.wynd.cablerocket.net) has joined #lesswrong
+2015-01-04 15:30:38	-->	QuiteBoringName (~QuiteBori@95.150.10.71) has joined #lesswrong
+2015-01-04 15:32:54	catern	https://www.youtube.com/watch?v=kNnASI16KTk hnnng
+2015-01-04 15:32:56	pookie	video: Morrowind with Oculus Rift (Best Version) (length: 03:25, views: 4,521, rating: 5.0, posted: 2014-03-24)
+2015-01-04 15:33:08	catern	why can't i hold all this virtual world
+2015-01-04 15:34:41	catern	(it's weak, obviously, but fires my imagination)
+2015-01-04 15:34:42	QuadIngi	why can't the U.N. and E.U. combine somehow?
+2015-01-04 15:34:43	<--	yedi (~yedi@ool-44c38728.dyn.optonline.net) has quit (Remote host closed the connection)
+2015-01-04 15:35:15	-->	yedi (~yedi@ool-44c38728.dyn.optonline.net) has joined #lesswrong
+2015-01-04 15:37:19	Khoth	Because it's hard to combine completely different things
+2015-01-04 15:38:13	two2thehead	http://bigstory.ap.org/article/what-95-certainty-warming-means-scientists
+2015-01-04 15:38:15	pookie	title: What 95% certainty of warming means to scientists
+2015-01-04 15:38:19	two2thehead	Arizona State University physicist Lawrence Krauss said the 95 percent quoted for climate change is equivalent to the current certainty among physicists that the universe is 13.8 billion years old.
+2015-01-04 15:39:14	@olivia	good, uh, morning
+2015-01-04 15:39:28	--	Mode #lesswrong [+o drethelin] by ChanServ
+2015-01-04 15:39:39	kuudes	soon we will see an interesting case if palestine is accepted as member to international criminal court, which only has jurisdiction on memberstate soil
+2015-01-04 15:39:49	<--	yedi (~yedi@ool-44c38728.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2015-01-04 15:39:52	two2thehead	olivia, gooden morgen!
+2015-01-04 15:39:58	two2thehead	it's 0138 here
+2015-01-04 15:40:03	@gwern	'The last 3 months at that job were the best ones I had in seven years. I removed code daily, to the point that I started to believe that half the code could be removed from the system while still keeping the same functionality. I remember joking in a room to friends about removing a 300-500 LoC function and mentioning the '50% code is not needed' line wondering if I ever find a 'module' that...
+2015-01-04 15:40:03	two2thehead	techincally counts
+2015-01-04 15:40:09	@gwern	...could be completely dropped. To which one of my friends replied that he knows at least one. So I took a look. That was the day I removed 60k lines of dead code in a single go. Fun fact? That code received regular bug fixes - just in case.' http://homing-on-code.blogspot.com/2015/01/code-rot-openbsd.html
+2015-01-04 15:40:09	pookie	title: Homing on Code: Code rot & OpenBSD
+2015-01-04 15:40:24	kuudes	good morning, olivia
+2015-01-04 15:40:33	@olivia	here its only morning in the sense that i just woke up. having trouble fixing my sleep schedule for some reason...
+2015-01-04 15:40:54	realitygrill	'They say they are more certain about climate change than they are that vitamins make you healthy' <--- ooh, bad example, if multivitamins is meant
+2015-01-04 15:41:16	@gwern	realitygrill: maybe they mean 'good vitamins are good'
+2015-01-04 15:41:20	two2thehead	olivia, I shared a reuters.com video link that may be of assistance ^_^
+2015-01-04 15:42:17	realitygrill	'But in science, 95 percent certainty is often considered the gold standard for certainty.'
+2015-01-04 15:42:20	realitygrill	:/
+2015-01-04 15:42:24	realitygrill	gwern: oh, you
+2015-01-04 15:43:51	@gwern	two2thehead: good lord, I hope that article isn't talking about p-values
+2015-01-04 15:43:58	morvkala	coffee and spicy food is terrible
+2015-01-04 15:45:03	-->	csabiftw (~csabiftw@51B6D2F2.dsl.pool.telekom.hu) has joined #lesswrong
+2015-01-04 15:46:27	two2thehead	gwern, can't say. They didn't mention
+2015-01-04 15:46:41	-->	adiabatic (~adiabatic@pool-173-58-129-183.lsanca.fios.verizon.net) has joined #lesswrong
+2015-01-04 15:46:59	realitygrill	it probably is
+2015-01-04 15:47:44	morvkala	"They said gravity is a good example of something more certain than climate change"
+2015-01-04 15:47:50	morvkala	What about gravity though...
+2015-01-04 15:48:11	morvkala	silly comparison
+2015-01-04 15:48:30	realitygrill	they should have said 'quantum mechanics'
+2015-01-04 15:48:35	realitygrill	then they'd get all the crazies
+2015-01-04 15:49:14	morvkala	I want to get a PHD in fake science. No actual math or anything, just all the lingo I need to convince people I know what I'm talking about so I can do talk shows.
+2015-01-04 15:49:15	dv-	i'm a quantum mechanic
+2015-01-04 15:49:53	mainframer	morvkala: just get a comm degree.
+2015-01-04 15:51:04	@saturn2	morvkala: we're more than 95% certain that we aren't flying into space at fantastic speeds
+2015-01-04 15:51:07	<--	adiabatic (~adiabatic@pool-173-58-129-183.lsanca.fios.verizon.net) has quit (Ping timeout: 255 seconds)
+2015-01-04 15:51:17	morvkala	FROM WHAT REFERENCE POINT?
+2015-01-04 15:51:28	feep	morvkala: PhD in Popular Science?
+2015-01-04 15:51:36	morvkala	Yes :3
+2015-01-04 15:51:37	-->	TheCowboy` (~TheCowboy@wsip-98-191-208-111.dc.dc.cox.net) has joined #lesswrong
+2015-01-04 15:51:39	feep	:D
+2015-01-04 15:52:43	dv-	how certain are we about string theory?
+2015-01-04 15:53:47	-->	yedi (~yedi@ool-44c38728.dyn.optonline.net) has joined #lesswrong
+2015-01-04 15:54:49	<--	CheckDavid (uid14990@gateway/web/irccloud.com/x-gvanjgawgulhbvfn) has quit (Quit: Connection closed for inactivity)
+2015-01-04 15:55:05	<--	petersr (~PeterSR@87-58-53-250-static.dk.customer.tdc.net) has quit (Quit: Leaving)
+2015-01-04 15:55:12	two2thehead	I was given to understand that it was the result of a survey
+2015-01-04 15:55:15	-->	SoundLogic (~SoundLogi@216.53.143.250) has joined #lesswrong
+2015-01-04 15:55:24	two2thehead	'do you have an opinion on global warming'
+2015-01-04 15:55:28	two2thehead	if so, etc
+2015-01-04 15:55:40	<--	QuiteBoringName (~QuiteBori@95.150.10.71) has quit (Quit: Leaving)
+2015-01-04 15:55:44	<--	yedi (~yedi@ool-44c38728.dyn.optonline.net) has quit (Remote host closed the connection)
+2015-01-04 15:55:45	cursive	dv-: as far as i know string theory makes no (currently) testable predictions
+2015-01-04 15:55:52	<--	sinkensabe (~sinkensab@78-70-232-111-no163.tbcn.telia.com) has quit (Remote host closed the connection)
+2015-01-04 15:56:18	-->	yedi (~yedi@ool-44c38728.dyn.optonline.net) has joined #lesswrong
+2015-01-04 15:56:48	morvkala	feep, there's almost enough weird accepted stuff out there without even needing to make things up, tbh
+2015-01-04 15:56:52	morvkala	so I might not need to fake anything
+2015-01-04 15:57:07	morvkala	like how 1 + 2 + 3 + 4... = -1/12
+2015-01-04 15:57:21	morvkala	(sort of. Ish)
+2015-01-04 15:57:50	<--	Kiba (~chatzilla@adsl-184-36-165-160.asm.bellsouth.net) has quit (Ping timeout: 244 seconds)
+2015-01-04 15:58:25	<--	gwern (~gwern@wikipedia/Gwern) has quit (Ping timeout: 256 seconds)
+2015-01-04 15:58:47	feep	morvkala: .. that sounds wrong
+2015-01-04 15:58:59	morvkala	Under Ramanujan summation
+2015-01-04 15:59:05	redlizard	feep: That's because it is wrong.
+2015-01-04 15:59:49	--	KD9AUS is now known as chiburbs
+2015-01-04 16:00:28	dv-	https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_%E2%8B%AF
+2015-01-04 16:00:29	pookie	wikipedia: The sum of all natural numbers 1 + 2 + 3 + 4 + · · · is a divergent series. The nth partial sum of the series is the triangular number which increases without bound as n goes to infinity. Because the sequence of partial sums fails to converge to a finite limit, the series does not have a sum.
+2015-01-04 16:00:37	<--	yedi (~yedi@ool-44c38728.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2015-01-04 16:00:43	morvkala	:p
+2015-01-04 16:01:37	-->	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has joined #lesswrong
+2015-01-04 16:01:39	dv-	https://en.wikipedia.org/wiki/Gabriel%27s_Horn
+2015-01-04 16:01:40	pookie	wikipedia: Gabriel's Horn (also called Torricelli's trumpet) is a geometric figure, which has infinite surface area but finite volume. The name refers to the tradition identifying the Archangel Gabriel as the angel who blows the horn to announce Judgment Day, associating the divine, or infinite, with the finite.
+2015-01-04 16:03:38	redlizard	feep: There is some limiting operation that kinda sorta but not really behaves like an infinite sum, which says -1/12 for the [1, 2, 3, ...] series.
+2015-01-04 16:03:47	redlizard	But it doesn't have an actual real sum.
+2015-01-04 16:03:57	morvkala	real? What is real?
+2015-01-04 16:04:25	feep	the limit, I think
+2015-01-04 16:04:41	kuudes	i think it is one of those cases "not real under these rules; real under these other rules"
+2015-01-04 16:05:28	redlizard	kuudes: It's real only under rules that lack critical properties you'd want a sum to have.
+2015-01-04 16:05:32	morvkala	Ramanujan sums DO get used for practical applications, it's a different interpretation of how you handle diverging series, not the conventional one of course.
+2015-01-04 16:05:33	redlizard	It has no business being called a sum.
+2015-01-04 16:05:39	mainframer	 Gabriel's horn makes sense considering that the aproximation of the area inside it is obtained by an integral, and integrals are infinite sums of area (Reiman sums).
+2015-01-04 16:05:52	<--	laurenlee (~laurenlee@c-98-247-252-155.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-01-04 16:05:56	morvkala	But anyway - The point is to learn things that sound preposterous, but have enough theoretical backing to get me a TED talk.
+2015-01-04 16:06:26	dv-	you could do 1.999... != 2 for TED
+2015-01-04 16:06:47	morvkala	dv: My thesis will be how 0.9999 = 1, but 1.9999 != 2
+2015-01-04 16:06:51	morvkala	That'll throw everyone for a loop
+2015-01-04 16:07:06	dv-	oh my god you used assignment instead of comparison
+2015-01-04 16:07:11	morvkala	IKR?
+2015-01-04 16:08:01	dv-	floats and ints clearly aren't comparable. qed.
+2015-01-04 16:08:08	@saturn2	did some TED talk actually say 1.999... != 2?
+2015-01-04 16:08:15	morvkala	(int)(0.999999) = 0
+2015-01-04 16:08:17	morvkala	take that science
+2015-01-04 16:08:28	Bright	lol
+2015-01-04 16:08:38	dv-	2 + 2 is 5 for sufficiently large values of 2
+2015-01-04 16:08:58	<--	Lethena (~Lethena@71-89-52-248.dhcp.stpt.wi.charter.com) has left #lesswrong ("Leaving")
+2015-01-04 16:09:12	Bright	2 + 2 is 5 for a sufficiently nonlinear addition operation
+2015-01-04 16:09:16	dv-	that joke is so old
+2015-01-04 16:09:28	dv-	from back when intel made some very buggy cpus
+2015-01-04 16:09:31	kuudes	redlizard: i know i don't know https://en.wikipedia.org/wiki/Zeta_function_regularization well enough to really say much in the matter, i have to refer people more knowledgeable than myself
+2015-01-04 16:09:32	pookie	wikipedia: In mathematics and theoretical physics, zeta function regularization is a type of regularization or summability method that assigns finite values to divergent sums or products, and in particular can be used to define determinants and traces of some self-adjoint operators.
+2015-01-04 16:09:50	feep	.neatex (1f / 3f) * 3f
+2015-01-04 16:09:54	feepbot	feep: 1.000000\n
+2015-01-04 16:09:57	feep	hey, cool
+2015-01-04 16:10:04	-->	gwern (~gwern@wikipedia/Gwern) has joined #lesswrong
+2015-01-04 16:10:04	--	Mode #lesswrong [+o gwern] by ChanServ
+2015-01-04 16:10:14	kuudes	https://en.wikipedia.org/wiki/1_%2B_1_%2B_1_%2B_1_%2B_%C2%B7_%C2%B7_%C2%B7
+2015-01-04 16:10:15	pookie	wikipedia: In mathematics, 1 + 1 + 1 + 1 + · · ·, also written , , or simply , is a divergent series, meaning that its sequence of partial sums do not converge to a limit in the real numbers. The sequence 1n can be thought of as a geometric series with the common ratio 1.
+2015-01-04 16:10:16	 *	feep makes sure..
+2015-01-04 16:10:20	feep	.neatex floorf((1f / 3f) * 3f)
+2015-01-04 16:10:23	@gwern	(combinatorial auction in _the causal angel_: hannu hanson reader confirmed)
+2015-01-04 16:10:25	feepbot	feep: 1.000000\n
+2015-01-04 16:10:48	feep	I thought 1/3 didn't have a binary representation..
+2015-01-04 16:10:49	kuudes	"Emilio Elizalde presents an anecdote on attitudes toward the series:
+2015-01-04 16:10:49	kuudes	    In a short period of less than a year, two distinguished physicists, A. Slavnov and F. Yndurain, gave seminars in Barcelona, about different subjects. It was remarkable that, in both presentations, at some point the speaker addressed the audience with these words: 'As everybody knows, 1 + 1 + 1 + · · · = −1⁄2'. Implying maybe: If you do not know this, it is no use to continue listening." :-p
+2015-01-04 16:10:51	feep	.neatex ceilf((1f / 3f) * 3f)
+2015-01-04 16:10:56	feepbot	feep: 1.000000\n
+2015-01-04 16:10:59	 *	feep shrugs
+2015-01-04 16:11:02	feep	maybe it gets optimized out
+2015-01-04 16:11:44	feep	.neatst float a = 1f, b = a / 3f, c = b * 3f; writeln "$c $(floorf c) $(ceilf c)";
+2015-01-04 16:11:49	feepbot	feep: 1.000000 1.000000 1.000000\n
+2015-01-04 16:11:52	feep	sighhhh!
+2015-01-04 16:11:54	feep	I give up
+2015-01-04 16:12:04	dv-	feep\n
+2015-01-04 16:12:05	@Burninate	Are there any computational math systems that store repeating figures up to some number of digits?
+2015-01-04 16:12:17	@Burninate	And denote that they are repeating
+2015-01-04 16:12:26	redlizard	kuudes: If I recall correctly, Ramanujan sums and zeta normalizations don't commute with regular addition.
+2015-01-04 16:12:54	kuudes	redlizard: save your breath. i am not knowledgeable enough to make sense if you are correct or incorrect and to what amount
+2015-01-04 16:13:19	morvkala	Burninate, you'd just be getting fractions out of that, neh?
+2015-01-04 16:13:24	morvkala	Why not just store the fraction
+2015-01-04 16:13:33	morvkala	simpler to implement, less computation
+2015-01-04 16:14:26	-->	yedi (~yedi@ool-44c38728.dyn.optonline.net) has joined #lesswrong
+2015-01-04 16:14:49	@Burninate	Just curious if there are any extensions of 'float' that make progress on the inequality issue, which are actually used
+2015-01-04 16:16:01	@Burninate	Something marginally less ugly than rounding
+2015-01-04 16:16:47	feep	yes. fractions.
+2015-01-04 16:16:52	kuudes	((a-b)<c) && (b-a<c)) ? :-)
+2015-01-04 16:17:03	kuudes	where c is your tolerance
+2015-01-04 16:17:09	feep	abs(a-b) < c
+2015-01-04 16:17:17	feep	where c is usually called eps
+2015-01-04 16:17:29	feep	or ε if your language is not shit from the 80s
+2015-01-04 16:17:29	@Burninate	so "Computer algebra systems such as Mathematica and Maxima can often handle irrational numbers like \pi or \sqrt{3} in a completely "formal" way, without dealing with a specific encoding of the significand. Such a program can evaluate expressions like "\sin 3\pi" exactly, because it is programmed to process the underlying mathematics directly, instead of using approximate values for each intermediate calculation."
+2015-01-04 16:17:58	@saturn2	that's not what floats are for
+2015-01-04 16:19:33	kuudes	hmm... i think i may be a bit dehydrated. i should drink, i guess...
+2015-01-04 16:21:43	Peng	kuudes: are you thirsty?
+2015-01-04 16:56:39		irc: disconnected from server
+2015-01-04 16:57:05	-->	mainframer (~greg@pool-96-233-138-162.prvdri.fios.verizon.net) has joined #lesswrong
+2015-01-04 16:57:05	--	Topic for #lesswrong is "http://lesswrong.com/r/lesswrong/lw/lhg/2014_survey_results/ | http://hpmor.com/notes/progress-15-01-01/ | http://gwern.net/newsletter/2014/12 | #lw-prog #lw-support #lw-bitcoin | no public logs"
+2015-01-04 16:57:05	--	Topic set by saturn2 (~visitant@unaffiliated/clone-of-saturn/x-2509460) on Sun, 04 Jan 2015 00:17:30
+2015-01-04 16:57:05	--	Nicks #lesswrong: [@Burninate @drethelin @gwern @mjr @olivia @saturn2 @sh [mbm] A000000 abuss adiabatic ahel Alcibiades aloril ambiate amoebius amphibious Anonymous357 argusdusty aseidl Bakkot Bansku Baughn bbrks beauby ben- bencryption Betawolf bets blsm BobaMa boltR Boriss brainiac256 brand0 brendyyn Bright Bruloocks bydo ByronJohnson c0rw1n catern catsup CGML chiburbs cloudcell clsr codehotter CoJaBo Coornail Cory cpopell2 csabiftw cursive cwillu cwillu_at_work daemian danlucraft danohu David Deadhand dec derfj_ deSouza dh djcb djeimsyxuis docl douglass_ Douhet drewbot DrPete dsirijus dTal dualbus dv- dx Dyo elevation elsig emlow EnLilaSko ephess epitron ErikBjare_ espes__ fadeway feep feepbot feignt Filipe fmu foamz FracV fxhnd77 gattuso gde33 Gelsamel_ Ginguin gjord glutton govg graehl Guest52575 Guest73108 GuestX_123 Gurkenglas Gyrodiot hEEGy hehelleshin henry- hguux_ hugaraxia iamfishhead ilya inara` indeo inkyoto ivan\ janoelze_ jasonjckn JBeshir jeffw198_____ Jello_Raptor Jesin jesyspa jgotts john_not_jenny johnnycarcin Jonii_ jrayhawk_ jswanson jzk kanzure keko_ key_ Khoth kindaish kini kmc ksotala kuudes lahwran laurenlee leifkb lexande linear4 Logos01 Loweren lukas Lycerion Madplatypus mainframer makoLine marchdown mastensg mavhc MicaiahC_ Micromus midnightmagic mindspillage mitchty MoALTz_ moreati morvkala MrEmile mspier|away mstevens nanotube neona neptunepink Neros nickenchuggets nisstyre normod notthemessiah nsh Obormot OneFixt onthesta1rs onthestairs orionstein oru_ otoburb oyho_____ packrat palantir_ ParahSailin paritybit passcod Peng phood pkkm pookie ppk pskosinski QuadIngi quanticle quintopia Raccoon Ralith realitygrill redlizard relgar rhaps0dy RiversHaveWings robsen rola roxton roxton_ rray rsaarelm Santzes SaulHarris SDr sef seismo seismo_ sgentle Sgeo shachaf shminux siavashg SN4T14 snkcld Soft sohum SoundLogic Speed srijan4 strangewarp_ supersoju talanor tar_w tazjin Tene tenoke__ TheCowboy TheCowboy` themediator theORIGINALshawn Therms tiki Tiktalik tinster torchic____ ToyKeeper traverseda TRManderson troposol trwired tsutsu tuningmind twanvl Twey two2thehead u_ u__ ua uber ulkesh um_ Urchin Veltzeh viccuad vikraman Vulture vzctl Wandering|Home wasp__ wombawomba Ycros yedi yorick zach1829 zwx]
+2015-01-04 16:57:05	--	Channel #lesswrong: 276 nicks (7 ops, 0 halfops, 0 voices, 269 normals)
+2015-01-04 16:57:05	--	Mode #lesswrong [+nst]
+2015-01-04 16:57:05	--	Channel created on Thu, 02 Apr 2009 17:59:29
+2015-01-04 16:57:47	<--	TheCowboy` (~TheCowboy@wsip-98-191-208-111.dc.dc.cox.net) has quit (Ping timeout: 264 seconds)
+2015-01-04 16:58:00		irc: disconnected from server
+2015-01-06 01:45:18	-->	mainframer (~greg@pool-96-233-138-162.prvdri.fios.verizon.net) has joined #lesswrong
+2015-01-06 01:45:18	--	Topic for #lesswrong is "http://lesswrong.com/r/lesswrong/lw/lhg/2014_survey_results/ | http://hpmor.com/notes/progress-15-01-01/ | http://gwern.net/newsletter/2014/12 | #lw-prog #lw-support #lw-bitcoin | no public logs"
+2015-01-06 01:45:18	--	Topic set by Burninate (~Burn@pool-71-191-174-26.washdc.fios.verizon.net) on Mon, 05 Jan 2015 10:16:02
+2015-01-06 01:45:18	--	Nicks #lesswrong: [@Burninate @drethelin @gwern @olivia @saturn2 @sh [mbm] [ui] _2easy A000000 abuss adiabatic ahel Albipenn_ aloril ambiate amoebius amphibious argusdusty aseidl Bakkot Bansku Baughn bbrks beauby ben- bencryption Betawolf bets BobaMa boltR Boriss brainiac256 brand0 brendyyn Bright Broolucks bydo_ ByronJohnson c0rw1n catern catsup CGML cloudcell clsr codehotter CoJaBo Coornail Cory cpopell cpopell2 CRM114 cursive cwillu cwillu_at_work daemian danlucraft danohu DarthShader David Deadhand dec derfj_ deSouza devi dh djeimsyxuis docl douglass_ Douhet drewbot DrPete dsirijus dTal dualbus dv- dx Dyo elevation elsig emlow ephess epitron ErikBjare_ espes__ expo873 fadeway feep feepbot feignt fmu foamz FracV fxhnd77 gattuso gde33 Gelsamel_ Ginguin gjord glutton govg graehl_ Guest52575 Guest73108 GuestX_123 Gurkenglas hargup hehelleshin henry- hguux_ hugaraxia iamfishhead ilya inara` indeo inkyoto ivan\ janoelze_ JBeshir jeffw198_____ Jello_Raptor Jesin jgotts john_not_jenny Jonii_ jrayhawk_ jswanson jzk kanzure kapil__ keko_ Khoth Kiba kindaish kini kmc ksotala lahwran leifkb lexande linear4 Logos01 lukas Lycerion Madplat7 mainframer makoLine marchdown mastensg mavhc Micromus midnightmagic mitchty mjr MoALTz__ morvkala MrEmile_ mspier|away nanotube neona neptunepink Neros nisstyre normod notthemessiah nsh Obormot Obormot\Gaia OneFixt orionstein oru_ otoburb oyho_____ packrat palantir_ paperbot ParahSailin paritybit passcod PatrickRobotham Peng pewpew phood pinebanner pkkm pookie ppk pskosinski quanticle quintopia Raccoon Ralith realitygrill rejuvyesh relgar rhaps0dy RiversHaveWings robsen rola roxton roxton_ rray rsaarelm sandGorgon Santzes SaulHarris SDr sef seismo_ Seylerius sgentle Sgeo shachaf shminux siavashg SN4T14 snkcld Soft sohum Speed spxtr srijan4 strangewarp supersoju taktoa talanor tar_w taylanub tazjin Tene tenoke__ TheCowboy themediator theORIGINALshawn Therms tiki Tiktalik tinster torchic___ ToyKeeper traverseda TRManderson troposol trwired tsutsu tuningmind Twey two2thehead u_ u__ ua uber udevd ulkesh um_ Urchin Veltzeh vikraman Vulture vypur vzctl Wandering|Home wasp__ Wolvenreign Ycros yedi yorick zwx]
+2015-01-06 01:45:18	--	Channel #lesswrong: 268 nicks (6 ops, 0 halfops, 0 voices, 262 normals)
+2015-01-06 01:45:18	--	Mode #lesswrong [+nst]
+2015-01-06 01:45:18	--	Channel created on Thu, 02 Apr 2009 17:59:29
+2015-01-06 01:45:18	<--	ppk (~ppk@49.144.238.16) has quit (Remote host closed the connection)
+2015-01-06 01:46:07	PatrickRobotham	Dyo: I think it's a parody, it captures the general style though
+2015-01-06 01:46:32	spxtr	PatrickRobotham: Do you play blitz?
+2015-01-06 01:47:04	PatrickRobotham	spxtr: Not much, I'll give you a game if you like
+2015-01-06 01:47:12	PatrickRobotham	(the game I had with Obormot was ten minutes each)
+2015-01-06 01:47:15	spxtr	Give me a few minutes first.
+2015-01-06 01:48:52	 *	PatrickRobotham 's strategy with chess: somehow obtain a material advantage, then kill all the pieces.
+2015-01-06 01:49:09	spxtr	If you can get a material advantage early that's the best strat.
+2015-01-06 01:49:57	spxtr	Get up a piece and then force trades until there's nothing left except for your extra piece.
+2015-01-06 01:50:27	realitygrill	oh i missed it
+2015-01-06 01:51:50	PatrickRobotham	realitygrill: I'll PM you the moves.
+2015-01-06 01:51:57	spxtr	Alright. Lets play.
+2015-01-06 01:52:04	quanticle	Isn't that strategy vulnerable to intentional sacrifices, though?
+2015-01-06 01:52:15	realitygrill	i just want to watch another game
+2015-01-06 01:52:22	quanticle	Like, I offer you a piece to lure you out into a bad position.
+2015-01-06 01:52:44	quanticle	"Mmm... look at that delicious pawn. You just want to capture it."
+2015-01-06 01:52:54	spxtr	PatrickRobotham: I'm down to do blitz or 10 mins.
+2015-01-06 01:53:38	PatrickRobotham	realitygrill: http://multiplayerchess.com/#!/2hWMyzs/
+2015-01-06 01:53:41	pookie	title: Multiplayer Chess
+2015-01-06 01:53:43	dv-	is libgen down for anyone else?
+2015-01-06 01:54:32	realitygrill	PatrickRobotham: thanks
+2015-01-06 01:54:50	 *	CRM114 's chess strategy is to do what gives me the best odds of winning (which sometimes deviates from the odds for general population)
+2015-01-06 01:59:42	realitygrill	aggressive
+2015-01-06 02:00:01	vypur	realitygrill you r a faggot
+2015-01-06 02:00:54	CRM114	dv-: it appears to be rarely on lately
+2015-01-06 02:00:59	realitygrill	Burninate:
+2015-01-06 02:01:20	--	Mode #lesswrong [+b *!*@69.80.101.111] by saturn2
+2015-01-06 02:01:36	spxtr	gg :D let's play again!
+2015-01-06 02:01:37	realitygrill	resigned?!
+2015-01-06 02:02:02	PatrickRobotham	yeah, I blundered earlier.
+2015-01-06 02:02:04	realitygrill	saturn2: thank you
+2015-01-06 02:02:06	[ui]	why resign?
+2015-01-06 02:02:15	realitygrill	he's behind on material, but..
+2015-01-06 02:02:38	<--	saturn2 has kicked vypur (vypur)
+2015-01-06 02:02:42	PatrickRobotham	spxtr: Can you make a new room?
+2015-01-06 02:02:42	u_	http://multiplayerchess.com/#!/bQMOYg5
+2015-01-06 02:02:47	spxtr	Sure
+2015-01-06 02:02:58	pookie	title: Multiplayer Chess
+2015-01-06 02:03:03	<--	Ralith (~ralith@c-24-143-97-110.customer.broadstripe.net) has quit (Ping timeout: 264 seconds)
+2015-01-06 02:03:03	u_	anyone wanna play me? if not will close
+2015-01-06 02:03:48	realitygrill	just interested in watching
+2015-01-06 02:04:19	-->	Ralith (~ralith@c-24-143-97-110.customer.broadstripe.net) has joined #lesswrong
+2015-01-06 02:04:56	feep	realitygrill just wants to watch you ... play..
+2015-01-06 02:05:25	u_	i'm sad that libgen has gone mainstream
+2015-01-06 02:05:34	u_	unreasonable of course
+2015-01-06 02:05:45	realitygrill	feep: hey now
+2015-01-06 02:05:54	u_	who am i playing? there's no chat on the website
+2015-01-06 02:06:11		irc: disconnected from server
