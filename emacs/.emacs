@@ -56,6 +56,11 @@
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
 
+;; iedit
+;; Simultaneous editing with C-;
+(require 'iedit) 
+
+
 ;;;;;;;;;;;;; FUNCTIONS ;;;;;;;;;;;;;;;;;;
 ;; (defun ifndef(s)
 ;;   (interactive "s#ifndef: " s) ;; prompts for argument with M-x
