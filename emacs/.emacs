@@ -15,9 +15,6 @@
  ;; If there is more than one, they won't work right.
  )
 
-(load "~/.emacs.d/macros.el")
-(load "~/.emacs.d/shortcuts.el")
-
 (put 'erase-buffer 'disabled nil)
  ;; backup directory
 (setq backup-directory-alist
@@ -34,53 +31,9 @@
 			 ("melpa" . "http://melpa.org/packages/")))
 (package-initialize)
 
-;;;;;;;;;;;;; PACKAGES ;;;;;;;;;;;;;;;;;;;
 
-;; auto-complete
-(require 'auto-complete)
-(require 'auto-complete-config)
-(ac-config-default)
-
-;; yasnippet
-(require 'yasnippet)
-(yas-global-mode 1)
-
-;; auto-complete-c-headers
-(defun my:ac-c-header-init()
-  (require 'auto-complete-c-headers)
-  (add-to-list 'ac-sources 'ac-source-c-header)
-  (add-to-list 'achead:include-directories '"/usr/include")
-  ;; There are many more headers to include.
-  ;; see "C-x h v achead:include-directories" for details.
-  )
-(add-hook 'c++-mode-hook 'my:ac-c-header-init)
-(add-hook 'c-mode-hook 'my:ac-c-header-init)
-
-;; iedit
-;; Simultaneous editing with C-;
-(require 'iedit) 
-
-
-;;;;;;;;;;;;; FUNCTIONS ;;;;;;;;;;;;;;;;;;
-;; (defun ifndef(s)
-;;   (interactive "s#ifndef: " s) ;; prompts for argument with M-x
-;;   (beginning-of-buffer)
-;;   (insert "#ifndef " s "\n")
-;;   (insert "#define " s "\n\n")
-;;   (end-of-buffer)
-;;   (insert "\n\n#endif")
-;;   (previous-line)(previous-line)
-;;   )
-
-;; (defun class(s)
-;;   (c++-mode)
-;;   (interactive "sClass Name: " s)
-;;   (insert "class " s "{ \n")
-;;   (insert "public: \n")
-;;   (insert s "();\n")
-;;   (insert "~" s "();\n\n")
-;;   (insert "private: \n\n")
-;;   (insert "}\n")
-;;   (indent-region (point-min) (point-max))
-;;   )
-  
+;; load other files!
+(load "~/.emacs.d/packages.el")
+(load "~/.emacs.d/require.el")
+(load "~/.emacs.d/macros.el")
+(load "~/.emacs.d/shortcuts.el")
