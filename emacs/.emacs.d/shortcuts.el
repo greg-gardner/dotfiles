@@ -2,6 +2,7 @@
 ;;;;;;;;;;;; Store Greg's keyboard shortcuts.
 
 ;;;;;;;;;;;;;;;;;; KEY BINDINGS ;;;;;;;;;;;;;;;;;;;;
+;; Greg's homegrown
 (global-set-key (kbd "C-<left>")  'previous-multiframe-window)
 (global-set-key (kbd "C-<right>") 'next-multiframe-window)
 (global-set-key (kbd "C-\\")      'toggle-comment-on-line)
@@ -15,8 +16,14 @@
 (define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
 (global-set-key "\C-j" 'newline-fresh)
 
-;;;;;;;;;;;;;;; FUNCTIONS DEFINITIONS ;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;;;;;; KEY MAPPINGS ;;;;;;;;;;;;;;;;;;;;;;;;
+;; company-mode (auto-completion)
+(define-key c-mode-map   [(C-tab)] 'company-complete)
+(define-key c++-mode-map [(C-tab)] 'company-complete)
+
+
+;;;;;;;;;;;;;;; FUNCTIONS DEFINITIONS ;;;;;;;;;;;;;;;;;;;
 ;; Comment line
 (defun toggle-comment-on-line ()
   "comment or uncomment current line"
