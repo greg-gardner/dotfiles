@@ -15,13 +15,11 @@
  ;; If there is more than one, they won't work right.
  )
 
-(put 'erase-buffer 'disabled nil)
- ;; backup directory
+;; backup directory
 (setq backup-directory-alist
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
-
 
 
 ;;;;;;;;;;;; REPOSITORIES  ;;;;;;;;;;;;;;;
@@ -31,9 +29,9 @@
 			 ("melpa" . "http://melpa.org/packages/")))
 (package-initialize)
 
-
-;; load other files!
+;;;;;;;;;;;; LOAD ERR'THANG ELSE ;;;;;;;;;;
 (load "~/.emacs.d/packages.el")
+(load "~/.emacs.d/functions.el")
 (load "~/.emacs.d/require.el")
 (load "~/.emacs.d/macros.el")
 (load "~/.emacs.d/shortcuts.el")

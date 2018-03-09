@@ -1,0 +1,71 @@
+
+;;;;;;;;;;;;; FUNCTIONS ;;;;;;;;;;;;;;;;;;
+;;; These often get called in my shortcuts.el
+;;; --GRG
+
+
+;; Comment line
+(defun toggle-comment-on-line ()
+  "comment or uncomment current line"
+  (interactive)
+  (comment-or-uncomment-region (line-beginning-position) (line-end-position)))
+ 
+;; "newline" hotkey
+(defun newline-fresh ()
+  "GG-- Create a fresh newline at end of current line."
+  (interactive)
+  (move-end-of-line 1)
+  (newline-and-indent)
+)
+
+;; Delete current line.
+(defun kill-current-line ()
+  "Kill whole line."
+  (interactive)
+  (move-beginning-of-line 1)
+  (kill-line 1)
+  )
+
+;; Scrolling <^v>
+(defun scroll-n-lines-ahead (&optional n)
+  "Scroll one or n lines ahead."
+  (interactive "P")
+  (scroll-ahead (prefix-numeric-value n))
+  )
+(defun scroll-n-lines-behind (&optional n)
+  "Scroll one or n lines behind."
+  (interactive "P")
+  (scroll-behind (prefix-numeric-value n))
+  )
+(defalias 'scroll-ahead  'scroll-up)
+(defalias 'scroll-behind 'scroll-down)
+
+
+
+
+
+;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
+;; No idea...
+(defun ifndef(s)
+  (interactive "s#ifndef: " s) ;; prompts for argument with M-x
+  (beginning-of-buffer)
+  (insert "#ifndef " s "\n")
+  (insert "#define " s "\n\n")
+  (end-of-buffer)
+  (insert "\n\n#endif")
+  (previous-line)(previous-line)
+  )
+  
+;; Make a class
+(defun class(s)
+  (c++-mode)
+  (interactive "sClass Name: " s)
+  (insert "class " s "{ \n")
+  (insert "public: \n")
+  (insert s "();\n")
+  (insert "~" s "();\n\n")
+  (insert "private: \n\n")
+  (insert "}\n")
+  (indent-region (point-min) (point-max))
+  )
+  

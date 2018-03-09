@@ -1,10 +1,11 @@
 
+
 .emacs.d/ac-comphist.dat
 .emacs.d/auto-save-list/
 .emacs.d/elpa/
+.emacs.d/url
 
 
-######### The rest is from https://github.com/github/gitignore/blob/master/Elisp.gitignore
 # Compiled
 *.elc
 
@@ -15,7 +16,7 @@
 *~
 
 # AutoSave files
-*#
+*.#*
 
 # Undo-tree save-files
 *.~undo-tree

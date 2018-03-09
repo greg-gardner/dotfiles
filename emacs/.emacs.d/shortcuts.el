@@ -6,6 +6,17 @@
 (global-set-key (kbd "C-<left>")  'previous-multiframe-window)
 (global-set-key (kbd "C-<right>") 'next-multiframe-window)
 (global-set-key (kbd "C-\\")      'toggle-comment-on-line)
+(global-set-key "\M-e" 'end-of-buffer)
+(global-set-key "\M-a" 'beginning-of-buffer)
+(global-set-key [C-tab] 'lisp-complete-symbol)
+(global-set-key "\C-d" 'kill-current-line)
+(global-set-key "\C-o" 'newline-fresh)
+(global-set-key [S-next]  'scroll-left)
+(global-set-key [S-prior] 'scroll-right)
+(global-set-key [C-next]  'scroll-n-lines-ahead)
+(global-set-key [C-prior] 'scroll-n-lines-behind)
+(global-set-key "\C-j" 'eval-last-sexp)
+
 ;; gtags
 (define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)
 (define-key ggtags-mode-map (kbd "C-c g h") 'ggtags-view-tag-history)
@@ -14,7 +25,7 @@
 (define-key ggtags-mode-map (kbd "C-c g c") 'ggtags-create-tags)
 (define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
 (define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
-(global-set-key "\C-j" 'newline-fresh)
+
 
 
 ;;;;;;;;;;;;;;;;;;; KEY MAPPINGS ;;;;;;;;;;;;;;;;;;;;;;;;
@@ -23,17 +34,3 @@
 (define-key c++-mode-map [(C-tab)] 'company-complete)
 
 
-;;;;;;;;;;;;;;; FUNCTIONS DEFINITIONS ;;;;;;;;;;;;;;;;;;;
-;; Comment line
-(defun toggle-comment-on-line ()
-  "comment or uncomment current line"
-  (interactive)
-  (comment-or-uncomment-region (line-beginning-position) (line-end-position)))
- 
-;; "newline" hotkey
-(defun newline-fresh ()
-  "GG-- Create a fresh newline at end of current line."
-  (interactive)
-  (move-end-of-line 1)
-  (newline-and-indent)
-)
