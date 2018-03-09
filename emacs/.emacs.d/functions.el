@@ -40,8 +40,13 @@
 (defalias 'scroll-ahead  'scroll-up)
 (defalias 'scroll-behind 'scroll-down)
 
-
-
+;; Eval-current line
+(defun eval-current-line ()
+  "Move cursor to end of line before evaluating last sexp."
+  (interactive)
+  (move-end-of-line 1)
+  (eval-last-sexp nil)
+  )
 
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;

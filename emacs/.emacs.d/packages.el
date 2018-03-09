@@ -19,8 +19,11 @@
 ;; Install all packages from the list.
 (defun try-installing-package(package)
   "Install a package if not installed already."
-  (if (not (package-installed-p package))
+  (if (package-installed-p package)
+      (message "%s is installed." package)
       (progn
+	(message "Now installing package '%s!" package))
 	(package-install package)
-	(message "Installed package %s!" package))))
+    ))
 (mapc 'try-installing-package required-packages)
+
