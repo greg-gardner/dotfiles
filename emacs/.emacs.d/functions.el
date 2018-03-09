@@ -48,6 +48,12 @@
   (eval-last-sexp nil)
   )
 
+;; sudo-edit
+(defun sudo-edit()
+  "Sudo edit current with tramp."
+  (interactive)
+  ;;if file exists
+  (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name)))
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...
