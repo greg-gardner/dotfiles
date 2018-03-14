@@ -52,7 +52,21 @@
 (defun sudo-edit ()
   "Edit current buffer using sudo."
   (interactive)
-  (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name)))
+  ;;(find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name)))
+  (find-alternate-file (concat "/sshlocalhost:|sudo:root@console-2:" buffer-file-name)))
+
+;; sudo-through
+(defun sudo-through ()
+  "Enter a directy as root on a host that does not PermitRootLogin, but does 
+allow sudo escalation without password"
+  (interactive)
+  (let ((hostname (read-string "Enter hostname :"))
+	(path (read-string "Enter directory:")))
+    (find-file 
+     (concat "/ssh:" hostname "|sudo:" hostname ":" path))))
+
+
+
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...
