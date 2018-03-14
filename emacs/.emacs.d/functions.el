@@ -48,6 +48,11 @@
   (eval-last-sexp nil)
   )
 
+;; sudo-edit
+(defun sudo-edit ()
+  "Edit current buffer using sudo."
+  (interactive)
+  (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name)))
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...
