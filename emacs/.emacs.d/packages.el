@@ -1,6 +1,25 @@
 ;; packages.el
 ;; Add all required packages to the required-packages list. Attempts to install any unintstalled packages.
 
+
+;; Set HTTP Proxy:
+;; (setq url-proxy-services
+;;       '(("no_proxy" . "^\\(localhost\\|10.*\\|*.llan.ll.mit.edu\\)")
+;;         ("http" . "llproxy.llan.ll.mit.edu:8080")
+;;         ("https" . "llproxy.llan.ll.mit.edu:8080"))
+;;       )
+
+;; Add repos here:
+(require 'package)
+(setq package-archives 
+      '(
+	("gnu" . "http://elpa.gnu.org/packages/")
+	("melpa" . "http://melpa.org/packages/")
+	;; Disabled Marmalade due to LL problems.
+	;;("marmalade" . "https://marmalade-repo.org/packages/")
+	))
+(package-initialize)
+
 ;; Add packages here:
 (setq required-packages
       '(flymake-easy
@@ -16,14 +35,21 @@
 	company-c-headers	
 	))
 
+;; Set llproxy for work.
+(setq url-proxy-services
+      '(("no_proxy" . "^\\(localhost\\|10.*\\|*.llan.ll.mit.edu\\)")
+        ("http" . "llproxy.llan.ll.mit.edu:8080")
+        ("https" . "llproxy.llan.ll.mit.edu:8080"))
+      )
+
 ;; Install all packages from the list.
 (defun try-installing-package(package)
   "Install a package if not installed already."
   (if (package-installed-p package)
       (message "%s is installed." package)
       (progn
-	(message "Now installing package '%s!" package))
+	(message "Attempting to install package '%s!" package))
 	(package-install package)
+
     ))
 (mapc 'try-installing-package required-packages)
-

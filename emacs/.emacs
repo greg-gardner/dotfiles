@@ -22,13 +22,6 @@
       `((".*" ,temporary-file-directory t)))
 
 
-;;;;;;;;;;;; REPOSITORIES  ;;;;;;;;;;;;;;;
-(require 'package)
-(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-			 ("marmalade" . "https://marmalade-repo.org/packages/")
-			 ("melpa" . "http://melpa.org/packages/")))
-(package-initialize)
-
 ;;;;;;;;;;;; LOAD ERR'THANG ELSE ;;;;;;;;;;
 (load "~/.emacs.d/packages.el")
 (load "~/.emacs.d/functions.el")
