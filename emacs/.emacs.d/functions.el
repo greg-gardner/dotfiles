@@ -81,6 +81,11 @@ allow sudo escalation without password"
        (string-match-p "rc.local" buffer-file-name))
       (shell-script-mode))))
 
+;; reload ~/.emacs
+(defun reload ()
+  (interactive)
+  (load-file "~/.emacs"))
+
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...
 (defun ifndef(s)
