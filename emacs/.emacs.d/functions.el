@@ -50,10 +50,9 @@
 
 ;; sudo-edit
 (defun sudo-edit ()
-  "Edit current buffer using sudo."
+  "Use tramp to modify the current buffer with sudo."
   (interactive)
-  ;;(find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name)))
-  (find-alternate-file (concat "/sshlocalhost:|sudo:root@console-2:" buffer-file-name)))
+  (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name)))
 
 ;; sudo-through
 (defun sudo-through ()
@@ -65,7 +64,13 @@ allow sudo escalation without password"
     (find-file 
      (concat "/ssh:" hostname "|sudo:" hostname ":" path))))
 
-
+;; Open bash dotfiles in shell-script-mode
+(defadvice find-file (before bash-dotfile activate compile)
+  "Open '.bash*' dotfiles in shell-script-mode."
+  (if (or
+       (string-match-p ".*\.bash" buffer-file-name)
+       (string-match-p "rc.local" buffer-file-name))
+      (shell-script-mode)))
 
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
