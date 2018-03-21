@@ -2,7 +2,7 @@ Installation instructions:
 
 1. Prep ggtags.el
    0. (describe-package 'ggtags)
-   1. $ yum install global python-pip
+   1. $ yum install global python-pip clang
    2. $ yum install exuberant-ctags
    3. $ pip --proxy <proxy> install pygments
 
