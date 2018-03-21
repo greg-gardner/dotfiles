@@ -2,11 +2,15 @@ Installation instructions:
 
 1. Prep ggtags.el
    0. (describe-package 'ggtags)
-   1. $ yum install global
+   1. $ yum install global python-pip
    2. $ yum install exuberant-ctags
-   3. $ pip install pygments
+   3. $ pip --proxy <proxy> install pygments
 
 2. Load the .emacs file in emacs.
    1. require.el will attempt to download some packages.
    2. Check *Messages* buffer for download results.
    
+
+Troubleshooting:
+- check your http_proxy
+- verify you can reach all repo urls in packages.el

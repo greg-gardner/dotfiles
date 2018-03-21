@@ -56,12 +56,11 @@
   (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name)))
 
 ;; Open bash dotfiles in shell-script-mode
-(defadvice handle-bash-dotfiles (before bash-dotfile activate compile)
+(defadvice find-file (before bash-dotfile activate compile)
   "Open '.bash*' dotfiles in shell-script-mode."
-  (interactive)
   (if (or
        (string-match-p ".*\.bash" buffer-file-name)
-       (string-match-p "rc.local"))
+       (string-match-p "rc.local" buffer-file-name))
       (shell-script-mode)))
 
 
