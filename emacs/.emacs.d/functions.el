@@ -3,7 +3,6 @@
 ;;; These often get called in my shortcuts.el
 ;;; --GRG
 
-
 ;; Comment line
 (defun toggle-comment-on-line ()
   "comment or uncomment current line"
@@ -54,6 +53,15 @@
   (interactive)
   (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name)))
 
+;; edit-through
+(defun edit-through ()
+  "Enter a remote directory as current user."
+  (interactive)
+  (let ((hostname (read-string "Enter hostname :"))
+	(path (read-string "Enter directory:")))
+    (find-file 
+     (concat "/ssh:" user-login-name "@" hostname ":" path))))
+
 ;; sudo-through
 (defun sudo-through ()
   "Enter a directy as root on a host that does not PermitRootLogin, but does 
@@ -72,7 +80,6 @@ allow sudo escalation without password"
        (string-match-p ".*\.bash" buffer-file-name)
        (string-match-p "rc.local" buffer-file-name))
       (shell-script-mode))))
-
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...
