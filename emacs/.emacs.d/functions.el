@@ -67,10 +67,11 @@ allow sudo escalation without password"
 ;; Open bash dotfiles in shell-script-mode
 (defadvice find-file (before bash-dotfile activate compile)
   "Open '.bash*' dotfiles in shell-script-mode."
-  (if (or
+  (if buffer-file-name
+     (if (or
        (string-match-p ".*\.bash" buffer-file-name)
        (string-match-p "rc.local" buffer-file-name))
-      (shell-script-mode)))
+      (shell-script-mode))))
 
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
