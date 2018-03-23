@@ -5,6 +5,7 @@
 .emacs.d/elpa/
 .emacs.d/url
 .emacs.d/tramp
+.emacs.d/session.*
 
 # Compiled
 *.elc
