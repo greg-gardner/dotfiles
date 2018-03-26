@@ -1,6 +1,6 @@
 
-#+STARTUP: overview  //{overview, content, showall}
-
+#+STARTUP: overview  //{overview, content, showall}.  Use C-c C-c to change.
+		     
 * Shortcuts
 ** Motion
 C-c C-n
@@ -12,7 +12,7 @@ C-c C-f
 C-c C-b
     Previous heading same level. 
 C-c C-u
-    Backward to higher level heading. 
+Backward to higher level heading. 
 ** Edit Structure
 M-RET
     Insert new heading with same level as current. If the cursor is in a plain list item, a new item is created (see Plain lists). When this command is used in the middle of a line, the line is split and the rest of the line becomes the new headline2.
@@ -66,7 +66,7 @@ I left off at [[https://orgmode.org/guide/External-links.html#External-links][se
 * Lists
 {- + * 1. 1}
 ** example 
-  LOTR example 
+   LOTR example 
    1. The attack of the Rohirrim
    2. Eowyn's fight with the witch king
       * this was already my favorite scene in the book
@@ -76,6 +76,11 @@ I left off at [[https://orgmode.org/guide/External-links.html#External-links][se
    Important actors in this film are:
    - Elijah Wood :: He plays Frodo
      - Sean Astin :: He plays Sam, Frodo's friend.
+** Checkboxes
+Must be in list. 
+- [X] check the box w/ C-c C-c
+- M-S-RET makes new checkbox
+
 * Footnotes
   This content has a footnote[fn:1]
 ** Shortcuts
@@ -133,12 +138,238 @@ C-c ^
   https://orgmode.org/guide/Link-format.html#Link-format
   [[https://orgmode.org/guide/Link-format.html#Link-format][same-hyperlink-with-description]]
 ** Internal Links
-   If the link does not look like a URL, it is considered to be internal in the current file. 
-   The most important case is a link like ‘[[#my-custom-id]]’ which will link to the entry with the CUSTOM_ID property ‘my-custom-id’. 
+   ‘[[#my-custom-id]]’ will link to the entry with the CUSTOM_ID property ‘my-custom-id’. 
+  
+   [[My target]] does text search in the current file for the first occurrance
+   of ‘<<My Target>>’. 
 
-   [[target]]
-   <<target>>
+** Targete Links
+   [[file:~/.bashrc:4]]                 Find line 255
+   [[file:~/xx.org::My%20Target][file:~/xx.org::My Target]]         Find ‘<<My Target>>’
+   [[file:~/xx.org::#my-custom-id]]     Find entry with custom id
+** Shortcut
+C-c l
+    Store a link to the current location for use with C-c C-l
+C-c C-l
+    Insert a link. This prompts for a link to be inserted into the buffer. 
+    You can just type a link, or use history keys up and down to access 
+    stored links. You will be prompted for the description part of the link. When called with a C-u prefix argument, file name completion is used to link to a file. 
+C-c C-l (with cursor on existing link)
+    When the cursor is on an existing link, C-c C-l allows you to edit the 
+    link and description parts of the link. 
+C-c &
+    Jump back to a recorded position. A position is recorded by the 
+    commands following internal links, and by C-c %. Using this command several times in direct succession moves through a ring of previously recorded positions. 
 
-   [[Shortcuts]]
+* 'TODO' 
+** Examples
+*** TODO wash car
+*** TODO grad school
+*** DONE walk dog
+    CLOSED: [2018-03-26 Mon 15:24]
+    - CLOSING NOTE [2018-03-26 Mon 15:24] \\
+      This is an example closed note.    
+** Shortcuts
+C-c C-t
+    Rotate the TODO state of the current item among
+    (unmarked) -> TODO -> DONE -> (unmarked)
+    The same rotation can also be done “remotely” from the agenda buffers 
+    with the t command key (see Agenda commands).
+S-right/left
+    Select the following/preceding TODO state, similar to cycling. 
+C-c / t
+    View TODO items in a sparse tree (see Sparse trees). Folds the buffer, 
+    but shows all TODO items and the headings hierarchy above them. 
+C-c a t
+    Show the global TODO list. Collects the TODO items from all agenda 
+    files (see Agenda Views) into a single buffer. See Global TODO list, 
+    for more information. 
+S-M-RET
+    Insert a new TODO entry below the current one. 
 
-left off at [[https://orgmode.org/guide/External-links.html#External-links][section 4.3]]
+Changing a TODO state can also trigger tag changes. See the docstring of 
+the option org-todo-state-tags-triggers for details. 
+** Multi-State Workflows
+
+(setq org-todo-keywords
+  '((sequence "TODO" "FEEDBACK" "VERIFY" "|" "DONE" "DELEGATED")))
+
+The vertical bar separates the TODO keywords (states that need action) from 
+the DONE states (which need no further action). If you don’t provide the 
+separator bar, the last state is used as the DONE state. With this setup, 
+the command C-c C-t will cycle an entry from TODO to FEEDBACK, then to 
+VERIFY, and finally to DONE and DELEGATED. Sometimes you may want to use 
+different sets of TODO keywords in parallel. For example, you may want to 
+have the basic TODO/DONE, but also a workflow for bug fixing. Your setup 
+would then look like this: 
+
+(setq org-todo-keywords
+      '((sequence "TODO(t)" "|" "DONE(d)")
+        (sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")))
+
+The keywords should all be different, this helps Org mode to keep track of 
+which subsequence should be used for a given entry. The example also shows 
+how to define keys for fast access of a particular state, by adding a 
+letter in parenthesis after each keyword—you will be prompted for the key 
+after C-c C-t. 
+
+To define TODO keywords that are valid only in a single file, use the 
+following text anywhere in the file.
+
+#+TODO: TODO(t) | DONE(d)
+#+TODO: REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f)
+#+TODO: | CANCELED(c)
+
+After changing one of these lines, use C-c C-c with the cursor still in the 
+line to make the changes known to Org mode. 
+** Progress Logging
+Org mode can automatically record a timestamp and possibly a note when you 
+mark a TODO item as DONE, or even each time you change the state of a TODO 
+item. This system is highly configurable; settings can be on a per-keyword 
+basis and can be localized to a file or even a subtree. For information on 
+how to clock working time for a task, see Clocking work time.
+*** Closing Items
+The most basic logging is to keep track of when a certain TODO item was 
+finished. This is achieved with:
+
+(setq org-log-done 'time)
+OR
+' #+STARTUP: logdone  '
+
+Then each time you turn an entry from a TODO (not-done) state into any of 
+the DONE states, a line ‘CLOSED: [timestamp]’ will be inserted just after 
+the headline. If you want to record a note along with the timestamp, use
+
+(setq org-log-done 'note)
+OR
+' #+STARTUP: lognotedone '
+
+You will then be prompted for a note, and that note will be stored below the 
+entry with a ‘Closing Note’ heading. 
+
+*** Tracking TODO State Changes
+
+CLOSING NOTES will be inserted after the headline as an itemized list. When 
+taking a lot of notes, you might want to get the notes out of the way into 
+a drawer. Customize the variable org-log-into-drawer to get this behavior. 
+
+For state logging, Org mode expects configuration on a per-keyword basis. 
+This is achieved by adding special markers ‘!’ (for a timestamp) and ‘@’ 
+(for a note) in parentheses after each keyword. For example:
+
+' #+TODO: TODO(t) WAIT(w@/!) | DONE(d!) CANCELED(c@)' 
+
+** Priorities
+Prioritizing a TODO can be done by placing a priority cookie into the 
+headline of a TODO item, like this:
+
+*** TODO [#A] Write letter to Sam Fortune
+
+S-up/dwn
+    Increase/decrease priority of current headline 
+** Breaking Down Tasks
+Create outline tree below a TODO item. 
+Insert either ‘[/]’ or ‘[%]’ anywhere in the headline
+
+*** Organize Party [25%]
+**** TODO Call people [1/2]
+***** TODO Peter
+***** DONE Sarah
+**** TODO Buy food
+**** DONE Talk to neighbor
+
+Using a checlkist instead:
+*** TODO Organize party [1/3]
+    - [-] call people [1/2]
+      - [ ] Peter
+      - [X] Sarah
+    - [X] order food
+* Tags								       :tags:
+Appended to headlines. Ex:  :tag1:tag2:
+** Tag Inheritance
+Subheadings inherit the parent's tags.
+
+Globall tag for all headings:
+' #+FILETAGS: :inherited:by:all: '
+** Setting Tags
+Tab complete is your friend.
+C-c C-q
+C-c C-c
+   Same thing, but inline.
+** Tag Groups
+Create a @read group:
+' #+TAGS: { @read : @read_book  @read_ebook } '
+*** Disable
+Ignore group tags:
+org-toggle-tags-groups, bound to C-c C-x q
+
+Disable group tags:  set org-group-tags to nil.
+** Tag Search							     :agenda:
+C-c \
+C-c / m
+  Create sparse tree search
+C-c a m
+    Create a global list of tag matches from all agenda files. See Matching 
+    tags and properties. 
+C-c a M
+    Create a global list of tag matches from all agenda files, but check 
+    only TODO items and force checking subitems (see variable org-tags-
+    match-list-sublevels). 
+
+These commands all prompt for a match string which allows basic Boolean 
+logic like ‘+boss+urgent-project1’, to find entries with tags ‘boss’ and ‘
+urgent’, but not ‘project1’, or ‘Kathy|Sally’ to find entries which are 
+tagged, like ‘Kathy’ or ‘Sally’. The full syntax of the search string is 
+rich and allows also matching against TODO keywords, entry levels and 
+properties. For a complete description with many examples, see Matching 
+tags and properties.
+* Properties
+Properties are key-value pairs associated with an entry. They live in a 
+special drawer PROPERTIES:
+:PROPERTIES:
+:My_string: "a string"
+:My_numbers_ALL: 7 25 89
+:ccxp:     "C-c C-x p"
+:END:
+You may define the allowed values for a particular property ‘:Xyz:’ by 
+setting a property ‘:Xyz_ALL:’. This special property is inherited, so if 
+you set it in a level 1 entry, it will apply to the entire tree. When 
+allowed values are defined, setting the corresponding property becomes 
+easier and is less prone to typing errors. 
+** Shortcuts 
+C-c C-x p
+    Set a property. This prompts for a property name and a value. 
+C-c C-c d
+Remove a property from the current entry. 
+* Dates and Times
+TODO items can be labeled with a Org mode timestamp.
+** Timestamps
+A timestamp can appear anywhere in the headline or body of an Org tree 
+entry. Its presence causes entries to be shown on specific dates in the 
+agenda (see Weekly/daily agenda).
+*** Basic
+ <2006-11-01 Wed 19:15>
+
+*** Repeater interval
+A timestamp may contain a repeater interval, indicating that it applies not 
+only on the given date, but again and again after a certain interval of N 
+days (d), weeks (w), months (m), or years (y). The following will show up 
+in the agenda every Wednesday:
+ <2007-05-16 Wed 12:30 +1w>
+
+*** Diary-style sexp entries
+Org mode supports using the special sexp diary entries from the Emacs 
+calendar/diary package. 
+  <%%(diary-float t 4 2)>
+
+*** Time/Date range
+Two timestamps connected by ‘--’ denote a range.
+   <2004-08-23 Mon>--<2004-08-26 Thu>
+
+*** Inactive timestamp
+Just like a plain timestamp, but with square brackets instead of angular 
+ones. These timestamps are inactive in the sense that they do not trigger 
+an entry to show up in the agenda.
+  [2006-11-01 Wed]
+
+* left off at [[https://orgmode.org/guide/Timestamps.html#Timestamps]]
