@@ -28,3 +28,4 @@
 (load "~/.emacs.d/require.el")
 (load "~/.emacs.d/macros.el")
 (load "~/.emacs.d/shortcuts.el")
+(load "~/.emacs.d/config.el")
