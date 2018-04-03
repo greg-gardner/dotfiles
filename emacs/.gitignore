@@ -6,6 +6,7 @@
 .emacs.d/url
 .emacs.d/tramp
 .emacs.d/session.*
+.emacs.d/bookmarks
 
 # Compiled
 *.elc
