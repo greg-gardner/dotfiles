@@ -54,15 +54,6 @@ C-c C-c
     If there is a checkbox (see Checkboxes) in the item line, toggle the state of the checkbox. Also verify bullets and indentation consistency in the whole list. 
 C-c -
     Cycle the entire list level through the different itemize/enumerate bullets (‘-’, ‘+’, ‘*’, ‘1.’, ‘1)’). 
-** Shortcuts
-   C-c C-x f
-   The footnote action command. When the cursor is on a footnote reference, jump to the definition. When it is at a definition, jump to the (first) reference. Otherwise, create a new footnote. When this command is called with a prefix argument, a menu of additional options including renumbering is offered.
-   C-c C-c
-   Jump between definition and reference. 
-
-
-I left off at [[https://orgmode.org/guide/External-links.html#External-links][section 4.3]]
-
 * Lists
 {- + * 1. 1}
 ** example 
@@ -79,8 +70,7 @@ I left off at [[https://orgmode.org/guide/External-links.html#External-links][se
 ** Checkboxes
 Must be in list. 
 - [X] check the box w/ C-c C-c
-- M-S-RET makes new checkbox
-
+- M-S-RET  makes new checkbox (inside list only)
 * Footnotes
   This content has a footnote[fn:1]
 ** Shortcuts
@@ -90,6 +80,7 @@ Must be in list.
    Jump between definition and reference. 
 
 [fn:1] A footnote!
+
 * Tables
   + https://orgmode.org/guide/Tables.html#Tables
   + Spreadsheet-like calculations are supported in connection with the Emacs calc package
@@ -342,14 +333,36 @@ C-c C-x p
 C-c C-c d
 Remove a property from the current entry. 
 * Dates and Times
-TODO items can be labeled with a Org mode timestamp.
+  TODO items can be labeled with a Org mode timestamp.
+  [[https://orgmode.org/guide/Timestamps.html#Timestamps]]
 ** Timestamps
-A timestamp can appear anywhere in the headline or body of an Org tree 
-entry. Its presence causes entries to be shown on specific dates in the 
-agenda (see Weekly/daily agenda).
+   A timestamp can appear anywhere in the headline or body of an Org tree 
+   entry. Its presence causes entries to be shown on specific dates in the 
+   agenda (see Weekly/daily agenda).
+*** Shortcuts
+C-c .
+    Prompt for a date and insert a corresponding timestamp. When the cursor 
+    is at an existing timestamp in the buffer, the command is used to modify 
+    this timestamp instead of inserting a new one. When this command is used 
+    twice in succession, a time range is inserted. With a prefix, also add the 
+    current time. 
+C-c !
+    Like C-c ., but insert an inactive timestamp that will not cause an 
+    agenda entry. 
+S-left/right
+
+    Change date at cursor by one day. 
+S-up/down
+
+    Change the item under the cursor in a timestamp. The cursor can be on a 
+    year, month, day, hour or minute. When the timestamp contains a time 
+    range like ‘15:30-16:30’, modifying the first time will also shift the 
+    second, shifting the time block with constant length. To change the 
+    length, modify the second time. 
+
+When Org mode prompts for a date/time, it will accept any string containing some date and/or time information, and intelligently interpret the string, deriving defaults for unspecified information from the current date and time. You can also select a date in the pop-up calendar. See the manual for more information on how exactly the date/time prompt works. 
 *** Basic
  <2006-11-01 Wed 19:15>
-
 *** Repeater interval
 A timestamp may contain a repeater interval, indicating that it applies not 
 only on the given date, but again and again after a certain interval of N 
@@ -372,4 +385,159 @@ ones. These timestamps are inactive in the sense that they do not trigger
 an entry to show up in the agenda.
   [2006-11-01 Wed]
 
-* left off at [[https://orgmode.org/guide/Timestamps.html#Timestamps]]
+** Deadlines and Scheduling
+A timestamp may be preceded by special keywords to facilitate planning.
+[[https://orgmode.org/guide/Deadlines-and-scheduling.html#Deadlines-and-scheduling][docs]]
+*** Deadline
+Meaning: the task (most likely a TODO item, though not necessarily) is 
+supposed to be finished on that date.
+
+C-c C-d
+    Insert ‘DEADLINE’ keyword along with a stamp, in the line following 
+    the headline. 
+
+On the deadline date, the task will be listed in the agenda. In addition, 
+the agenda for today will carry a warning about the approaching or missed 
+deadline, starting org-deadline-warning-days before the due date, and 
+continuing until the entry is marked DONE. An example:
+
+**** TODO Example: write article about the Earth for the Guide
+     The editor in charge is [[bbdb:Ford Prefect]]
+     DEADLINE: <2004-02-29 Sun>
+
+*** Scheduled
+Meaning: you are planning to start working on that task on the given date.
+
+C-c C-s
+    Insert ‘SCHEDULED’ keyword along with a stamp, in the line following 
+    the headline. 
+
+The headline will be listed under the given date8. In addition, a 
+reminder that the scheduled date has passed will be present in the 
+compilation for today, until the entry is marked DONE. I.e. the task will 
+automatically be forwarded until completed.
+
+**** TODO Call Trillian for a date on New Years Eve.
+    SCHEDULED: <2004-12-25 Sat>
+
+Some tasks need to be repeated again and again. Org mode helps to 
+organize such tasks using a so-called repeater in a DEADLINE, SCHEDULED, 
+or plain timestamp. In the following example
+
+**** TODO Pay the rent
+   DEADLINE: <2005-10-01 Sat +1m>
+
+The +1m is a repeater; the intended interpretation is that the task has a 
+deadline on <2005-10-01> and repeats itself every (one) month starting 
+from that time. 
+*** Shortcuts
+C-c C-d
+    Insert ‘DEADLINE’ keyword along with a stamp, in the line following 
+    the headline. 
+C-c C-s
+    Insert ‘SCHEDULED’ keyword along with a stamp, in the line following 
+    the headline. 
+** Clocking Work Time
+   CLOCK: [2018-03-28 Wed 21:38]--[2018-03-28 Wed 21:43] =>  0:05
+   :PROPERTIES:
+   :Effort:   0:05
+   :END:
+Org mode allows you to clock the time you spend on specific tasks in a 
+project.
+
+C-c C-x C-i
+    Start the clock on the current item (clock-in). This inserts the 
+    CLOCK keyword together with a timestamp. When called with a C-u prefix 
+    argument, select the task from a list of recently clocked tasks. 
+C-c C-x C-o
+    Stop the clock (clock-out). This inserts another timestamp at the 
+    same location where the clock was last started. It also directly computes 
+    the resulting time in inserts it after the time range as ‘=> HH:MM’. 
+C-c C-x C-e
+    Update the effort estimate for the current clock task. 
+C-c C-x C-q
+    Cancel the current clock. This is useful if a clock was started by 
+    mistake, or if you ended up working on something else. 
+C-c C-x C-j
+    Jump to the entry that contains the currently running clock. With a C-
+    u prefix arg, select the target task from a list of recently clocked tasks. 
+
+C-c C-x C-r
+    Insert a dynamic block containing a clock report as an Org-mode table 
+    into the current file. When the cursor is at an existing clock table, 
+    just update it.
+    
+    #+BEGIN: clocktable :maxlevel 2 :emphasize nil :scope file
+    #+END: clocktable
+
+    For details about how to customize this view, see the manual. 
+C-c C-c
+    Update dynamic block at point. The cursor needs to be in the #+BEGIN 
+    line of the dynamic block. 
+
+The l key may be used in the agenda (see Weekly/daily agenda) to show 
+which tasks have been worked on or closed during a day. 
+
+* Capture - Refile - Archive
+  Org defines a capture process to create tasks. Once in the system, 
+  tasks and projects need to be moved around. Moving completed project 
+  trees to an archive file keeps the system compact and fast. 
+** Capture
+Org lets you store quick notes with little interruption of your work 
+flow. You can define templates for new entries and associate them with 
+different targets for storing notes. 
+*** Setting a Capture Location
+The following customization sets a default target file for notes, and 
+defines a global key for capturing new stuff.
+
+  (setq org-default-notes-file "/tmp/notes.org")
+  (define-key global-map "\C-cc" 'org-capture)
+
+*** Shortcuts
+C-c c
+    Start a capture process, placing you into a narrowed indirect buffer 
+    to edit. 
+C-c C-c
+    Once you are done entering information into the capture buffer, C-c C-c
+    will return you to the window configuration before the capture 
+    process, so that you can resume your work without further distraction. 
+C-c C-w
+    Finalize by moving the entry to a refile location (see section 9.2). 
+C-c C-k
+    Abort the capture process and return to the previous state. 
+*** Capture Templates
+You can use templates to generate different types of capture notes, and 
+to store them in different places. 
+[[https://orgmode.org/guide/Capture-templates.html#Capture-templates]]
+
+For example, if you would like to store new tasks under a heading ‘Tasks’ 
+in file TODO.org, and journal entries in a date tree in journal.org you 
+could use:
+
+(setq org-capture-templates
+ '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+        "* TODO %?\n  %i\n  %a")
+   ("j" "Journal" entry (file+datetree "~/org/journal.org")
+   "* %?\nEntered on %U\n  %i\n  %a")))
+** Archive   When a project represented by a (sub)tree is finished, you may want to move the tree out of the way and to stop it from contributing to the agenda. Archiving is important to keep your working files compact and global searches like the construction of agenda views fast. The most common archiving action is to move a project tree to another file, the archive file.
+   When a project represented by a (sub)tree is finished, you may want to move 
+   the tree out of the way and to stop it from contributing to the agenda. 
+   Archiving is important to keep your working files compact and global 
+   searches like the construction of agenda views fast. The most common 
+   archiving action is to move a project tree to another file, the archive 
+   file.
+
+C-c C-x C-a
+    Archive the current entry using org-archive-default-command. 
+C-c C-x C-s or short  C-c $
+    Archive the subtree starting at the cursor position to the location 
+    given by org-archive-location. 
+
+    The default archive location is a file in the same directory as the current 
+    file, with the name derived by appending _archive to the current file name. For information and examples on how to change this, see the documentation string of the variable org-archive-location. There is also an in-buffer option for setting this variable, for example
+
+   '  #+ARCHIVE: %s_done:: '
+* Agenda
+** Agenda files
+   [[https://orgmode.org/guide/Agenda-files.html#Agenda-files]]
+   
