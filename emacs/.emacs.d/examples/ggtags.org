@@ -1,0 +1,38 @@
+Taken from [[http://tuhdo.github.io/c-ide.html#sec-2][C/C++ Development Environment for Emacs]]
+
+* Setting up ggtags
+
+  Install GNU Global from your distribution's package manager (Linux / Mac) or from the Win32 port (Windows). If none is available, download the sources here and manually build the package. Do be aware that it is remotely possible that your package manager might install an outdated version that might impair some functionality of helm-gtags.
+  Install ggtags. After installing ggtags from MELPA, add this code snippet to setup ggtags and key bindings:
+  
+  #+BEGIN_SRC
+  (require 'ggtags)
+  (add-hook 'c-mode-common-hook
+  (lambda ()
+  (when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
+  (ggtags-mode 1))))
+  
+  (define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)
+  (define-key ggtags-mode-map (kbd "C-c g h") 'ggtags-view-tag-history)
+  (define-key ggtags-mode-map (kbd "C-c g r") 'ggtags-find-reference)
+  (define-key ggtags-mode-map (kbd "C-c g f") 'ggtags-find-file)
+  (define-key ggtags-mode-map (kbd "C-c g c") 'ggtags-create-tags)
+  (define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
+  
+  (define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
+  #+END_SRC
+  
+* Create a GTAGS database 
+  $ cd /path/to/project/root
+  $ gtags
+
+  After this, a few files are created:
+
+  $ ls G*
+  GPATH   GRTAGS  GTAGS
+  
+    GTAGS: definition database
+    GRTAGS: reference database
+    GPATH: path name database
+
+  Creating GTAGS database with ggtags-create-tags; this is recommended way when using ggtags, to let it know where the project root is.
