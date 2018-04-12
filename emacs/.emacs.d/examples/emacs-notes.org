@@ -1,0 +1,26 @@
+* Bookmarks
+  https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html  
+  Persist across Emacs sessions.
+* Shortcuts
+C-x r m <RET>
+    Set the bookmark for the visited file, at point.
+C-x r m bookmark <RET>
+    Set the bookmark named bookmark at point (bookmark-set).
+C-x r M bookmark <RET>
+    Like C-x r m, but don't overwrite an existing bookmark.
+C-x r b bookmark <RET>
+    Jump to the bookmark named bookmark (bookmark-jump).
+C-x r l
+    List all bookmarks (list-bookmarks).
+M-x bookmark-save
+    Save all the current bookmark values in the default bookmark file. 
+M-x bookmark-load <RET> filename <RET>
+    Load a file named filename that contains a list of bookmark values. You can use this command, as well as bookmark-write, to work with other files of bookmark values in addition to your default bookmark file.
+M-x bookmark-write <RET> filename <RET>
+    Save all the current bookmark values in the file filename.
+M-x bookmark-delete <RET> bookmark <RET>
+    Delete the bookmark named bookmark.
+M-x bookmark-insert-location <RET> bookmark <RET>
+    Insert in the buffer the name of the file that bookmark bookmark points to.
+M-x bookmark-insert <RET> bookmark <RET>
+    Insert in the buffer the contents of the file that bookmark bookmark points to. 
