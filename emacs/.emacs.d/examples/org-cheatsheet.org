@@ -1,6 +1,6 @@
 
 #+STARTUP: overview  //{overview, content, showall}.  Use C-c C-c to change.
-		     
+
 * Shortcuts
 ** Motion
 C-c C-n
@@ -54,6 +54,55 @@ C-c C-c
     If there is a checkbox (see Checkboxes) in the item line, toggle the state of the checkbox. Also verify bullets and indentation consistency in the whole list. 
 C-c -
     Cycle the entire list level through the different itemize/enumerate bullets (‘-’, ‘+’, ‘*’, ‘1.’, ‘1)’). 
+* Structure
+  [[https://orgmode.org/manual/Document-structure.html#Document-structure]]
+** Drawers
+   [[https://orgmode.org/manual/Drawers.html#Drawers]]
+   Sometimes you want to keep information associated with an entry, but you 
+   normally don’t want to see it. For this, Org mode has drawers. They can 
+   contain anything but a headline and another drawer. Drawers look like 
+   this:
+
+*** This is a headline
+    Still outside the drawer
+    :DRAWERNAME:
+    This is inside the drawer.
+    :END:
+    After the drawer.
+
+    You can interactively insert drawers at point by calling org-insert-drawer, 
+    which is bound to C-c C-x d. With an active region, this command will put 
+    the region inside the drawer. With a prefix argument, this command calls 
+    org-insert-property-drawer and add a property drawer right below the 
+    current headline. Completion over drawer keywords is also possible using M-TAB.
+    
+    Visibility cycling (see Visibility cycling) on the headline will hide 
+    and show the entry, but keep the drawer collapsed to a single line. In 
+    order to look inside the drawer, you need to move the cursor to the 
+    drawer line and press TAB there. Org mode uses the PROPERTIES drawer 
+    for storing properties (see Properties and columns), and you can also 
+    arrange for state change notes (see Tracking TODO state changes) and 
+    clock times (see Clocking work time) to be stored in a drawer LOGBOOK. 
+    If you want to store a quick note in the LOGBOOK drawer, in a similar 
+    way to state changes, use
+
+    C-c C-z
+    Add a time-stamped note to the LOGBOOK drawer. 
+
+    You can select the name of the drawers which should be exported with 
+    org-export-with-drawers. In that case, drawer contents will appear in 
+    export output. Property drawers are not affected by this variable: 
+    configure org-export-with-properties instead. 
+
+** Blocks
+   https://orgmode.org/manual/Blocks.html#Blocks
+   [[https://orgmode.org/manual/Literal-examples.html#Literal-examples]]
+   #+BEGIN_EXAMPLE
+   ...
+   #+END_EXAMPLE
+*** Easy Templates
+   [[https://www.gnu.org/software/emacs/manual/html_node/org/Easy-Templates.html]]
+  
 * Lists
 {- + * 1. 1}
 ** example 
@@ -94,8 +143,12 @@ Must be in list.
    
 ** Shortcuts
 C-c |
-    Convert the active region to table. If every line contains at least one TAB character, the function assumes that the material is tab separated. If every line contains a comma, comma-separated values (CSV) are assumed. If not, lines are split at whitespace into fields.
-    If there is no active region, this command creates an empty Org table. But it’s easier just to start typing, like |Name|Phone|Age C-c RET.
+    Convert the active regi0on to table. If every line contains at least 
+    one TAB character, the function assumes that the material is tab 
+    separated. If every line contains a comma, comma-separated values (CSV) 
+    are assumed. If not, lines are split at whitespace into fields.
+    If there is no active region, this command creates an empty Org table. 
+    But it’s easier just to start typing, like |Name|Phone|Age C-c RET.
 C-c C-c
     Re-align the table without moving the cursor. 
 TAB
@@ -117,13 +170,78 @@ M-down
 M-S-up
     Kill the current row or horizontal line. 
 M-S-down
-    Insert a new row above the current row. With a prefix argument, the line is created below the current one. 
+    Insert a new row above the current row. With a prefix argument, the 
+    line is created below the current one. 
 C-c -
-    Insert a horizontal line below current row. With a prefix argument, the line is created above the current line. 
+    Insert a horizontal line below current row. With a prefix argument, the 
+    line is created above the current line. 
 C-c RET
-    Insert a horizontal line below current row, and move the cursor into the row below that line. 
+    Insert a horizontal line below current row, and move the cursor into 
+    the row below that line. 
 C-c ^
-    Sort the table lines in the region. The position of point indicates the column to be used for sorting, and the range of lines is the range between the nearest horizontal separator lines, or the entire table.
+    Sort the table lines in the region. The position of point indicates the 
+    column to be used for sorting, and the range of lines is the range 
+    between the nearest horizontal separator lines, or the entire table.
+** TODO Sweet Example Function
+#+NAME: todoOverview
+#+BEGIN_SRC emacs-lisp
+;; (org-src-debug) ;;< Remove first comment starters to use the debugging code from https://emacs.stackexchange.com/questions/13244/edebug-orgmode-source-code-blocks-with-input-variables
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; The following wrapper enables us to run the code
+;; - by evaluating the source code block within the org-file and also
+;; - by evaluating the form in the source edit buffer.
+(with-current-buffer
+    (or (and (org-src-edit-buffer-p) (org-src--source-buffer))
+        (current-buffer))
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+  ;; The actual code starts here:
+  (let* ((ast (org-element-parse-buffer)) ;; built up the abstract syntax tree of the org buffer
+         item-types ; all occuring item types. It could be that some task has more item types than another.
+         tasks ; accumulation list for the tasks
+         current-task ; name of the current task (header of level 1)
+         task-items) ; items of the current task
+    (org-element-map ast 'headline
+      (lambda (hl)
+        (cl-case (org-element-property :level hl)
+          (1 ; We assume here that headers of level 1 are tasks.
+           (when current-task ; registering the old task
+             (setq tasks (cons (cons current-task (nreverse task-items)) tasks)))
+           (setq current-task (org-element-property :raw-value hl) ; preparing the new task
+                 task-items nil))
+          (2 ; item
+           (let ((item-type (org-element-property :raw-value hl)))
+             (setq item-types (cons item-type item-types))
+             (setq task-items (cons (cons item-type (org-element-property :todo-keyword hl))
+                                    task-items)))))))
+    (setq tasks (nreverse (cons (cons current-task (nreverse task-items)) tasks)) ;< add the last task
+          item-types (sort (cl-remove-duplicates (nreverse item-types) :test 'string-equal) ; list of unique item types
+                           #'string<)) ;;< Sorting the items lexicographical. Other criteria could be applied.
+    ;;;;;;;;;;
+    ;; generating the output table:
+    (apply
+     #'list
+     (cons "Item" (mapcar #'car tasks)) ; header
+     'hline
+     ;; rows:
+     (mapcar
+      ;; mapping the items to the todo states associated to the tasks:
+      (lambda (item-type)
+        (cons item-type
+              (mapcar
+               (lambda (task)
+                 (let ((todo-status (cdr (assoc-string item-type task))))
+                   todo-status))
+               tasks)))
+      item-types))))
+#+END_SRC
+#+RESULTS: todoOverview
+  | Item | Task 1 [2/2] | Task 2 [1/2] | Task 3 [0/2] |
+  |------+--------------+--------------+--------------|
+  | I 1  | DONE         | DONE         | TODO         |
+  | I 2  | DONE         | TODO         | TODO         |
+  | I 3  | nil          | TODO         | nil          |
+  |      |              |              |              |
+  
 * Hyperlinks
   [[]] []
   https://orgmode.org/guide/Link-format.html#Link-format
@@ -536,8 +654,53 @@ C-c C-x C-s or short  C-c $
     The default archive location is a file in the same directory as the current 
     file, with the name derived by appending _archive to the current file name. For information and examples on how to change this, see the documentation string of the variable org-archive-location. There is also an in-buffer option for setting this variable, for example
 
-   '  #+ARCHIVE: %s_done:: '
-* Agenda
+    '  #+ARCHIVE: %s_done:: '
+* Agenda Views
+  [[https://orgmode.org/guide/Agenda-files.html]]
 ** Agenda files
-   [[https://orgmode.org/guide/Agenda-files.html#Agenda-files]]
+   The information to be shown is normally collected from all agenda files, 
+   the files listed in the variable org-agenda-files.
    
+   C-c [
+   Add current file to the list of agenda files. The file is added to 
+   the front of the list. If it was already in the list, it is moved to the 
+   front. With a prefix argument, file is added/moved to the end. 
+   C-c ]
+   Remove current file from the list of agenda files. 
+   C-,
+   Cycle through agenda file list, visiting one file after the other. 
+** Agenda Dispatcher
+   The views are created through a dispatcher, which should be bound to a 
+   global key—for example C-c a (see Installation).
+
+   t
+   Toggle todo state.
+
+** Agenda Views (built-in)
+*** Weekly Agenda
+    The purpose of the weekly/daily agenda is to act like a page of a paper 
+    agenda, showing all the tasks for the current week or day.
+
+    C-c a a
+    Compile an agenda for the current week from a list of Org files. The 
+    agenda shows the entries for each day. 
+
+    Emacs contains the calendar and diary by Edward M. Reingold. Org-mode 
+    understands the syntax of the diary and allows you to use diary sexp 
+    entries directly in Org files:
+
+**** Birthdays and similar stuff
+     #+CATEGORY: Holiday
+     %%(org-calendar-holiday)   ; special function for holiday names
+     #+CATEGORY: Ann
+     %%(diary-anniversary  5 14 1956)(11) Arthur Dent is %d years old
+     %%(diary-anniversary 10  2 1869) Mahatma Gandhi would be %d years old
+     
+     Org can interact with Emacs appointments notification facility. To add 
+     all the appointments of your agenda files, use the command org-agenda-to-
+     appt. See the docstring for details. 
+*** Global TODO
+    The global TODO list contains all unfinished TODO items formatted and 
+    collected into a single place. Remote editing of TODO items lets you 
+    change the state of a TODO entry with a single key press. The 
+    commands available in the TODO list are described in Agenda commands. 

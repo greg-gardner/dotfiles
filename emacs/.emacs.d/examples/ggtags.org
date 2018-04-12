@@ -22,7 +22,7 @@ Taken from [[http://tuhdo.github.io/c-ide.html#sec-2][C/C++ Development Environm
   (define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
   #+END_SRC
   
-* Create a GTAGS database 
+* Create a GTAGS database in project root 
   $ cd /path/to/project/root
   $ gtags
 
@@ -36,3 +36,68 @@ Taken from [[http://tuhdo.github.io/c-ide.html#sec-2][C/C++ Development Environm
     GPATH: path name database
 
   Creating GTAGS database with ggtags-create-tags; this is recommended way when using ggtags, to let it know where the project root is.
+* Shorcuts 
+  M-.
+  Jump to definition or references.
+
+  M-,
+  Jump back.
+
+  M-n  M-p
+  Move back and forth over references.
+
+  C-M-f
+  runs forward-sexp, move forward over a balanced expression that can 
+  be a pair or a symbol.
+
+  C-M-b
+  runs backward-sexp, move backward over a balanced expression that 
+  can be a pair or a symbol. 
+
+  C-M-k
+  runs kill-sexp, kill balanced expression forward that can be a pair 
+  or a symbol. 
+
+  C-M-<SPC>
+  runs mark-sexp, put mark after following expression 
+  that can be a pair or a symbol. 
+  
+  C-M-a 
+  runs beginning-of-defun, which moves point to beginning of a 
+  function.
+
+  C-M-e
+  runs end-of-defun, which moves point to end of a function. 
+
+  C-M-h 
+  runs mark-defun, which put a region around whole current or 
+  following function. 
+
+* Basic concepts of tags
+  A tag is a name of an entity in source code. An entity can be a variable, 
+  a method definition, an include-operator… A tag contains information such 
+  as name of the tag (the name of the variable, class, method), location of 
+  this tag in source code and which file it belongs to. As an example, GNU 
+  Global generates three tag databases:
+
+    GTAGS: definition database
+    GRTAGS: reference database
+    GPATH: path name database
+    
+  A definition of a tag is where a tag is implemented. For example, a 
+  function definition is the body where it is actually implemented, or a 
+  variable definition is where the type and its property (i.e static) is 
+  specified.
+  
+  A reference of a tag is where a tag is used in a source tree, but not where 
+  it is defined.
+* Find definitions in current buffer				      :imenu:
+  The Imenu facility offers a way to find the major definitions, such as 
+  function definitions, variable definitions in a file by name. ggtags can 
+  integrate Imenu:
+  
+  (setq-local imenu-create-index-function #'ggtags-build-imenu-index)
+
+  If you use Helm, use moo-jump-local from function-args package. You can 
+  use it as an outline tree like in other IDEs.
+

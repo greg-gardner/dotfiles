@@ -86,6 +86,20 @@ allow sudo escalation without password"
   (interactive)
   (load-file "~/.emacs"))
 
+;; dunno
+(defun dunno ()
+  (interactive)
+  (insert "¯\\_(ツ)_/¯"))
+
+;; Trim a line to 70 chars unless other wise specified.
+(defun trim-line (&optional len)
+  (interactive "d")
+  (progn
+    (move-beginning-of-line 1)
+    (right-char (or len 70))
+    (newline)))
+    
+
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...
 (defun ifndef(s)

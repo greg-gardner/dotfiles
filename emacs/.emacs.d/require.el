@@ -50,3 +50,6 @@
 (setq company-backends (delete 'company-semantic company-backends))
 (add-to-list 'company-backends 'company-c-headers)
 
+;; org-mode
+(require 'org)
+
