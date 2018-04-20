@@ -73,13 +73,13 @@ allow sudo escalation without password"
      (concat "/ssh:" hostname "|sudo:" hostname ":" path))))
 
 ;; Open bash dotfiles in shell-script-mode
-(defadvice find-file (before bash-dotfile activate compile)
-  "Open '.bash*' dotfiles in shell-script-mode."
-  (if buffer-file-name
-     (if (or
-       (string-match-p ".*\.bash" buffer-file-name)
-       (string-match-p "rc.local" buffer-file-name))
-      (shell-script-mode))))
+;; (defadvice find-file (before bash-dotfile activate compile)
+;;   "Open '.bash*' dotfiles in shell-script-mode."
+;;   (if buffer-file-name
+;;      (if (or
+;;        (string-match-p ".*\.bash" buffer-file-name)
+;;        (string-match-p "rc.local" buffer-file-name))
+;;       (shell-script-mode))))
 
 ;; reload ~/.emacs
 (defun reload ()
@@ -92,13 +92,37 @@ allow sudo escalation without password"
   (insert "¯\\_(ツ)_/¯"))
 
 ;; Trim a line to 70 chars unless other wise specified.
-(defun trim-line (&optional len)
-  (interactive "d")
-  (progn
-    (move-beginning-of-line 1)
-    (right-char (or len 70))
-    (newline)))
-    
+;; (defun trim-line (&optional len)
+  ;; (interactive "d")
+  ;; (progn
+    ;; (move-beginning-of-line 1)
+    ;; (right-char (or len 70))
+    ;; (newline)))
+
+;; Move line up/down
+;; see https://www.emacswiki.org/emacs/MoveLine
+(defun move-line (n)
+  "Move the current line up or down by N lines."
+  (interactive "p")
+  (setq col (current-column))
+  (beginning-of-line) (setq start (point))
+  (end-of-line) (forward-char) (setq end (point))
+  (let ((line-text (delete-and-extract-region start end)))
+    (forward-line n)
+    (insert line-text)
+    ;; restore point to original column in moved line
+    (forward-line -1)
+    (forward-char col)))
+(defun move-line-up (n)
+  "Move the current line up by N lines."
+  (interactive "p")
+  (move-line (if (null n) -1 (- n))))
+(defun move-line-down (n)
+  "Move the current line down by N lines."
+  (interactive "p")
+  (move-line (if (null n) 1 n)))
+
+
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...

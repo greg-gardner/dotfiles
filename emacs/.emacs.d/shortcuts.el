@@ -17,6 +17,8 @@
 (global-set-key [C-prior] 'scroll-n-lines-behind)
 (global-set-key "\C-j" 'eval-last-sexp)
 (global-set-key "\C-z" 'undo)
+(global-set-key (kbd "M-<up>")   'move-line-up)
+(global-set-key (kbd "M-<down>") 'move-line-down)
 
 ;; gtags
 (define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)
