@@ -30,7 +30,8 @@ C-c C-w
     Refile entry or region to a different location. See Refile and copy. 
 C-x n s/w
     Narrow buffer to current subtree / widen it again 
-When there is an active region (Transient Mark mode), promotion and demotion work on all headlines in the region. 
+    When there is an active region (Transient Mark mode), promotion and 
+    demotion work on all headlines in the region. 
     
 ** Sparse Trees
    C-c /
