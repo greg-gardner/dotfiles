@@ -60,7 +60,7 @@
   (let ((hostname (read-string "Enter hostname :"))
 	(path (read-string "Enter directory:")))
     (find-file 
-     (concat "/ssh:" user-login-name "@" hostname ":" path))))
+     (concat "/ssh:" hostname ":" path))))
 
 ;; sudo-through
 (defun sudo-through ()

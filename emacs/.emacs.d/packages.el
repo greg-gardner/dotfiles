@@ -1,15 +1,9 @@
 ;; packages.el
 ;; Add all required packages to the required-packages list. Attempts to install any unintstalled packages.
 
-
-;; Set HTTP Proxy:
-;; (setq url-proxy-services
-;;       '(("no_proxy" . "^\\(localhost\\|10.*\\|*.llan.ll.mit.edu\\)")
-;;         ("http" . "llproxy.llan.ll.mit.edu:8080")
-;;         ("https" . "llproxy.llan.ll.mit.edu:8080"))
-;;       )
-
-;; Add repos here:
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; ADD REPOS HERE: ;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'package)
 (setq package-archives 
       '(
@@ -20,7 +14,9 @@
 	))
 (package-initialize)
 
-;; Add packages here:
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; ADD PACKAGES HERE: ;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq required-packages
       '(flymake-easy
 	flymake-google-cpplint
@@ -33,6 +29,7 @@
 	auto-complete-c-headers
 	company
 	company-c-headers	
+	idle-highlight-mode
 	))
 
 ;; Set llproxy for work.
@@ -53,3 +50,6 @@
 
     ))
 (mapc 'try-installing-package required-packages)
+
+
+;; Installing a package?  Add it to the list above!

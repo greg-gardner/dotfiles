@@ -10,3 +10,9 @@
 ;; 	 "* TODO %?\n  %i\n  %a")
 ;; 	("j" "Journal" entry (file+datetree "~/org/TODO.org")
 ;; 	 "* %?\nEntered on %U\n  %i\n  %a")))
+
+;; Disable terminal bell
+(setq ring-bell-function 'ignore)
+
+;; Enable idle-highlight-mode in any programming mode.
+(add-hook 'prog-mode-hook (lambda () (idle-highlight-mode t)))
