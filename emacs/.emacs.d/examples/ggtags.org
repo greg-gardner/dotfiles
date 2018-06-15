@@ -35,7 +35,8 @@ Taken from [[http://tuhdo.github.io/c-ide.html#sec-2][C/C++ Development Environm
     GRTAGS: reference database
     GPATH: path name database
 
-  Creating GTAGS database with ggtags-create-tags; this is recommended way when using ggtags, to let it know where the project root is.
+  Creating GTAGS database with ggtags-create-tags; this is recommended way when using ggtags,
+  to let it know where the project root is.
 * Shorcuts 
   M-.
   Jump to definition or references.
@@ -101,3 +102,8 @@ Taken from [[http://tuhdo.github.io/c-ide.html#sec-2][C/C++ Development Environm
   If you use Helm, use moo-jump-local from function-args package. You can 
   use it as an outline tree like in other IDEs.
 
+
+* Emacs source tags
+  sudo yum install emacs-el
+  cd  /usr/share/emacs/24.3/lisp/
+  sudo etags *.el.gz

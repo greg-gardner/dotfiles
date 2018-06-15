@@ -16,3 +16,8 @@
 
 ;; Enable idle-highlight-mode in any programming mode.
 (add-hook 'prog-mode-hook (lambda () (idle-highlight-mode t)))
+
+;; Enable header-switching hotkey
+(add-hook 'c-mode-common-hook
+  (lambda() 
+    (local-set-key  (kbd "C-c o") 'ff-find-other-file)))

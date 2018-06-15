@@ -19,6 +19,7 @@
 (global-set-key "\C-z" 'undo)
 (global-set-key (kbd "M-<up>")   'move-line-up)
 (global-set-key (kbd "M-<down>") 'move-line-down)
+(global-set-key "\C-x\C-b" 'buffer-menu)
 
 ;; gtags
 (define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)
