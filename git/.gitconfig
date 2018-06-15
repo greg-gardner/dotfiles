@@ -1,0 +1,9 @@
+[user]
+	name = greg-gardner
+	email = gardner.r.greg@gmail.com
+[core]
+	editor = nano
+[push]
+	default = simple
+[diff]
+	tool = meld
