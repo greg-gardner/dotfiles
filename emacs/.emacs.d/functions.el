@@ -122,6 +122,13 @@ allow sudo escalation without password"
   (interactive "p")
   (move-line (if (null n) 1 n)))
 
+;; Disable a mode
+(defun global-disable-mode (mode-fn)
+  "Disable `MODE-FN' in ALL buffers."
+  (interactive "a")
+  (dolist (buffer (buffer-list))
+    (with-current-buffer buffer
+      (funcall mode-fn -1))))
 
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
