@@ -37,6 +37,10 @@ Taken from [[http://tuhdo.github.io/c-ide.html#sec-2][C/C++ Development Environm
 
   Creating GTAGS database with ggtags-create-tags; this is recommended way when using ggtags,
   to let it know where the project root is.
+* [Alternative] Create CTags database
+  https://www.emacswiki.org/emacs/BuildTags
+  $ cd /project/root
+  $ ctags -e -R .
 * Shorcuts 
   M-.
   Jump to definition or references.
@@ -101,8 +105,7 @@ Taken from [[http://tuhdo.github.io/c-ide.html#sec-2][C/C++ Development Environm
 
   If you use Helm, use moo-jump-local from function-args package. You can 
   use it as an outline tree like in other IDEs.
-
-
+  
 * Emacs source tags
   sudo yum install emacs-el
   cd  /usr/share/emacs/24.3/lisp/
