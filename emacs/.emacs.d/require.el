@@ -53,3 +53,6 @@
 ;; org-mode
 (require 'org)
 
+;; hideshow-org
+;; (see https://github.com/shanecelis/hideshow-org)
+(require 'hideshow-org)

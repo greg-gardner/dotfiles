@@ -36,6 +36,9 @@
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-switchb)
 
+;; hideshow-org minor mode
+(global-set-key "\C-ch" 'hs-org/minor-mode)
+
 ;;;;;;;;;;;;;;;;;;; KEY MAPPINGS ;;;;;;;;;;;;;;;;;;;;;;;;
 ;; company-mode (auto-completion)
 (define-key c-mode-map   [(C-tab)] 'company-complete)

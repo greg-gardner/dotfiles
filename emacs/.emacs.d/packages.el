@@ -30,6 +30,7 @@
 	company
 	company-c-headers	
 	idle-highlight-mode
+	hideshow-org
 	))
 
 ;; Set llproxy for work.
