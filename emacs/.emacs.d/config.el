@@ -17,7 +17,17 @@
 ;; Enable idle-highlight-mode in any programming mode.
 (add-hook 'prog-mode-hook (lambda () (idle-highlight-mode t)))
 
+
+;; C++ Mode
 ;; Enable header-switching hotkey
 (add-hook 'c-mode-common-hook
   (lambda() 
     (local-set-key  (kbd "C-c o") 'ff-find-other-file)))
+;; Enable C-d 
+(defun c++-key-overides ()
+  "Overides keybindings for C++ mode. Used in config.el by a hook function. -- GG"
+  ;;(local-set-key (kbd "C-d") 'kill-current-line)
+  (define-key (current-global-map) [remap c-electric-delete-forward] 'kill-current-line)
+;; add other bindings here.
+)
+(add-hook 'c++-mode-hook 'c++-key-overides)

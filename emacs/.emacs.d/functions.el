@@ -19,7 +19,7 @@
 
 ;; Delete current line.
 (defun kill-current-line ()
-  "Kill whole line."
+  "Kill whole line. In config.el, I remap c-electric-delete-forward with this."
   (interactive)
   (move-beginning-of-line 1)
   (kill-line 1)
