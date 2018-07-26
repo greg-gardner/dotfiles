@@ -6,6 +6,7 @@
 (global-set-key (kbd "C-<left>")  'previous-multiframe-window)
 (global-set-key (kbd "C-<right>") 'next-multiframe-window)
 (global-set-key (kbd "C-\\")      'toggle-comment-on-line)
+(global-set-key (kbd "C-\|")      'comment-region)
 (global-set-key "\M-e" 'end-of-buffer)
 (global-set-key "\M-a" 'beginning-of-buffer)
 (global-set-key [C-tab] 'lisp-complete-symbol)

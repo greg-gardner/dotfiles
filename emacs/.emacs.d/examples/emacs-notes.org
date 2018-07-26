@@ -33,3 +33,5 @@ M-x bookmark-insert <RET> bookmark <RET>
 
   M-x insert-kbd-macro
   Insert in the buffer a keyboard macro's definition, as Lisp code. 
+* Keybindings
+  [[ https://www.masteringemacs.org/article/mastering-key-bindings-emacs][mastering emacs keybindings]]
