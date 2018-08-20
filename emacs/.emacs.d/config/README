@@ -1,0 +1,7 @@
+LOAD ORDER:
+  packages.el
+  functions.el
+  require.el
+  macros.el
+  shortcuts.el
+  config.el
