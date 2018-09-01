@@ -22,10 +22,10 @@
       `((".*" ,temporary-file-directory t)))
 
 
-;;;;;;;;;;;; LOAD ERR'THANG ELSE ;;;;;;;;;;
-(load "~/.emacs.d/packages.el")
-(load "~/.emacs.d/functions.el")
-(load "~/.emacs.d/require.el")
-(load "~/.emacs.d/macros.el")
-(load "~/.emacs.d/shortcuts.el")
-(load "~/.emacs.d/config.el")
+;;;;;;;;;;;; LOAD EVERYTHING ELSE ;;;;;;;;;;
+(load "~/.emacs.d/config/packages.el")
+(load "~/.emacs.d/config/functions.el")
+(load "~/.emacs.d/config/require.el")
+(load "~/.emacs.d/config/macros.el")
+(load "~/.emacs.d/config/shortcuts.el")
+(load "~/.emacs.d/config/config.el")
