@@ -7,7 +7,8 @@
 (defun toggle-comment-on-line ()
   "comment or uncomment current line"
   (interactive)
-  (comment-or-uncomment-region (line-beginning-position) (line-end-position)))
+  (comment-or-uncomment-region (line-beginning-position) (line-end-position))
+  (next-line))
  
 ;; "newline" hotkey
 (defun newline-fresh ()

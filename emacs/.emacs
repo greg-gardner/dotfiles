@@ -7,6 +7,9 @@
  '(inhibit-startup-screen t)
  '(package-archives nil)
  '(package-check-signature nil)
+ '(package-selected-packages
+   (quote
+    (yasnippet sr-speedbar iedit idle-highlight-mode hideshow-org ggtags flymake-google-cpplint company-c-headers cider auto-complete-c-headers arduino-mode)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -21,6 +24,8 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
+(defvar test-var nil
+  "* This is user-option test.")
 
 ;;;;;;;;;;;; LOAD EVERYTHING ELSE ;;;;;;;;;;
 (load "~/.emacs.d/config/packages.el")
