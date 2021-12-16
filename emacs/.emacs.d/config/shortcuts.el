@@ -18,6 +18,7 @@
 (global-set-key (kbd "M-<up>")    'move-line-up)
 (global-set-key (kbd "M-<down>")  'move-line-down)
 (global-set-key (kbd "C-x C-b")   'buffer-menu)
+(global-set-key (kbd "M-k")       'copy-current-line)
 
 ;; gtags
 (define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)

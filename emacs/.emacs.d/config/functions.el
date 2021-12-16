@@ -26,6 +26,17 @@
   (kill-line 1)
   )
 
+;; Copy current line.
+(defun copy-current-line ()
+  "Copy the current line to the kill ring."
+  (interactive)
+  (save-excursion
+    (move-beginning-of-line 1)
+    (kill-line 1)
+    (yank)
+    ))
+  
+
 ;; Scrolling <^v>
 (defun scroll-n-lines-ahead (&optional n)
   "Scroll one or n lines ahead."
