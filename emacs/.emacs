@@ -1,3 +1,10 @@
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -9,7 +16,8 @@
  '(package-check-signature nil)
  '(package-selected-packages
    (quote
-    (yasnippet sr-speedbar iedit idle-highlight-mode hideshow-org ggtags flymake-google-cpplint company-c-headers cider auto-complete-c-headers arduino-mode)))
+    (yasnippet sr-speedbar iedit idle-highlight-mode hideshow-org ggtags flymake-google-cpplint flymake-easy company-c-headers cider auto-complete-c-headers arduino-mode hideshow-org)))
+
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

@@ -17,10 +17,7 @@
 ;;;;;; ADD PACKAGES HERE: ;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq required-packages
-      '(flymake-easy
-	flymake-google-cpplint
-	ggtags
-	iedit
+      '(iedit
 	popup
 	sr-speedbar
 	yasnippet
@@ -30,6 +27,9 @@
 	company-c-headers	
 	idle-highlight-mode
 	hideshow-org
+	flymake-easy
+	flymake-google-cpplint
+	ggtags
 	))
 
 ;; Set http proxy
@@ -45,10 +45,8 @@
   (if (package-installed-p package)
       (message "%s is installed." package)
       (progn
-	(message "Attempting to install package '%s!" package))
-	(package-install package)
-
-    ))
+	(message (concat "Attempting to install package '%s!" package))
+	(package-install package))))
 (mapc 'try-installing-package required-packages)
 
 
