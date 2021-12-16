@@ -101,6 +101,8 @@ fi
 
 
 ### Greg ###
-PATH="$PATH:/home/greg/bin:/home/greg/scripts"
+PATH="$PATH:/home/greg/bin"
+PATH="$PATH:/home/greg/scripts"
+PATH="$PATH:/home/greg/.local/bin"
 export EDITOR="/bin/nano"
 
