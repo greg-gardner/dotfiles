@@ -28,6 +28,15 @@
   "Overides keybindings for C++ mode. Used in config.el by a hook function. -- GG"
   ;;(local-set-key (kbd "C-d") 'kill-current-line)
   (define-key (current-global-map) [remap c-electric-delete-forward] 'kill-current-line)
-;; add other bindings here.
-)
+
+
+  ;; add other bindings here.
+  )
 (add-hook 'c++-mode-hook 'c++-key-overides)
+
+
+;; Clipboard
+;; The "primary" clipboard is the center mouse click, while the
+;; "clipboard" is copied with ctrl-c. Both can be enablled.
+(setq select-enable-primary t)
+(setq select-enable-clipboard t)
