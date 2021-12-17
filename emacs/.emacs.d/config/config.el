@@ -40,3 +40,4 @@
 ;; "clipboard" is copied with ctrl-c. Both can be enablled.
 (setq select-enable-primary t)
 (setq select-enable-clipboard t)
+(delete-selection-mode)
