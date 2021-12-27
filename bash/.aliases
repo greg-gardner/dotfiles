@@ -1,5 +1,0 @@
-alias koans="/home/greg/workspace/python-koans/python2/koans"
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
-alias shared-networks="cat /var/lib/misc/dnsmasq.leases"
