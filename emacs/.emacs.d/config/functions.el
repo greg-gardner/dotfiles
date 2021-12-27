@@ -7,7 +7,9 @@
 (defun toggle-comment-on-line ()
   "comment or uncomment current line"
   (interactive)
-  (comment-or-uncomment-region (line-beginning-position) (line-end-position)))
+  (comment-or-uncomment-region (line-beginning-position) (line-end-position))
+  (next-line)
+  (move-beginning-of-line 1))
  
 ;; "newline" hotkey
 (defun newline-fresh ()
@@ -131,6 +133,42 @@ allow sudo escalation without password"
       (funcall mode-fn -1))))
 
 
+;; Copy line.
+(defun copy-line ()
+  (interactive)
+  (beginning-of-line)
+  (kill-line))
+
+;; Duplicate line.
+(defun duplicate-line ()
+  (interactive)
+  (copy-line)
+  (yank)
+  (open-line 1)
+  (next-line 1)
+  (yank))
+
+;; Copy and comment
+(defun copy-and-comment ()
+  (interactive)
+  (duplicate-line)
+  (previous-line)
+  (toggle-comment-on-line)
+  (beginning-of-line))
+
+;; start a new line at current position
+(defun insert-line-here()
+  (interactive)
+  (beginning-of-line)
+  (newline)
+  (previous-line)
+  (indent-for-tab-command))
+
+
+
+
+  
+
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...
 (defun ifndef(s)
@@ -156,3 +194,12 @@ allow sudo escalation without password"
   (indent-region (point-min) (point-max))
   )
   
+;; Notes
+(defun notes ()
+  (interactive)
+  (find-file "~/Documents/notes/notes.org"))
+
+;; pyhon-shell
+;; (defalias 'run-python 'python-shell)
+
+

@@ -28,6 +28,30 @@
   "Overides keybindings for C++ mode. Used in config.el by a hook function. -- GG"
   ;;(local-set-key (kbd "C-d") 'kill-current-line)
   (define-key (current-global-map) [remap c-electric-delete-forward] 'kill-current-line)
-;; add other bindings here.
+  ;; add other bindings here.
 )
 (add-hook 'c++-mode-hook 'c++-key-overides)
+
+;;;; Google style guide
+;; Provide the styling guide.
+(add-hook 'c-mode-common-hook 'google-set-c-style)
+;; Indent properly.
+(add-hook 'c-mode-common-hook 'google-make-newline-indent)
+
+;; enable desktop sessions
+(desktop-save-mode 1)
+
+;; Set default python shell
+(setq python-shell-interpreter "python3")
+
+;; ido-mode
+(ido-mode t)
+
+;; compilation-mode
+(setq compilation-scroll-output t)
+
+;; ansi colors for eshell and compilation-mode
+(add-to-list 'comint-output-filter-functions 'ansi-color-process-output)
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+(add-hook 'eshell-preoutput-filter-functions
+	  'ansi-color-filter-apply)

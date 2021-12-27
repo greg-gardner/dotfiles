@@ -16,7 +16,7 @@
  '(package-check-signature nil)
  '(package-selected-packages
    (quote
-    (flymake-google-cpplint flymake-easy ggtags yasnippet sr-speedbar iedit idle-highlight-mode hideshow-org company-c-headers auto-complete-c-headers)))
+    (elpy python-test figlet google-c-style flymake-google-cpplint flymake-easy ggtags yasnippet sr-speedbar iedit idle-highlight-mode hideshow-org company-c-headers auto-complete-c-headers)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

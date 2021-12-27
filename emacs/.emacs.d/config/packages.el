@@ -30,6 +30,7 @@
 	flymake-easy
 	flymake-google-cpplint
 	ggtags
+	ansi-color
 	))
 
 ;; Set http proxy
