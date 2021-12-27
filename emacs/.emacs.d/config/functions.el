@@ -142,6 +142,10 @@ allow sudo escalation without password"
     (with-current-buffer buffer
       (funcall mode-fn -1))))
 
+(defun shrug()
+  "Paste a shrug emoticon. Why is this functionality important? ¯\\_(ツ)_/¯"
+  (interactive)
+  (insert "¯\\\\_(ツ)_/¯"))
 
 ;;;;;;;; C-Functions ;;;;;;;;;;;;;;;
 ;; No idea...
