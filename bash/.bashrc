@@ -124,8 +124,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Python myvirtualenv
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source $HOME/.local/bin/virtualenvwrapper.sh
+
 
 ### Greg ###
-PATH="$PATH:/home/greg/bin:/home/greg/scripts"
+PATH="$PATH:/home/greg/bin"
+PATH="$PATH:/home/greg/scripts"
+PATH="$PATH:/home/greg/.local/bin"
 export EDITOR="/bin/nano"
+
 

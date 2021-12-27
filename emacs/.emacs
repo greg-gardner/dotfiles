@@ -16,7 +16,7 @@
  '(package-check-signature nil)
  '(package-selected-packages
    (quote
-    (elpy python-test figlet google-c-style flymake-google-cpplint flymake-easy ggtags yasnippet sr-speedbar iedit idle-highlight-mode hideshow-org company-c-headers auto-complete-c-headers)))
+    (yasnippet sr-speedbar iedit idle-highlight-mode hideshow-org ggtags flymake-google-cpplint flymake-easy company-c-headers cider auto-complete-c-headers arduino-mode hideshow-org elpy python-test figlet google-c-style)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -31,6 +31,8 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
+(defvar test-var nil
+  "* This is user-option test.")
 
 ;;;;;;;;;;;; LOAD EVERYTHING ELSE ;;;;;;;;;;
 (load "~/.emacs.d/config/packages.el")
