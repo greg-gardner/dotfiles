@@ -124,11 +124,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Python myvirtualenv
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-source $HOME/.local/bin/virtualenvwrapper.sh
-
+# Python myvirtualenv on little-prism
+if [[ `hostname` == 'little-prism' ]];
+then
+    export WORKON_HOME=$HOME/.virtualenvs
+    export PROJECT_HOME=$HOME/Devel
+    source $HOME/.local/bin/virtualenvwrapper.sh
+fi
 
 ### Greg ###
 PATH="$PATH:/home/greg/bin"
