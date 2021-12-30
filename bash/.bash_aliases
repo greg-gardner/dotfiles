@@ -25,3 +25,8 @@ fi
 if [ -f /etc/debian_version ]; then
     alias netboot='sudo service NetworkManager restart'
 fi
+
+alias src='source ~/.bash_aliases'
+
+# py4fi
+alias py4fi='ssh -qX root@137.184.102.25'

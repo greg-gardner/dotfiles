@@ -3,3 +3,4 @@ emacs/.emacs.d/elpy/*
 emacs/.emacs.d/eshell/*
 emacs/.emacs.d/ido.last
 emacs/.emacs.d/.emacs.desktop.lock
+emacs/.emacs.desktop
